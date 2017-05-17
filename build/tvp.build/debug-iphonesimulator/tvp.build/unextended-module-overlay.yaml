@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/devubhamanek/Library/Developer/Xcode/DerivedData/TVP-dwpizlvbntyucmdkaeatjbykbtwm/Build/Products/Debug-iphonesimulator/TVP.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/unextended-module.modulemap',
+    }]
+  }]
+}

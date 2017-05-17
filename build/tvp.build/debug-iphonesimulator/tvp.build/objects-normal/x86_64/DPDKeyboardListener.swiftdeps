@@ -1,0 +1,239 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardListener"
+provides-nominal:
+- "C3TVP16KeyboardListener"
+provides-member:
+- ["C3TVP16KeyboardListener", ""]
+- ["C3TVP16KeyboardListener", "startListeningToKeyboard"]
+- ["C3TVP16KeyboardListener", "stopListeningToKeyboard"]
+provides-dynamic-lookup:
+- "keyboardWillHide"
+- "keyboardWillShow"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGRect"
+- !private "CastingPrecedence"
+- "KeyboardListener"
+- !private "NSNotification"
+- !private "NSValue"
+- !private "Notification"
+- !private "NotificationCenter"
+- !private "UIKeyboardFrameEndUserInfoKey"
+depends-member:
+- ["Ps9AnyObject", "CGRect"]
+- ["Ps9AnyObject", "KeyboardListener"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "cgRectValue"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isListening"]
+- !private ["Ps9AnyObject", "isVisible"]
+- !private ["Ps9AnyObject", "keyboardFrame"]
+- !private ["Ps9AnyObject", "keyboardWillHide"]
+- !private ["Ps9AnyObject", "keyboardWillShow"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "stopListeningToKeyboard"]
+- !private ["Ps9AnyObject", "userInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["VSC6CGRect", "zero"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "cgRectValue"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "removeObserver"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "userInfo"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "UIKeyboardWillHide"]
+- !private ["Ps10Comparable", "UIKeyboardWillShow"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "cgRectValue"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps28CustomDebugStringConvertible", "zero"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "cgRectValue"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "UIKeyboardWillHide"]
+- !private ["Ps9Equatable", "UIKeyboardWillShow"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "cgRectValue"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps9Equatable", "zero"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "UIKeyboardWillHide"]
+- !private ["Ps8Hashable", "UIKeyboardWillShow"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "cgRectValue"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["C3TVP16KeyboardListener", "CGRect"]
+- ["C3TVP16KeyboardListener", "KeyboardListener"]
+- !private ["C3TVP16KeyboardListener", "NSNotification"]
+- !private ["C3TVP16KeyboardListener", "NSValue"]
+- !private ["C3TVP16KeyboardListener", "Notification"]
+- !private ["C3TVP16KeyboardListener", "NotificationCenter"]
+- !private ["C3TVP16KeyboardListener", "UIKeyboardFrameEndUserInfoKey"]
+- ["C3TVP16KeyboardListener", "deinit"]
+- ["C3TVP16KeyboardListener", "init"]
+- !private ["C3TVP16KeyboardListener", "isListening"]
+- ["C3TVP16KeyboardListener", "isVisible"]
+- ["C3TVP16KeyboardListener", "keyboardFrame"]
+- !private ["C3TVP16KeyboardListener", "keyboardWillHide"]
+- !private ["C3TVP16KeyboardListener", "keyboardWillShow"]
+- ["C3TVP16KeyboardListener", "sharedInstance"]
+- ["C3TVP16KeyboardListener", "startListeningToKeyboard"]
+- ["C3TVP16KeyboardListener", "stopListeningToKeyboard"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "cgRectValue"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "cgRectValue"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo14NSNotification", "Name"]
+- !private ["CSo14NSNotification", "userInfo"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "cgRectValue"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "cgRectValue"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- !private ["PSo14NSSecureCoding", "cgRectValue"]
+- !private ["CSo7NSValue", "cgRectValue"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillHide"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillShow"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillHide"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillShow"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "userInfo"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "UIKeyboardWillHide"]
+- !private ["Ps9_Hashable", "UIKeyboardWillShow"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "cgRectValue"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "removeObserver"]
+- !private ["Ps9_Hashable", "userInfo"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillHide"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillShow"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "zero"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillHide"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillShow"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps8Hashable"
+- "C3TVP16KeyboardListener"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo14NSNotification"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "VCSo14NSNotification4Name"
+- !private "CSo18NotificationCenter"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVKit.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/HelperObjC.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/TVP.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoError.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/TvPageExtractor.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/unextended-module.modulemap"
+interface-hash: "0c18991664d9351a950f689c630e267d"
