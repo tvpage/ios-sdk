@@ -31,7 +31,6 @@
 		175C25E51EC5E3CE005B54FE /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C25DC1EC5E3CE005B54FE /* DropDown.swift */; };
 		175C25E61EC5E3CE005B54FE /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C25DD1EC5E3CE005B54FE /* DropDownCell.swift */; };
 		175C25E81EC5E417005B54FE /* TvpApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C25E71EC5E417005B54FE /* TvpApiClass.swift */; };
-		175C25EA1EC5E429005B54FE /* TvPagePlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 175C25E91EC5E429005B54FE /* TvPagePlayerView.xib */; };
 		175C25ED1EC5E494005B54FE /* HelperObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 175C25EB1EC5E494005B54FE /* HelperObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		175C25EE1EC5E494005B54FE /* HelperObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 175C25EC1EC5E494005B54FE /* HelperObjC.m */; };
 		17A084C71ECC56FD0023CF20 /* TvpApiClass.swift in Headers */ = {isa = PBXBuildFile; fileRef = 175C25E71EC5E417005B54FE /* TvpApiClass.swift */; };
@@ -51,6 +50,7 @@
 		17A17EC31EB76CDB00757E48 /* YTVimeoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A17EB91EB76CDB00757E48 /* YTVimeoVideo.m */; };
 		17A17EE31EB7735600757E48 /* DropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A17EE11EB7735600757E48 /* DropDown.h */; };
 		17A17F071EB773C000757E48 /* TvPagePlayerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 17A17EA91EB76CCA00757E48 /* TvPagePlayerView.swift */; };
+		17F0ECD61ECF39D10020B407 /* TvPagePlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F0ECD51ECF39D10020B407 /* TvPagePlayerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,6 @@
 		175C25DC1EC5E3CE005B54FE /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 		175C25DD1EC5E3CE005B54FE /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
 		175C25E71EC5E417005B54FE /* TvpApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvpApiClass.swift; sourceTree = "<group>"; };
-		175C25E91EC5E429005B54FE /* TvPagePlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TvPagePlayerView.xib; sourceTree = "<group>"; };
 		175C25EB1EC5E494005B54FE /* HelperObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperObjC.h; sourceTree = "<group>"; };
 		175C25EC1EC5E494005B54FE /* HelperObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperObjC.m; sourceTree = "<group>"; };
 		17A17E9C1EB76B3F00757E48 /* TVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +93,7 @@
 		17A17EB81EB76CDB00757E48 /* YTVimeoVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoVideo.h; sourceTree = "<group>"; };
 		17A17EB91EB76CDB00757E48 /* YTVimeoVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoVideo.m; sourceTree = "<group>"; };
 		17A17EE11EB7735600757E48 /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		17F0ECD51ECF39D10020B407 /* TvPagePlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TvPagePlayerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 				175C25EC1EC5E494005B54FE /* HelperObjC.m */,
 				17A17EA91EB76CCA00757E48 /* TvPagePlayerView.swift */,
 				175C25E71EC5E417005B54FE /* TvpApiClass.swift */,
-				175C25E91EC5E429005B54FE /* TvPagePlayerView.xib */,
+				17F0ECD51ECF39D10020B407 /* TvPagePlayerView.xib */,
 				17A17EA01EB76B3F00757E48 /* Info.plist */,
 				17A17E9F1EB76B3F00757E48 /* TVP.h */,
 				175C25D11EC5E3CE005B54FE /* DropDown */,
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				175C25E31EC5E3CE005B54FE /* DropDownCell.xib in Resources */,
-				175C25EA1EC5E429005B54FE /* TvPagePlayerView.xib in Resources */,
+				17F0ECD61ECF39D10020B407 /* TvPagePlayerView.xib in Resources */,
 				175C25E21EC5E3CE005B54FE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
 		};
 		17A17EDF1EB7702800757E48 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;

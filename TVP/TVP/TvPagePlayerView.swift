@@ -108,6 +108,7 @@ public class TVPagePlayerView: UIView {
         self.resumePlayer()
         
         acti_Loderview.startAnimating()
+        self.imgFullscreen.image = self.getIconimage(iconname: "fullscreenIN1")
     }
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -131,9 +132,6 @@ public class TVPagePlayerView: UIView {
         isVideoOpenFullScreen = true
         
         self.window?.rootViewController?.present(playerViewController, animated: true, completion: {
-            
-            let isVideoPlay = UserDefaults.standard.object(forKey: "isVideoPlay") as! String
-            print("isVideoPlay : \(isVideoPlay)")
             
             if self.played == true {
                 
@@ -1368,12 +1366,12 @@ public class TVPagePlayerView: UIView {
     }
     func getIconimage(iconname:String) -> UIImage {
         
-        let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
-        let  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
-        let  image = UIImage(contentsOfFile: imagePath!)
-        return image!
+                let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
+                let  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
+                let  image = UIImage(contentsOfFile: imagePath!)
+                return image!
         
-        //return UIImage(named:iconname)!
+//        return UIImage(named:iconname)!
         
     }
     //MARK: -  Analytics

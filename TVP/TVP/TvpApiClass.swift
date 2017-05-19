@@ -22,12 +22,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -82,12 +82,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -141,12 +141,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)/channels?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -198,12 +198,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)/products?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -258,12 +258,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -314,12 +314,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/referenceIds?X-login-id=\(LoginID)&ids=\(referenceIds)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -378,12 +378,12 @@ public class TvpApiClass: NSObject {
         strURL = channelsLimitIds.characters.count > 0 ? "\(strURL)&channelsLimit=\(channelsLimitIds)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -442,12 +442,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -501,12 +501,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -560,12 +560,12 @@ public class TvpApiClass: NSObject {
         strURL = Max.characters.count > 0 ? "\(strURL)&n=\(Max)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -616,12 +616,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/products/\(productsId)/videos?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -679,12 +679,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -737,12 +737,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/channels/\(strChhanelID)?X-login-id=\(strLoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -797,12 +797,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"

@@ -419,6 +419,7 @@ depends-member:
 - !private ["P3TVP10AnchorView", "handlePinchGesture"]
 - !private ["P3TVP10AnchorView", "hideControls"]
 - !private ["P3TVP10AnchorView", "image"]
+- !private ["P3TVP10AnchorView", "imgFullscreen"]
 - !private ["P3TVP10AnchorView", "imgPlayPause"]
 - !private ["P3TVP10AnchorView", "imgPoster"]
 - !private ["P3TVP10AnchorView", "imgVolumeSpeaker"]
@@ -636,6 +637,7 @@ depends-member:
 - !private ["Ps9AnyObject", "highestQualityStreamURL"]
 - !private ["Ps9AnyObject", "httpMethod"]
 - !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imgFullscreen"]
 - !private ["Ps9AnyObject", "imgPlayPause"]
 - !private ["Ps9AnyObject", "imgPoster"]
 - !private ["Ps9AnyObject", "imgVolumeSpeaker"]
@@ -886,6 +888,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "handlePinchGesture"]
 - !private ["PSo15CALayerDelegate", "hideControls"]
 - !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "imgFullscreen"]
 - !private ["PSo15CALayerDelegate", "imgPlayPause"]
 - !private ["PSo15CALayerDelegate", "imgPoster"]
 - !private ["PSo15CALayerDelegate", "imgVolumeSpeaker"]
@@ -1125,6 +1128,7 @@ depends-member:
 - !private ["Ps7CVarArg", "highestQualityStreamURL"]
 - !private ["Ps7CVarArg", "httpMethod"]
 - !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "imgFullscreen"]
 - !private ["Ps7CVarArg", "imgPlayPause"]
 - !private ["Ps7CVarArg", "imgPoster"]
 - !private ["Ps7CVarArg", "imgVolumeSpeaker"]
@@ -1402,6 +1406,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "highestQualityStreamURL"]
 - !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "imgFullscreen"]
 - !private ["Ps28CustomDebugStringConvertible", "imgPlayPause"]
 - !private ["Ps28CustomDebugStringConvertible", "imgPoster"]
 - !private ["Ps28CustomDebugStringConvertible", "imgVolumeSpeaker"]
@@ -1707,6 +1712,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "highestQualityStreamURL"]
 - !private ["Ps23CustomStringConvertible", "httpMethod"]
 - !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "imgFullscreen"]
 - !private ["Ps23CustomStringConvertible", "imgPlayPause"]
 - !private ["Ps23CustomStringConvertible", "imgPoster"]
 - !private ["Ps23CustomStringConvertible", "imgVolumeSpeaker"]
@@ -2004,6 +2010,7 @@ depends-member:
 - !private ["Ps9Equatable", "highestQualityStreamURL"]
 - !private ["Ps9Equatable", "httpMethod"]
 - !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "imgFullscreen"]
 - !private ["Ps9Equatable", "imgPlayPause"]
 - !private ["Ps9Equatable", "imgPoster"]
 - !private ["Ps9Equatable", "imgVolumeSpeaker"]
@@ -2335,6 +2342,7 @@ depends-member:
 - !private ["Ps8Hashable", "highestQualityStreamURL"]
 - !private ["Ps8Hashable", "httpMethod"]
 - !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "imgFullscreen"]
 - !private ["Ps8Hashable", "imgPlayPause"]
 - !private ["Ps8Hashable", "imgPoster"]
 - !private ["Ps8Hashable", "imgVolumeSpeaker"]
@@ -2611,6 +2619,7 @@ depends-member:
 - !private ["PSo8NSCoding", "hideControls"]
 - !private ["PSo8NSCoding", "httpMethod"]
 - !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "imgFullscreen"]
 - !private ["PSo8NSCoding", "imgPlayPause"]
 - !private ["PSo8NSCoding", "imgPoster"]
 - !private ["PSo8NSCoding", "imgVolumeSpeaker"]
@@ -3239,6 +3248,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "highestQualityStreamURL"]
 - !private ["PSo16NSObjectProtocol", "httpMethod"]
 - !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imgFullscreen"]
 - !private ["PSo16NSObjectProtocol", "imgPlayPause"]
 - !private ["PSo16NSObjectProtocol", "imgPoster"]
 - !private ["PSo16NSObjectProtocol", "imgVolumeSpeaker"]
@@ -3852,6 +3862,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "handlePinchGesture"]
 - !private ["PSo29UIAccessibilityIdentification", "hideControls"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "imgFullscreen"]
 - !private ["PSo29UIAccessibilityIdentification", "imgPlayPause"]
 - !private ["PSo29UIAccessibilityIdentification", "imgPoster"]
 - !private ["PSo29UIAccessibilityIdentification", "imgVolumeSpeaker"]
@@ -4043,6 +4054,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "handlePinchGesture"]
 - !private ["PSo12UIAppearance", "hideControls"]
 - !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "imgFullscreen"]
 - !private ["PSo12UIAppearance", "imgPlayPause"]
 - !private ["PSo12UIAppearance", "imgPoster"]
 - !private ["PSo12UIAppearance", "imgVolumeSpeaker"]
@@ -4230,6 +4242,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "handlePinchGesture"]
 - !private ["PSo21UIAppearanceContainer", "hideControls"]
 - !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "imgFullscreen"]
 - !private ["PSo21UIAppearanceContainer", "imgPlayPause"]
 - !private ["PSo21UIAppearanceContainer", "imgPoster"]
 - !private ["PSo21UIAppearanceContainer", "imgVolumeSpeaker"]
@@ -4437,6 +4450,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "handlePinchGesture"]
 - !private ["PSo17UICoordinateSpace", "hideControls"]
 - !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "imgFullscreen"]
 - !private ["PSo17UICoordinateSpace", "imgPlayPause"]
 - !private ["PSo17UICoordinateSpace", "imgPoster"]
 - !private ["PSo17UICoordinateSpace", "imgVolumeSpeaker"]
@@ -4624,6 +4638,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "handlePinchGesture"]
 - !private ["PSo13UIDynamicItem", "hideControls"]
 - !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "imgFullscreen"]
 - !private ["PSo13UIDynamicItem", "imgPlayPause"]
 - !private ["PSo13UIDynamicItem", "imgPoster"]
 - !private ["PSo13UIDynamicItem", "imgVolumeSpeaker"]
@@ -4811,6 +4826,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "handlePinchGesture"]
 - !private ["PSo18UIFocusEnvironment", "hideControls"]
 - !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "imgFullscreen"]
 - !private ["PSo18UIFocusEnvironment", "imgPlayPause"]
 - !private ["PSo18UIFocusEnvironment", "imgPoster"]
 - !private ["PSo18UIFocusEnvironment", "imgVolumeSpeaker"]
@@ -5000,6 +5016,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "handlePinchGesture"]
 - !private ["PSo11UIFocusItem", "hideControls"]
 - !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "imgFullscreen"]
 - !private ["PSo11UIFocusItem", "imgPlayPause"]
 - !private ["PSo11UIFocusItem", "imgPoster"]
 - !private ["PSo11UIFocusItem", "imgVolumeSpeaker"]
@@ -5463,6 +5480,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "handlePinchGesture"]
 - !private ["PSo30UIResponderStandardEditActions", "hideControls"]
 - !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "imgFullscreen"]
 - !private ["PSo30UIResponderStandardEditActions", "imgPlayPause"]
 - !private ["PSo30UIResponderStandardEditActions", "imgPoster"]
 - !private ["PSo30UIResponderStandardEditActions", "imgVolumeSpeaker"]
@@ -5690,6 +5708,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "handlePinchGesture"]
 - !private ["PSo18UITraitEnvironment", "hideControls"]
 - !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "imgFullscreen"]
 - !private ["PSo18UITraitEnvironment", "imgPlayPause"]
 - !private ["PSo18UITraitEnvironment", "imgPoster"]
 - !private ["PSo18UITraitEnvironment", "imgVolumeSpeaker"]
@@ -6165,6 +6184,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "handlePinchGesture"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hideControls"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgFullscreen"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgPlayPause"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgPoster"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgVolumeSpeaker"]
@@ -6432,6 +6452,7 @@ depends-member:
 - !private ["Ps9_Hashable", "highestQualityStreamURL"]
 - !private ["Ps9_Hashable", "httpMethod"]
 - !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "imgFullscreen"]
 - !private ["Ps9_Hashable", "imgPlayPause"]
 - !private ["Ps9_Hashable", "imgPoster"]
 - !private ["Ps9_Hashable", "imgVolumeSpeaker"]
@@ -6814,37 +6835,37 @@ depends-nominal:
 - !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MediaPlayer.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVKit.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
-- "/Applications/Xcode 8.3.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/HelperObjC.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/TVP.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoExtractorOperation.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoVideo.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoError.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/TvPageExtractor.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoExtractor.h"
-- "/Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MediaPlayer.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVKit.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode copy 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/devubhamanek/Desktop/TVP/TVP/HelperObjC.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/TVP.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoError.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/TvPageExtractor.h"
+- "/Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Users/devubhamanek/Desktop/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap"
 interface-hash: "1d0aa806975c2b4b1dd9ee179e2eaab5"

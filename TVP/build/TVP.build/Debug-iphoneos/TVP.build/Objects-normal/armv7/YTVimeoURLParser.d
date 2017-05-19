@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.m \
-  /Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/build/TVP.build/Debug-iphoneos/TVP.build/module.modulemap \
-  /Users/devubhamanek/Desktop/TVPFrameworkCode_17_05_18/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h
+  /Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.m \
+  /Users/devubhamanek/Desktop/TVP/build/TVP.build/Debug-iphoneos/TVP.build/module.modulemap \
+  /Users/devubhamanek/Desktop/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h
