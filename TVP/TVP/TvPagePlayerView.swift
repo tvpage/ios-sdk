@@ -108,7 +108,6 @@ public class TVPagePlayerView: UIView {
         self.resumePlayer()
         
         acti_Loderview.startAnimating()
-        self.imgFullscreen.image = self.getIconimage(iconname: "fullscreenIN1")
     }
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -129,6 +128,7 @@ public class TVPagePlayerView: UIView {
     @IBAction func btn_FullScreenClicked(_ sender: UIControl) {
         
         playerViewController.player = self.player
+        
         isVideoOpenFullScreen = true
         
         self.window?.rootViewController?.present(playerViewController, animated: true, completion: {
@@ -859,6 +859,7 @@ public class TVPagePlayerView: UIView {
                     
                     self.E_TvPlayerMediaError()
                     hideControls(isAnimated: true)
+                    
                 }
                 
             } else if (keyPath == "loadedTimeRanges") {
@@ -1131,6 +1132,7 @@ public class TVPagePlayerView: UIView {
             
         }
         imgPlayPause.image = getIconimage(iconname: "pause")
+        
     }
     
     public func pause() {
@@ -1144,13 +1146,14 @@ public class TVPagePlayerView: UIView {
                 self.analiticsTimer = nil
             }
         }
+        
     }
     public func stop() {
         
         pause()
         videoProgress.setProgress(0.0, animated: true)
         seek(time: 0.0)
-        //volume(vol: 0.0)
+        
     }
     public func volume(vol : Float) {
         
@@ -1366,13 +1369,12 @@ public class TVPagePlayerView: UIView {
     }
     func getIconimage(iconname:String) -> UIImage {
         
-                let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
-                let  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
-                let  image = UIImage(contentsOfFile: imagePath!)
-                return image!
+        let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
+        let  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
+        let  image = UIImage(contentsOfFile: imagePath!)
+        return image!
         
 //        return UIImage(named:iconname)!
-        
     }
     //MARK: -  Analytics
     func Analytics_Channel_Impression(LoginID:String){
@@ -1623,7 +1625,7 @@ public class TVPagePlayerView: UIView {
 //MARK: - Image download with lazy loading
 extension UIImage {
     
-    // Loads image asynchronously
+    //Loads image asynchronously
     public func loadFromURL(url: NSURL, callback: @escaping (UIImage)->()) {
         
         let backgroundQueue = DispatchQueue.global(qos: .background)

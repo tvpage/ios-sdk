@@ -1,3 +1,4 @@
-dependencies: /Users/devubhamanek/Desktop/TVP/TVP/HelperObjC.m \
-  /Users/devubhamanek/Desktop/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/module.modulemap \
-  /Users/devubhamanek/Desktop/TVP/TVP/HelperObjC.h
+dependencies: \
+  /Users/devubhamanek/Desktop/Pankaj/TVPagePlayer/Source\ Code/With\ Framework/Framework/TVP/TVP/HelperObjC.m \
+  /Users/devubhamanek/Desktop/Pankaj/TVPagePlayer/Source\ Code/With\ Framework/Framework/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/module.modulemap \
+  /Users/devubhamanek/Desktop/Pankaj/TVPagePlayer/Source\ Code/With\ Framework/Framework/TVP/TVP/HelperObjC.h

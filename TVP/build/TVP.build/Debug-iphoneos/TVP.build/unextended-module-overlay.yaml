@@ -7,7 +7,7 @@
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/devubhamanek/Desktop/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap',
+      'external-contents': '/Users/devubhamanek/Desktop/Pankaj/TVPagePlayer/Source Code/With Framework/Framework/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap',
     }]
   }]
 }
