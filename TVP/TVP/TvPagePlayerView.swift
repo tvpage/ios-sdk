@@ -122,6 +122,8 @@ public class TVPagePlayerView: UIView {
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.addSubview(view);
+    
+        
         
     }
     //MARK: - Tapped Event
@@ -316,7 +318,7 @@ public class TVPagePlayerView: UIView {
             } else {
                 
                 self.imgqualityHD.isHidden = false
-                self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd.png")
+                self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd")
             }
             
             self.qualityIndex = index
@@ -524,7 +526,7 @@ public class TVPagePlayerView: UIView {
             userVideoID = ""
             userChannelID = ""
         }
-        
+        imgFullscreen.image = getIconimage(iconname: "fullscreenIN1")
         let dictAsset:[String : Any] = dict["asset"] as! [String : Any]
         
         if dictAsset["type"] != nil {
@@ -576,7 +578,7 @@ public class TVPagePlayerView: UIView {
                 } else {
                     
                     self.imgqualityHD.isHidden = false
-                    self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd.png")
+                    self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd")
                 }
                 
                 //hlsUrl
@@ -639,7 +641,7 @@ public class TVPagePlayerView: UIView {
         self.E_TvPlayerReady()
         viewMainPlayer.layer.addSublayer(playerLayer)
         playerLayer.videoGravity = AVLayerVideoGravityResize
-        
+        imgFullscreen.image = getIconimage(iconname: "fullscreenIN1")
         if isplay {
             
             isVVanaliticsCall = true

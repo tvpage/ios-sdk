@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/devubhamanek/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/TVP.framework/Modules'
+    'name': '/Users/dilipmanek/Library/Developer/Xcode/DerivedData/TVP-gyolajbzxwoyinagldiqwcsvxyvt/Build/Products/Debug-iphoneos/TVP.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/devubhamanek/Desktop/Pankaj/TVPagePlayer/Source Code/With Framework/Framework/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap',
+      'external-contents': '/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/build/TVP.build/Debug-iphoneos/TVP.build/unextended-module.modulemap',
     }]
   }]
 }
