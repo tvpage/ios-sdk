@@ -22,12 +22,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -43,11 +43,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
@@ -82,12 +92,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -102,11 +112,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSDictionary() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSDictionary
                         if completion != nil {
@@ -141,12 +161,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)/channels?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -160,11 +180,22 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
@@ -198,12 +229,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/\(VideoID)/products?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -217,11 +248,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
@@ -258,12 +299,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -277,11 +318,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSDictionary() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSDictionary
                         if completion != nil {
@@ -314,12 +365,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/videos/referenceIds?X-login-id=\(LoginID)&ids=\(referenceIds)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -333,11 +384,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSDictionary() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSDictionary
                         if completion != nil {
@@ -378,12 +439,12 @@ public class TvpApiClass: NSObject {
         strURL = channelsLimitIds.characters.count > 0 ? "\(strURL)&channelsLimit=\(channelsLimitIds)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
@@ -398,11 +459,21 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                            
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
@@ -442,12 +513,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -461,11 +532,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
@@ -501,12 +581,12 @@ public class TvpApiClass: NSObject {
         
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -521,11 +601,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSDictionary() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSDictionary
                         if completion != nil {
@@ -560,12 +649,12 @@ public class TvpApiClass: NSObject {
         strURL = Max.characters.count > 0 ? "\(strURL)&n=\(Max)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -579,12 +668,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
-                        
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
                             
@@ -616,12 +713,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/products/\(productsId)/videos?X-login-id=\(LoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -635,12 +732,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
-                        
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
                             
@@ -679,12 +784,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -698,12 +803,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
-                        
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {
                             
@@ -737,12 +850,12 @@ public class TvpApiClass: NSObject {
         let strURL = ("https://app.tvpage.com/api/channels/\(strChhanelID)?X-login-id=\(strLoginID)")
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -756,12 +869,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
-                        
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSDictionary() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSDictionary
                         if completion != nil {
                             
@@ -797,12 +918,12 @@ public class TvpApiClass: NSObject {
         strURL = searchString.characters.count > 0 ? "\(strURL)&s=\(searchString)" : strURL
         let headers = [
             "cache-control": "no-cache",
-//            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
+            //            "postman-token": "d80700d9-44de-f252-e79f-103084d20a3a"
         ]
         
-//        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
-//                                          cachePolicy: .useProtocolCachePolicy,
-//                                          timeoutInterval: 10.0)
+        //        let request = NSMutableURLRequest(url: NSURL(string: strURL)! as URL,
+        //                                          cachePolicy: .useProtocolCachePolicy,
+        //                                          timeoutInterval: 10.0)
         var request = URLRequest(url: NSURL(string: strURL)! as URL)
         request.timeoutInterval = 60.0
         request.httpMethod = "GET"
@@ -816,11 +937,20 @@ public class TvpApiClass: NSObject {
                     
                     errorStr = bvar
                 }
-                if data != nil {
+                if data != nil && data!.count > 0{
                     let httpResponse = response as? HTTPURLResponse
                     
                     if httpResponse?.statusCode == 200
                     {
+                        if let strRespose = NSString(data: data!, encoding: String.Encoding.utf8.rawValue){
+                            if (strRespose.caseInsensitiveCompare("null")) == .orderedSame || (strRespose.caseInsensitiveCompare("nil")) == .orderedSame{
+                                if completion != nil {
+                                    errorStr = strRespose as String
+                                    completion!(NSArray() , errorStr)
+                                    return
+                                }
+                            }
+                        }
                         
                         let json = try! JSONSerialization.jsonObject(with: data!, options: []) as! NSArray
                         if completion != nil {

@@ -178,6 +178,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, weak) DropDown * _Nullable Vis
 /// The background color of the selected cell in the drop down.
 /// Changing the background color automatically reloads the drop down.
 @property (nonatomic, strong) UIColor * _Nonnull selectionBackgroundColor;
+@property (nonatomic, strong) UIColor * _Nonnull selectionTextColor;
 /// The separator color between cells.
 /// Changing the separator color automatically reloads the drop down.
 @property (nonatomic, strong) UIColor * _Nonnull separatorColor;
@@ -329,351 +330,39 @@ SWIFT_CLASS("_TtC3TVP12DropDownCell")
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 @end
 
-
-@interface NSNumber (SWIFT_EXTENSION(TVP))
-@end
-
-@class NSURLSession;
-@class NSURLAuthenticationChallenge;
-@class NSURLCredential;
-@class NSURLSessionTask;
-@class NSHTTPURLResponse;
-@class NSInputStream;
-@class NSURLSessionDataTask;
-@class NSURLResponse;
-@class NSURLSessionDownloadTask;
-@class NSCachedURLResponse;
-@class NSURLSessionStreamTask;
-@class NSOutputStream;
-
-/// Responsible for handling all delegate callbacks for the underlying session.
-SWIFT_CLASS("_TtC3TVP15SessionDelegate")
-@interface SessionDelegate : NSObject
-/// Overrides default behavior for URLSessionDelegate method <code>urlSession(_:didBecomeInvalidWithError:)</code>.
-@property (nonatomic, copy) void (^ _Nullable sessionDidBecomeInvalidWithError)(NSURLSession * _Nonnull, NSError * _Nullable);
-/// Overrides all behavior for URLSessionDelegate method <code>urlSession(_:didReceive:completionHandler:)</code> and requires the caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable sessionDidReceiveChallengeWithCompletion)(NSURLSession * _Nonnull, NSURLAuthenticationChallenge * _Nonnull, void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable));
-/// Overrides default behavior for URLSessionDelegate method <code>urlSessionDidFinishEvents(forBackgroundURLSession:)</code>.
-@property (nonatomic, copy) void (^ _Nullable sessionDidFinishEventsForBackgroundURLSession)(NSURLSession * _Nonnull);
-/// Overrides default behavior for URLSessionTaskDelegate method <code>urlSession(_:task:willPerformHTTPRedirection:newRequest:completionHandler:)</code>.
-@property (nonatomic, copy) NSURLRequest * _Nullable (^ _Nullable taskWillPerformHTTPRedirection)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, NSHTTPURLResponse * _Nonnull, NSURLRequest * _Nonnull);
-/// Overrides all behavior for URLSessionTaskDelegate method <code>urlSession(_:task:willPerformHTTPRedirection:newRequest:completionHandler:)</code> and
-/// requires the caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable taskWillPerformHTTPRedirectionWithCompletion)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, NSHTTPURLResponse * _Nonnull, NSURLRequest * _Nonnull, void (^ _Nonnull)(NSURLRequest * _Nullable));
-/// Overrides all behavior for URLSessionTaskDelegate method <code>urlSession(_:task:didReceive:completionHandler:)</code> and
-/// requires the caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable taskDidReceiveChallengeWithCompletion)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, NSURLAuthenticationChallenge * _Nonnull, void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable));
-/// Overrides default behavior for URLSessionTaskDelegate method <code>urlSession(_:task:needNewBodyStream:)</code>.
-@property (nonatomic, copy) NSInputStream * _Nullable (^ _Nullable taskNeedNewBodyStream)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull);
-/// Overrides all behavior for URLSessionTaskDelegate method <code>urlSession(_:task:needNewBodyStream:)</code> and
-/// requires the caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable taskNeedNewBodyStreamWithCompletion)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, void (^ _Nonnull)(NSInputStream * _Nullable));
-/// Overrides default behavior for URLSessionTaskDelegate method <code>urlSession(_:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)</code>.
-@property (nonatomic, copy) void (^ _Nullable taskDidSendBodyData)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, int64_t, int64_t, int64_t);
-/// Overrides default behavior for URLSessionTaskDelegate method <code>urlSession(_:task:didCompleteWithError:)</code>.
-@property (nonatomic, copy) void (^ _Nullable taskDidComplete)(NSURLSession * _Nonnull, NSURLSessionTask * _Nonnull, NSError * _Nullable);
-/// Overrides default behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:didReceive:completionHandler:)</code>.
-@property (nonatomic, copy) NSURLSessionResponseDisposition (^ _Nullable dataTaskDidReceiveResponse)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSURLResponse * _Nonnull);
-/// Overrides all behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:didReceive:completionHandler:)</code> and
-/// requires caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable dataTaskDidReceiveResponseWithCompletion)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSURLResponse * _Nonnull, void (^ _Nonnull)(NSURLSessionResponseDisposition));
-/// Overrides default behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:didBecome:)</code>.
-@property (nonatomic, copy) void (^ _Nullable dataTaskDidBecomeDownloadTask)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSURLSessionDownloadTask * _Nonnull);
-/// Overrides default behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:didReceive:)</code>.
-@property (nonatomic, copy) void (^ _Nullable dataTaskDidReceiveData)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSData * _Nonnull);
-/// Overrides default behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:willCacheResponse:completionHandler:)</code>.
-@property (nonatomic, copy) NSCachedURLResponse * _Nullable (^ _Nullable dataTaskWillCacheResponse)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSCachedURLResponse * _Nonnull);
-/// Overrides all behavior for URLSessionDataDelegate method <code>urlSession(_:dataTask:willCacheResponse:completionHandler:)</code> and
-/// requires caller to call the <code>completionHandler</code>.
-@property (nonatomic, copy) void (^ _Nullable dataTaskWillCacheResponseWithCompletion)(NSURLSession * _Nonnull, NSURLSessionDataTask * _Nonnull, NSCachedURLResponse * _Nonnull, void (^ _Nonnull)(NSCachedURLResponse * _Nullable));
-/// Overrides default behavior for URLSessionDownloadDelegate method <code>urlSession(_:downloadTask:didFinishDownloadingTo:)</code>.
-@property (nonatomic, copy) void (^ _Nullable downloadTaskDidFinishDownloadingToURL)(NSURLSession * _Nonnull, NSURLSessionDownloadTask * _Nonnull, NSURL * _Nonnull);
-/// Overrides default behavior for URLSessionDownloadDelegate method <code>urlSession(_:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:)</code>.
-@property (nonatomic, copy) void (^ _Nullable downloadTaskDidWriteData)(NSURLSession * _Nonnull, NSURLSessionDownloadTask * _Nonnull, int64_t, int64_t, int64_t);
-/// Overrides default behavior for URLSessionDownloadDelegate method <code>urlSession(_:downloadTask:didResumeAtOffset:expectedTotalBytes:)</code>.
-@property (nonatomic, copy) void (^ _Nullable downloadTaskDidResumeAtOffset)(NSURLSession * _Nonnull, NSURLSessionDownloadTask * _Nonnull, int64_t, int64_t);
-/// Overrides default behavior for URLSessionStreamDelegate method <code>urlSession(_:readClosedFor:)</code>.
-@property (nonatomic, copy) void (^ _Nullable streamTaskReadClosed)(NSURLSession * _Nonnull, NSURLSessionStreamTask * _Nonnull);
-/// Overrides default behavior for URLSessionStreamDelegate method <code>urlSession(_:writeClosedFor:)</code>.
-@property (nonatomic, copy) void (^ _Nullable streamTaskWriteClosed)(NSURLSession * _Nonnull, NSURLSessionStreamTask * _Nonnull);
-/// Overrides default behavior for URLSessionStreamDelegate method <code>urlSession(_:betterRouteDiscoveredFor:)</code>.
-@property (nonatomic, copy) void (^ _Nullable streamTaskBetterRouteDiscovered)(NSURLSession * _Nonnull, NSURLSessionStreamTask * _Nonnull);
-/// Overrides default behavior for URLSessionStreamDelegate method <code>urlSession(_:streamTask:didBecome:outputStream:)</code>.
-@property (nonatomic, copy) void (^ _Nullable streamTaskDidBecomeInputAndOutputStreams)(NSURLSession * _Nonnull, NSURLSessionStreamTask * _Nonnull, NSInputStream * _Nonnull, NSOutputStream * _Nonnull);
-/// Initializes the <code>SessionDelegate</code> instance.
-///
-/// returns:
-/// The new <code>SessionDelegate</code> instance.
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Returns a <code>Bool</code> indicating whether the <code>SessionDelegate</code> implements or inherits a method that can respond
-/// to a specified message.
-/// \param selector A selector that identifies a message.
-///
-///
-/// returns:
-/// <code>true</code> if the receiver implements or inherits a method that can respond to selector, otherwise <code>false</code>.
-- (BOOL)respondsToSelector:(SEL _Nonnull)selector SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-@interface SessionDelegate (SWIFT_EXTENSION(TVP)) <NSURLSessionDownloadDelegate>
-/// Tells the delegate that a download task has finished downloading.
-/// \param session The session containing the download task that finished.
-///
-/// \param downloadTask The download task that finished.
-///
-/// \param location A file URL for the temporary file. Because the file is temporary, you must either
-/// open the file for reading or move it to a permanent location in your app’s sandbox
-/// container directory before returning from this delegate method.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
-/// Periodically informs the delegate about the download’s progress.
-/// \param session The session containing the download task.
-///
-/// \param downloadTask The download task.
-///
-/// \param bytesWritten The number of bytes transferred since the last time this delegate
-/// method was called.
-///
-/// \param totalBytesWritten The total number of bytes transferred so far.
-///
-/// \param totalBytesExpectedToWrite The expected length of the file, as provided by the Content-Length
-/// header. If this header was not provided, the value is
-/// <code>NSURLSessionTransferSizeUnknown</code>.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
-/// Tells the delegate that the download task has resumed downloading.
-/// \param session The session containing the download task that finished.
-///
-/// \param downloadTask The download task that resumed. See explanation in the discussion.
-///
-/// \param fileOffset If the file’s cache policy or last modified date prevents reuse of the
-/// existing content, then this value is zero. Otherwise, this value is an
-/// integer representing the number of bytes on disk that do not need to be
-/// retrieved again.
-///
-/// \param expectedTotalBytes The expected length of the file, as provided by the Content-Length header.
-/// If this header was not provided, the value is NSURLSessionTransferSizeUnknown.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didResumeAtOffset:(int64_t)fileOffset expectedTotalBytes:(int64_t)expectedTotalBytes;
-@end
-
-
-@interface SessionDelegate (SWIFT_EXTENSION(TVP)) <NSURLSessionDelegate>
-/// Tells the delegate that the session has been invalidated.
-/// \param session The session object that was invalidated.
-///
-/// \param error The error that caused invalidation, or nil if the invalidation was explicit.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session didBecomeInvalidWithError:(NSError * _Nullable)error;
-/// Requests credentials from the delegate in response to a session-level authentication request from the
-/// remote server.
-/// \param session The session containing the task that requested authentication.
-///
-/// \param challenge An object that contains the request for authentication.
-///
-/// \param completionHandler A handler that your delegate method must call providing the disposition
-/// and credential.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
-/// Tells the delegate that all messages enqueued for a session have been delivered.
-/// \param session The session that no longer has any outstanding requests.
-///
-- (void)URLSessionDidFinishEventsForBackgroundURLSession:(NSURLSession * _Nonnull)session;
-@end
-
-
-@interface SessionDelegate (SWIFT_EXTENSION(TVP)) <NSURLSessionStreamDelegate>
-/// Tells the delegate that the read side of the connection has been closed.
-/// \param session The session.
-///
-/// \param streamTask The stream task.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session readClosedForStreamTask:(NSURLSessionStreamTask * _Nonnull)streamTask;
-/// Tells the delegate that the write side of the connection has been closed.
-/// \param session The session.
-///
-/// \param streamTask The stream task.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session writeClosedForStreamTask:(NSURLSessionStreamTask * _Nonnull)streamTask;
-/// Tells the delegate that the system has determined that a better route to the host is available.
-/// \param session The session.
-///
-/// \param streamTask The stream task.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session betterRouteDiscoveredForStreamTask:(NSURLSessionStreamTask * _Nonnull)streamTask;
-/// Tells the delegate that the stream task has been completed and provides the unopened stream objects.
-/// \param session The session.
-///
-/// \param streamTask The stream task.
-///
-/// \param inputStream The new input stream.
-///
-/// \param outputStream The new output stream.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session streamTask:(NSURLSessionStreamTask * _Nonnull)streamTask didBecomeInputStream:(NSInputStream * _Nonnull)inputStream outputStream:(NSOutputStream * _Nonnull)outputStream;
-@end
-
-
-@interface SessionDelegate (SWIFT_EXTENSION(TVP)) <NSURLSessionDataDelegate>
-/// Tells the delegate that the data task received the initial reply (headers) from the server.
-/// \param session The session containing the data task that received an initial reply.
-///
-/// \param dataTask The data task that received an initial reply.
-///
-/// \param response A URL response object populated with headers.
-///
-/// \param completionHandler A completion handler that your code calls to continue the transfer, passing a
-/// constant to indicate whether the transfer should continue as a data task or
-/// should become a download task.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveResponse:(NSURLResponse * _Nonnull)response completionHandler:(void (^ _Nonnull)(NSURLSessionResponseDisposition))completionHandler;
-/// Tells the delegate that the data task was changed to a download task.
-/// \param session The session containing the task that was replaced by a download task.
-///
-/// \param dataTask The data task that was replaced by a download task.
-///
-/// \param downloadTask The new download task that replaced the data task.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didBecomeDownloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask;
-/// Tells the delegate that the data task has received some of the expected data.
-/// \param session The session containing the data task that provided data.
-///
-/// \param dataTask The data task that provided data.
-///
-/// \param data A data object containing the transferred data.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveData:(NSData * _Nonnull)data;
-/// Asks the delegate whether the data (or upload) task should store the response in the cache.
-/// \param session The session containing the data (or upload) task.
-///
-/// \param dataTask The data (or upload) task.
-///
-/// \param proposedResponse The default caching behavior. This behavior is determined based on the current
-/// caching policy and the values of certain received headers, such as the Pragma
-/// and Cache-Control headers.
-///
-/// \param completionHandler A block that your handler must call, providing either the original proposed
-/// response, a modified version of that response, or NULL to prevent caching the
-/// response. If your delegate implements this method, it must call this completion
-/// handler; otherwise, your app leaks memory.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask willCacheResponse:(NSCachedURLResponse * _Nonnull)proposedResponse completionHandler:(void (^ _Nonnull)(NSCachedURLResponse * _Nullable))completionHandler;
-@end
-
-@class NSURLSessionTaskMetrics;
-
-@interface SessionDelegate (SWIFT_EXTENSION(TVP)) <NSURLSessionTaskDelegate>
-/// Tells the delegate that the remote server requested an HTTP redirect.
-/// \param session The session containing the task whose request resulted in a redirect.
-///
-/// \param task The task whose request resulted in a redirect.
-///
-/// \param response An object containing the server’s response to the original request.
-///
-/// \param request A URL request object filled out with the new location.
-///
-/// \param completionHandler A closure that your handler should call with either the value of the request
-/// parameter, a modified URL request object, or NULL to refuse the redirect and
-/// return the body of the redirect response.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task willPerformHTTPRedirection:(NSHTTPURLResponse * _Nonnull)response newRequest:(NSURLRequest * _Nonnull)request completionHandler:(void (^ _Nonnull)(NSURLRequest * _Nullable))completionHandler;
-/// Requests credentials from the delegate in response to an authentication request from the remote server.
-/// \param session The session containing the task whose request requires authentication.
-///
-/// \param task The task whose request requires authentication.
-///
-/// \param challenge An object that contains the request for authentication.
-///
-/// \param completionHandler A handler that your delegate method must call providing the disposition
-/// and credential.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
-/// Tells the delegate when a task requires a new request body stream to send to the remote server.
-/// \param session The session containing the task that needs a new body stream.
-///
-/// \param task The task that needs a new body stream.
-///
-/// \param completionHandler A completion handler that your delegate method should call with the new body stream.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task needNewBodyStream:(void (^ _Nonnull)(NSInputStream * _Nullable))completionHandler;
-/// Periodically informs the delegate of the progress of sending body content to the server.
-/// \param session The session containing the data task.
-///
-/// \param task The data task.
-///
-/// \param bytesSent The number of bytes sent since the last time this delegate method was called.
-///
-/// \param totalBytesSent The total number of bytes sent so far.
-///
-/// \param totalBytesExpectedToSend The expected length of the body data.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didSendBodyData:(int64_t)bytesSent totalBytesSent:(int64_t)totalBytesSent totalBytesExpectedToSend:(int64_t)totalBytesExpectedToSend;
-/// Tells the delegate that the session finished collecting metrics for the task.
-/// \param session The session collecting the metrics.
-///
-/// \param task The task whose metrics have been collected.
-///
-/// \param metrics The collected metrics.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didFinishCollectingMetrics:(NSURLSessionTaskMetrics * _Nonnull)metrics SWIFT_AVAILABILITY(tvos,introduced=10.0) SWIFT_AVAILABILITY(macos,introduced=10.12) SWIFT_AVAILABILITY(ios,introduced=10.0);
-/// Tells the delegate that the task finished transferring data.
-/// \param session The session containing the task whose request finished transferring data.
-///
-/// \param task The task whose request finished transferring data.
-///
-/// \param error If an error occurred, an error object indicating how the transfer failed, otherwise nil.
-///
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
-@end
-
-@class NSOperationQueue;
-
-/// The task delegate is responsible for handling all delegate callbacks for the underlying task as well as
-/// executing all operations attached to the serial operation queue upon task completion.
-SWIFT_CLASS("_TtC3TVP12TaskDelegate")
-@interface TaskDelegate : NSObject
-/// The serial operation queue used to execute all operations after the task completes.
-@property (nonatomic, readonly, strong) NSOperationQueue * _Nonnull queue;
-/// The data returned by the server.
-@property (nonatomic, readonly, copy) NSData * _Nullable data;
-/// The error generated throughout the lifecyle of the task.
-@property (nonatomic) NSError * _Nullable error;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
 @class AVPlayer;
+@protocol TVPlayerDelegate;
 @class UIImage;
 @class NSMutableArray;
-@class NSArray;
 
-SWIFT_CLASS("_TtC3TVP16TvPagePlayerView")
-@interface TvPagePlayerView : UIView
+SWIFT_CLASS("_TtC3TVP16TVPagePlayerView")
+@interface TVPagePlayerView : UIView
+@property (nonatomic, strong) AVPlayer * _Nullable player;
+@property (nonatomic, strong) id <TVPlayerDelegate> _Nullable delegate;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
 + (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, strong) AVPlayer * _Nullable player;
 - (void)getDATAandALLCheckWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (void)showWithFrame:(CGRect)frame view:(UIView * _Nonnull)view;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (BOOL)E_TvPlayerReady SWIFT_WARN_UNUSED_RESULT;
-- (id _Nonnull)E_TvPlayerError SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaReady SWIFT_WARN_UNUSED_RESULT;
-- (NSError * _Nonnull)E_TvPlayerMediaError SWIFT_WARN_UNUSED_RESULT;
-- (NSError * _Nonnull)E_TvPlayerErrorForbidden SWIFT_WARN_UNUSED_RESULT;
-- (NSError * _Nonnull)E_TvPlayerErrorHTML5Forbidden SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaComplete SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerCued SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaVideoended SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaVideoplaying SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaVideopaused SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerMediaVideobuffering SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)E_TvPlayerPlaybackQualityChangeWithQname:(NSString * _Nonnull)Qname SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)E_TvPlayerMediaProviderChange SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)E_TvPlayerSeek SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerVideoLoad SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)E_TvPlayerVideoCued SWIFT_WARN_UNUSED_RESULT;
+- (void)E_TvPlayerReady;
+- (void)E_TvPlayerError;
+- (void)E_TvPlayerMediaReady;
+- (void)E_TvPlayerMediaError;
+- (void)E_TvPlayerErrorForbidden;
+- (void)E_TvPlayerErrorHTML5Forbidden;
+- (void)E_TvPlayerMediaComplete;
+- (void)E_TvPlayerCued;
+- (void)E_TvPlayerMediaVideoended;
+- (void)E_TvPlayerMediaVideoplaying;
+- (void)E_TvPlayerMediaVideopaused;
+- (void)E_TvPlayerMediaVideobuffering;
+- (void)E_TvPlayerPlaybackQualityChangeWithQname:(NSString * _Nonnull)Qname;
+- (void)E_TvPlayerMediaProviderChange;
+- (void)E_TvPlayerSeek;
+- (void)E_TvPlayerVideoLoad;
+- (void)E_TvPlayerVideoCued;
 - (void)loadVideoWithStrURL:(NSString * _Nonnull)StrURL strType:(NSString * _Nonnull)strType;
 - (void)cueVideoWithStrURL:(NSString * _Nonnull)StrURL strType:(NSString * _Nonnull)strType;
 - (void)play;
@@ -684,12 +373,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 - (void)unmute;
 - (void)seekWithTime:(double)time;
 - (void)setPosterWithImage:(UIImage * _Nonnull)image;
-- (void)resizeWithWidth:(float)width height:(float)height zoomRatio:(float)zoomRatio;
+- (void)resizeWithWidth:(float)width height:(float)height X:(float)X Y:(float)Y zoomRatio:(float)zoomRatio;
 - (void)fix_height_width;
 - (NSInteger)getVolume SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getState SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getCurrentTime SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)getDuration SWIFT_WARN_UNUSED_RESULT;
+- (double)getDuration SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getQuality SWIFT_WARN_UNUSED_RESULT;
 - (void)setQualityWithIndex:(NSInteger)index;
 - (NSMutableArray * _Nonnull)getQualityLevels SWIFT_WARN_UNUSED_RESULT;
@@ -697,28 +386,68 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 - (float)getWidth SWIFT_WARN_UNUSED_RESULT;
 - (void)disableControls;
 - (void)enableControls;
-- (void)hideControls;
-- (void)showControls;
-- (void)ChannelListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)GetChannelsDetailsWithStrLoginID:(NSString * _Nonnull)strLoginID strChhanelID:(NSString * _Nonnull)strChhanelID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
-- (void)ChannelVideoListWithStrLoginID:(NSString * _Nonnull)strLoginID strChhanelID:(NSString * _Nonnull)strChhanelID searchString:(NSString * _Nonnull)searchString completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)VideoListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString status:(NSString * _Nonnull)status completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)GetVideoDetailsWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
-- (void)GetproductsOnVideoWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)GettranscriptOnVideoWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
-- (void)Get_match_a_list_of_SKU_WithLoginID:(NSString * _Nonnull)LoginID referenceIds:(NSString * _Nonnull)referenceIds completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
-- (void)Get_Searches_video_listWithLoginID:(NSString * _Nonnull)loginID Searchstring:(NSString * _Nonnull)Searchstring Pagenumber:(NSString * _Nonnull)Pagenumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction channelsLimitIds:(NSString * _Nonnull)channelsLimitIds completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)ProductsListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)Get_detail_Of_ProductWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
-- (void)Get_list_Of_Product_recommendationsWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)Get_listOfVideo_SpecificProductWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
-- (void)Analytics_Product_ImpressionWithLoginID:(NSString * _Nonnull)LoginID ChannelID:(NSString * _Nonnull)ChannelID VideoID:(NSString * _Nonnull)VideoID ProductID:(NSString * _Nonnull)ProductID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
-- (void)Analytics_Product_ClickWithLoginID:(NSString * _Nonnull)LoginID ChannelID:(NSString * _Nonnull)ChannelID VideoID:(NSString * _Nonnull)VideoID ProductID:(NSString * _Nonnull)ProductID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
+- (void)hideControlsWithIsAnimated:(BOOL)isAnimated;
+- (void)showControlsWithIsAnimated:(BOOL)isAnimated;
+- (void)analyticsProductImpressionWithLoginID:(NSString * _Nonnull)loginID channelID:(NSString * _Nonnull)channelID videoID:(NSString * _Nonnull)videoID productID:(NSString * _Nonnull)productID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
+- (void)analyticsProductClickWithLoginID:(NSString * _Nonnull)loginID channelID:(NSString * _Nonnull)channelID videoID:(NSString * _Nonnull)videoID productID:(NSString * _Nonnull)productID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
+- (void)removeFromSuperview;
+- (void)stopPlayer;
+- (void)resumePlayer;
+@end
+
+
+SWIFT_PROTOCOL("_TtP3TVP16TVPlayerDelegate_")
+@protocol TVPlayerDelegate
+@optional
+- (void)tvPlayerReadyWithFlag:(BOOL)flag;
+- (void)tvPlayerErrorWithError:(NSError * _Nonnull)error;
+- (void)tvPlayerMediaReadyWithFlag:(BOOL)flag;
+- (void)tvPlayerMediaErrorWithError:(NSError * _Nonnull)error;
+- (void)tvPlayerErrorForbiddenWithError:(NSError * _Nonnull)error;
+- (void)tvPlayerErrorHTML5ForbiddenWithError:(NSError * _Nonnull)error;
+- (void)tvPlayerMediaCompleteWithFlag:(BOOL)flag;
+- (void)tvPlayerCuedWithFlag:(BOOL)flag;
+- (void)tvPlayerMediaVideoendedWithFlag:(BOOL)flag;
+- (void)tvPlayerMediaVideoplayingWithFlag:(BOOL)flag;
+- (void)tvPlayerMediaVideopausedWithFlag:(BOOL)flag;
+- (void)tvPlayerMediaVideobufferingWithFlag:(BOOL)flag;
+- (void)tvPlayerPlaybackQualityChangeWithFlag:(NSString * _Nonnull)flag;
+- (void)tvPlayerMediaProviderChangeWithFlag:(NSString * _Nonnull)flag;
+- (void)tvPlayerSeekWithFlag:(NSString * _Nonnull)flag;
+- (void)tvPlayerVideoLoadWithFlag:(BOOL)flag;
+- (void)tvPlayerVideoCuedWithFlag:(BOOL)flag;
+@end
+
+@class NSArray;
+
+SWIFT_CLASS("_TtC3TVP11TvpApiClass")
+@interface TvpApiClass : NSObject
++ (void)VideoListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString status:(NSString * _Nonnull)status completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)GetVideoDetailsWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
++ (void)GetVideoIdToChannelsWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)GetproductsOnVideoWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)GettranscriptOnVideoWithLoginID:(NSString * _Nonnull)LoginID VideoID:(NSString * _Nonnull)VideoID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
++ (void)Get_match_a_list_of_SKU_WithLoginID:(NSString * _Nonnull)LoginID referenceIds:(NSString * _Nonnull)referenceIds completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
++ (void)Get_Searches_video_listWithLoginID:(NSString * _Nonnull)loginID Searchstring:(NSString * _Nonnull)Searchstring Pagenumber:(NSString * _Nonnull)Pagenumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction channelsLimitIds:(NSString * _Nonnull)channelsLimitIds completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)ProductsListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)Get_detail_Of_ProductWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
++ (void)Get_list_Of_Product_recommendationsWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)Get_listOfVideo_SpecificProductWithLoginID:(NSString * _Nonnull)LoginID productsId:(NSString * _Nonnull)productsId completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)ChannelListWithLoginID:(NSString * _Nonnull)loginID pageNumber:(NSString * _Nonnull)pageNumber Max:(NSString * _Nonnull)Max orderBy:(NSString * _Nonnull)orderBy Order_direction:(NSString * _Nonnull)Order_direction searchString:(NSString * _Nonnull)searchString completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
++ (void)GetChannelsDetailsWithStrLoginID:(NSString * _Nonnull)strLoginID strChhanelID:(NSString * _Nonnull)strChhanelID completion:(void (^ _Nullable)(NSDictionary * _Nonnull, NSString * _Nonnull))completion;
++ (void)ChannelVideoListWithStrLoginID:(NSString * _Nonnull)strLoginID strChhanelID:(NSString * _Nonnull)strChhanelID searchString:(NSString * _Nonnull)searchString pageNumber:(NSInteger)pageNumber numberOfVideo:(NSInteger)numberOfVideo completion:(void (^ _Nullable)(NSArray * _Nonnull, NSString * _Nonnull))completion;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 @interface UIBarButtonItem (SWIFT_EXTENSION(TVP)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
+@end
+
+@class NSURL;
+
+@interface UIImage (SWIFT_EXTENSION(TVP))
+- (void)loadFromURLWithUrl:(NSURL * _Nonnull)url callback:(void (^ _Nonnull)(UIImage * _Nonnull))callback;
 @end
 
 
@@ -736,10 +465,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 
 
 @interface UIWindow (SWIFT_EXTENSION(TVP))
-@end
-
-
-@interface NSURLSession (SWIFT_EXTENSION(TVP))
 @end
 
 #pragma clang diagnostic pop

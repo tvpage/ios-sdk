@@ -4,68 +4,68 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/TVP-gyolajbzxwoyinagldiqwcsvxyvt/Build/Products/Debug-iphonesimulator/TVP.framework/Headers",
+      'name': "/Users/devubhamanek/Library/Developer/Xcode/DerivedData/Build/Intermediates/ArchiveIntermediates/Framework/BuildProductsPath/Release-iphonesimulator/TVP.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "HelperObjC.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/HelperObjC.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/HelperObjC.h"
         },
         {
           'type': 'file',
           'name': "TVP-Swift.h",
-          'external-contents': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/TVP-gyolajbzxwoyinagldiqwcsvxyvt/Build/Products/Debug-iphonesimulator/TVP.framework/Headers/TVP-Swift.h"
+          'external-contents': "/Users/devubhamanek/Library/Developer/Xcode/DerivedData/Build/Intermediates/ArchiveIntermediates/Framework/BuildProductsPath/Release-iphonesimulator/TVP.framework/Headers/TVP-Swift.h"
         },
         {
           'type': 'file',
           'name': "TVP.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/TVP.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/TVP.h"
         },
         {
           'type': 'file',
           'name': "TvPageExtractor.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/TvPageExtractor.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/TvPageExtractor.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoError.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoError.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoError.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoExtractor.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoExtractor.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoExtractor.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoExtractorOperation.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoExtractorOperation.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoURLParser.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoURLParser.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoVideo+Private.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoVideo+Private.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoVideo+Private.h"
         },
         {
           'type': 'file',
           'name': "YTVimeoVideo.h",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/TVP/YTVimeoExtractor/YTVimeoVideo.h"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/TVP/YTVimeoExtractor/YTVimeoVideo.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/TVP-gyolajbzxwoyinagldiqwcsvxyvt/Build/Products/Debug-iphonesimulator/TVP.framework/Modules",
+      'name': "/Users/devubhamanek/Library/Developer/Xcode/DerivedData/Build/Intermediates/ArchiveIntermediates/Framework/BuildProductsPath/Release-iphonesimulator/TVP.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source Code/With Framework/Framework/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/module.modulemap"
+          'external-contents': "/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/build/TVP.build/Release-iphonesimulator/TVP.build/module.modulemap"
         }
       ]
     }

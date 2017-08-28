@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/dilipmanek/Desktop/Final_TVP/Pankaj/Source\ Code/With\ Framework/Framework/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/DerivedSources/TVP_vers.c
+  /Users/devubhamanek/Desktop/Project\ Running/TVPage\ Player/TVPage_28_08_17/Source\ Code/TVPageSDK/TVP/build/TVP.build/Debug-iphonesimulator/TVP.build/DerivedSources/TVP_vers.c

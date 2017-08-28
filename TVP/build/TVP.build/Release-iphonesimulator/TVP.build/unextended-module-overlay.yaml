@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/devubhamanek/Library/Developer/Xcode/DerivedData/TVP-cplvlmsnbwuvxagaxjtanesvryjg/Build/Intermediates/ArchiveIntermediates/Framework/BuildProductsPath/Release-iphonesimulator/TVP.framework/Modules'
+    'name': '/Users/devubhamanek/Library/Developer/Xcode/DerivedData/Build/Intermediates/ArchiveIntermediates/Framework/BuildProductsPath/Release-iphonesimulator/TVP.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/devubhamanek/Desktop/TVPDemo/TVP/build/TVP.build/Release-iphonesimulator/TVP.build/unextended-module.modulemap',
+      'external-contents': '/Users/devubhamanek/Desktop/Project Running/TVPage Player/TVPage_28_08_17/Source Code/TVPageSDK/TVP/build/TVP.build/Release-iphonesimulator/TVP.build/unextended-module.modulemap',
     }]
   }]
 }
