@@ -63,7 +63,7 @@ public class TVPagePlayerView: UIView {
     var playerItem : AVPlayerItem!
     var playbackTimeObserver : Any!
     let qualityDropDown = DropDown()
-    var arrQualityString : NSMutableArray!
+    var arrQualityString = NSMutableArray()
     var qualityIndex = 0
     var isVideoSliderChange = false
     
@@ -500,6 +500,7 @@ public class TVPagePlayerView: UIView {
             self.player?.replaceCurrentItem(with: avpItem)
             player?.seek(to: currentSecond!)
             videoProgress.setProgress(Float(CMTimeGetSeconds(currentSecond!)), animated: true)
+            NotificationCenter.default.addObserver(self,selector: #selector(self.moviePlayDidEnd(noti:)),name: .AVPlayerItemDidPlayToEndTime,object: avpItem)
         }
     }
     public func getDATAandALLCheck(dict:[String : Any]) {
@@ -1369,15 +1370,23 @@ public class TVPagePlayerView: UIView {
             }
         }
     }
+    
+    //MARK:- show Toast Message
     func getIconimage(iconname:String) -> UIImage {
-        
         let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
-        let  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
-        let  image = UIImage(contentsOfFile: imagePath!)
-        return image!
+        var  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
+        var  image = UIImage()
+        if imagePath != nil{
+            image = UIImage(contentsOfFile: imagePath!)!
+        }else{
+            imagePath = bundle?.path(forResource: "placeholder", ofType: "png")
+            image = UIImage(contentsOfFile: imagePath!)!
+        }
         
-//        return UIImage(named:iconname)!
+        return image
+        //        return UIImage(named:iconname)!
     }
+    
     //MARK: -  Analytics
     func Analytics_Channel_Impression(LoginID:String){
         
