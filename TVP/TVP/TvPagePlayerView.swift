@@ -665,9 +665,11 @@ public class TVPagePlayerView: UIView {
                     for (key,val) in d {
                         
                         let str:String = "\(key)"
+                        let strQualityActual:String = self.checkQuality(strQualityID: str)
                         let dic1:NSDictionary = [
                             "quality" : str,
                             "url" : val,
+                            "qualityActual" : strQualityActual,
                             ]
                         mutableArray.add(dic1)
                         self.arrQualityID.add(dic1)
@@ -679,6 +681,47 @@ public class TVPagePlayerView: UIView {
                     self.arrQualityID = NSMutableArray(array: arrSorted)
                     self.setupQualityDropDown(arr: self.arrQualityID!, urlType: strType)
                     self.qualityIndex = self.getAutoNetworkStreming()
+                    
+                    
+                    var actualyQualityArray:NSArray = NSArray()
+                    actualyQualityArray = self.arrQualityID.value(forKey: "qualityActual") as! NSArray
+                    //Set default quality order
+                    if self.qualityIndex == 0{
+                        if actualyQualityArray.contains("360p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "360p")
+                            
+                        }else if actualyQualityArray.contains("240p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "240p")
+                            
+                        }else if actualyQualityArray.contains("144p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "144p")
+                            
+                        }else if actualyQualityArray.contains("480p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "480p")
+                            
+                        }else if actualyQualityArray.contains("720p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "720p")
+                        }
+                        
+                    }else{
+                        
+                        if actualyQualityArray.contains("240p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "240p")
+                            
+                        }else if actualyQualityArray.contains("144p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "144p")
+                            
+                        }else if actualyQualityArray.contains("360p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "360p")
+                            
+                        }else if actualyQualityArray.contains("480p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "480p")
+                            
+                        }else if actualyQualityArray.contains("720p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "720p")
+                        }
+                    }
+
                     
                     let videodic:NSDictionary = self.arrQualityID.object(at: self.qualityIndex) as! NSDictionary
                     let str_QualityID = videodic.value(forKey: "quality")as? String
