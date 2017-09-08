@@ -52,7 +52,7 @@ public class TVPagePlayerView: UIView {
     public var delegate:TVPlayerDelegate?
     
     var lastScale: CGFloat = 0.0
-    var arrQualityID: NSMutableArray!
+    var arrQualityID: NSMutableArray = NSMutableArray()
     var videoEnded: Bool = false
     var played : Bool = false
     var isMuted: Bool = false
@@ -122,8 +122,6 @@ public class TVPagePlayerView: UIView {
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.addSubview(view);
-    
-        
         
     }
     //MARK: - Tapped Event
@@ -292,14 +290,15 @@ public class TVPagePlayerView: UIView {
         }
         //set quality array
         var arrFullName = strQualityFull.components(separatedBy: ",")
-        arrFullName = arrFullName.sorted { $0.localizedCaseInsensitiveCompare($1) == ComparisonResult.orderedDescending }
+        //        arrFullName = arrFullName.sorted { $0.localizedCaseInsensitiveCompare($1) == ComparisonResult.orderedDescending }
         arrFullName.insert("Auto", at: arrFullName.count)
         arrQualityString = NSMutableArray.init(array: arrFullName)
         
+        self.layoutIfNeeded()
         //set Quality Dropdown
         qualityDropDown.anchorView = btn_Quality //set  quality dropdown position
         qualityDropDown.bottomOffset = CGPoint(x: 0, y: 0)
-        qualityDropDown.direction = .top
+        qualityDropDown.direction = .any
         qualityDropDown.cellHeight = 40
         qualityDropDown.dataSource = arrFullName
         qualityDropDown.selectRow(at: arrFullName.count-1)
@@ -340,58 +339,63 @@ public class TVPagePlayerView: UIView {
             
             let internetIndex:Int = self.getAutoNetworkStreming()
             
+            if item == "Auto" {
+                
+                var actualyQualityArray:NSArray = NSArray()
+                if self.player?.accessibilityHint == "mp4" {
+                    actualyQualityArray = self.arrQualityID.value(forKey: "quality") as! NSArray
+                }else{
+                    actualyQualityArray = self.arrQualityID.value(forKey: "qualityActual") as! NSArray
+                }
+                
+                if internetIndex == 0{
+                    
+                    if actualyQualityArray.contains("360p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "360p")
+                        
+                    }else if actualyQualityArray.contains("240p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "240p")
+                        
+                    }else if actualyQualityArray.contains("144p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "144p")
+                        
+                    }else if actualyQualityArray.contains("480p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "480p")
+                        
+                    }else if actualyQualityArray.contains("720p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "720p")
+                    }
+                    
+                }else{
+                    
+                    if actualyQualityArray.contains("240p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "240p")
+                        
+                    }else if actualyQualityArray.contains("144p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "144p")
+                        
+                    }else if actualyQualityArray.contains("360p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "360p")
+                        
+                    }else if actualyQualityArray.contains("480p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "480p")
+                        
+                    }else if actualyQualityArray.contains("720p"){
+                        self.qualityIndex = actualyQualityArray.index(of: "720p")
+                    }
+                }
+            }
+            
             //check player in loded url type
             if self.player?.accessibilityHint == "mp4" {
                 
-                let dictVideo:NSDictionary = self.arrQualityID.object(at: internetIndex) as! NSDictionary
+                let dictVideo:NSDictionary = self.arrQualityID.object(at: self.qualityIndex) as! NSDictionary
                 let videoHD720URL:String = "https:\(dictVideo.value(forKey: "file")!)"
                 let videoURL = NSURL(string: videoHD720URL )
                 self.setTempPlayerValue(videoURL: videoURL! as URL)
                 
-            } else {
                 
-                if item == "Auto" {
-                    
-                    var actualyQualityArray:NSArray = NSArray()
-                    actualyQualityArray = self.arrQualityID.value(forKey: "qualityActual") as! NSArray
-                    
-                    if internetIndex == 0{
-                        
-                        if actualyQualityArray.contains("360p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "360p")
-                            
-                        }else if actualyQualityArray.contains("240p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "240p")
-                            
-                        }else if actualyQualityArray.contains("144p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "144p")
-                            
-                        }else if actualyQualityArray.contains("480p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "480p")
-                            
-                        }else if actualyQualityArray.contains("720p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "720p")
-                        }
-                        
-                    }else{
-                        
-                        if actualyQualityArray.contains("240p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "240p")
-                            
-                        }else if actualyQualityArray.contains("144p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "144p")
-                            
-                        }else if actualyQualityArray.contains("360p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "360p")
-                            
-                        }else if actualyQualityArray.contains("480p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "480p")
-                            
-                        }else if actualyQualityArray.contains("720p"){
-                            self.qualityIndex = actualyQualityArray.index(of: "720p")
-                        }
-                    }
-                }
+            } else {
                 
                 let dictVideo:NSDictionary = self.arrQualityID.object(at: self.qualityIndex) as! NSDictionary
                 let videoHD720URL:String = "\(dictVideo.value(forKey: "url")!)"
@@ -526,7 +530,7 @@ public class TVPagePlayerView: UIView {
     // Replace item to player
     func setTempPlayerValue(videoURL : URL)  {
         
-        let avpItem:AVPlayerItem  = AVPlayerItem.init(url: videoURL )
+        let avpItem:AVPlayerItem  = AVPlayerItem.init(url: videoURL)
         
         if !(self.player != nil) {
             
@@ -541,8 +545,9 @@ public class TVPagePlayerView: UIView {
             
             let currentSecond = self.player?.currentItem!.currentTime()
             self.player?.replaceCurrentItem(with: avpItem)
-            player?.seek(to: currentSecond!)
+            self.player?.seek(to: currentSecond!)
             videoProgress.setProgress(Float(CMTimeGetSeconds(currentSecond!)), animated: true)
+            
             NotificationCenter.default.addObserver(self,selector: #selector(self.moviePlayDidEnd(noti:)),name: .AVPlayerItemDidPlayToEndTime,object: avpItem)
         }
     }
@@ -570,14 +575,19 @@ public class TVPagePlayerView: UIView {
             userVideoID = ""
             userChannelID = ""
         }
+        
         imgFullscreen.image = getIconimage(iconname: "fullscreenIN1")
+        
         let dictAsset:[String : Any] = dict["asset"] as! [String : Any]
         
         if dictAsset["type"] != nil {
             
             let urlType = dictAsset["type"] as! String
             //check video type youtube or vimeo
-            let thumbImage = dictAsset["thumbnailUrl"] as! String
+            var thumbImage = dictAsset["thumbnailUrl"] as! String
+            if !thumbImage.hasPrefix("http") && thumbImage.characters.count > 0{
+                thumbImage = "http:" + thumbImage
+            }
             
             if urlType == "youtube" || urlType == "vimeo" {
                 
@@ -606,42 +616,104 @@ public class TVPagePlayerView: UIView {
                 
                 //imgPoster.sd_setImage(with: urlThumb, placeholderImage:appDelegateShared.getIconimage(iconname: "placeholder"))
                 let arrAssetSources:NSArray = dictAsset["sources"] as! NSArray
-                self.arrQualityID = NSMutableArray()
-                self.arrQualityID = NSMutableArray.init(array: arrAssetSources)
+                _ = arrAssetSources.sortedArray(using: [NSSortDescriptor(key: "quality", ascending: false)])
                 
-                setupQualityDropDown(arr: arrQualityID!, urlType: urlType)
-                self.qualityIndex = 0
-                let dictVideo:NSDictionary = arrAssetSources[0] as! NSDictionary
+                self.arrQualityID.removeAllObjects()
+                self.arrQualityID = NSMutableArray(array: arrAssetSources)
+                
+                setupQualityDropDown(arr: arrQualityID, urlType: urlType)
+                
+                let internetIndex:Int = self.getAutoNetworkStreming()
+                var actualyQualityArray:NSArray = NSArray()
+                actualyQualityArray = self.arrQualityID.value(forKey: "quality") as! NSArray
+                
+                if self.qualityIndex < self.arrQualityID.count && self.qualityIndex > 0{
+                    
+                }else{
+                    
+                    if internetIndex == 0{
+                        if actualyQualityArray.contains("360p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "360p")
+                            
+                        }else if actualyQualityArray.contains("240p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "240p")
+                            
+                        }else if actualyQualityArray.contains("144p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "144p")
+                            
+                        }else if actualyQualityArray.contains("480p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "480p")
+                            
+                        }else if actualyQualityArray.contains("720p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "720p")
+                            
+                        }else if actualyQualityArray.contains("1080p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "1080p")
+                        }
+                        
+                    }else{
+                        
+                        if actualyQualityArray.contains("240p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "240p")
+                            
+                        }else if actualyQualityArray.contains("144p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "144p")
+                            
+                        }else if actualyQualityArray.contains("360p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "360p")
+                            
+                        }else if actualyQualityArray.contains("480p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "480p")
+                            
+                        }else if actualyQualityArray.contains("720p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "720p")
+                            
+                        }else if actualyQualityArray.contains("1080p"){
+                            self.qualityIndex = actualyQualityArray.index(of: "1080p")
+                        }
+                    }
+                }
+                
+                let dictVideo:NSDictionary = arrAssetSources[self.qualityIndex] as! NSDictionary
                 let strQualityID = dictVideo.value(forKey: "quality")as? String
                 
                 if strQualityID == "144p"||strQualityID == "240p"||strQualityID == "360p"||strQualityID == "480p" {
                     
                     self.imgqualityHD.isHidden = true
                     self.imgqualityHD.image = UIImage(named:"")
-                    
+                    self.qualityIndex = 0
                 } else {
                     
                     self.imgqualityHD.isHidden = false
                     self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd")
+                    self.qualityIndex = 0
                 }
                 
                 //hlsUrl
                 var DashorHlsURL:URL!
-                if dictAsset["hlsUrl"] != nil {
-                    
-                    DashorHlsURL = URL(string: "https:\(dictAsset["hlsUrl"]!)")
-                    
-                } else if dictAsset["dashUrl"] != nil {
-                    
-                    DashorHlsURL = URL(string: "https:\(dictAsset["dashUrl"]!)")
-                    
-                } else {
-                    
-                    let videoHD720URL:String = "https:\(dictVideo.value(forKey: "file")!)"
-                    DashorHlsURL = NSURL(string: videoHD720URL )! as URL
-                }
+                //                if dictAsset["hlsUrl"] != nil {
+                //
+                //                    DashorHlsURL = URL(string: "https:\(dictAsset["hlsUrl"]!)")
+                //
+                //                    self.imgqualityHD.isHidden = false
+                //                    self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd")
+                //
+                //                } else if dictAsset["dashUrl"] != nil {
+                //
+                //                    DashorHlsURL = URL(string: "https:\(dictAsset["dashUrl"]!)")
+                //
+                //                    self.imgqualityHD.isHidden = false
+                //                    self.imgqualityHD.image = self.getIconimage(iconname: "qualityhd")
+                //
+                //                } else {
+                
+                let videoHD720URL:String = "https:\(dictVideo.value(forKey: "file")!)"
+                DashorHlsURL = NSURL(string: videoHD720URL )! as URL
+                //                }
                 self.setplayervalue(videoURL:DashorHlsURL, Type: "mp4", isplay: true)
             }
+        }else{
+            self.showAlertWithMessage(message: "Video type not supported")
         }
     }
     private func deallocObservers() {
@@ -686,6 +758,7 @@ public class TVPagePlayerView: UIView {
         viewMainPlayer.layer.addSublayer(playerLayer)
         playerLayer.videoGravity = AVLayerVideoGravityResize
         imgFullscreen.image = getIconimage(iconname: "fullscreenIN1")
+        
         if isplay {
             
             isVVanaliticsCall = true
@@ -718,18 +791,16 @@ public class TVPagePlayerView: UIView {
                         self.arrQualityID.add(dic1)
                     }
                     
-                    let arrSorted = self.arrQualityID.sortedArray(using: [NSSortDescriptor(key: "quality", ascending: false)])
+                    let arrSorted = self.arrQualityID.sortedArray(using: [NSSortDescriptor(key: "qualityActual", ascending: false)])
                     
                     self.arrQualityID.removeAllObjects()
                     self.arrQualityID = NSMutableArray(array: arrSorted)
-                    self.setupQualityDropDown(arr: self.arrQualityID!, urlType: strType)
+                    self.setupQualityDropDown(arr: self.arrQualityID, urlType: strType)
                     let internetIndex:Int = self.getAutoNetworkStreming()
-                    
                     
                     var actualyQualityArray:NSArray = NSArray()
                     actualyQualityArray = self.arrQualityID.value(forKey: "qualityActual") as! NSArray
                     //Set default quality order
-                    
                     if self.qualityIndex < self.arrQualityID.count && self.qualityIndex > 0{
                         
                     }else{
@@ -749,6 +820,9 @@ public class TVPagePlayerView: UIView {
                                 
                             }else if actualyQualityArray.contains("720p"){
                                 self.qualityIndex = actualyQualityArray.index(of: "720p")
+                                
+                            }else if actualyQualityArray.contains("1080p"){
+                                self.qualityIndex = actualyQualityArray.index(of: "1080p")
                             }
                             
                         }else{
@@ -767,11 +841,12 @@ public class TVPagePlayerView: UIView {
                                 
                             }else if actualyQualityArray.contains("720p"){
                                 self.qualityIndex = actualyQualityArray.index(of: "720p")
+                                
+                            }else if actualyQualityArray.contains("1080p"){
+                                self.qualityIndex = actualyQualityArray.index(of: "1080p")
                             }
                         }
                     }
-
-                    
                     let videodic:NSDictionary = self.arrQualityID.object(at: self.qualityIndex) as! NSDictionary
                     let str_QualityID = videodic.value(forKey: "quality")as? String
                     let strQualityName = self.checkQuality(strQualityID: str_QualityID!)
@@ -808,7 +883,6 @@ public class TVPagePlayerView: UIView {
         }
     }
     
-    //Show Alert
     func showAlertWithMessage(message:String) {
         acti_Loderview.isHidden = true
         acti_Loderview.stopAnimating()
@@ -1384,24 +1458,36 @@ public class TVPagePlayerView: UIView {
         return self.qualityIndex
     }
     public func setQuality(index: Int) {
-        self.qualityIndex = index
         
-//        let _ : String = arrQualityString.object(at: index) as! String
-//        let videodic:NSDictionary = self.arrQualityID.object(at: index) as! NSDictionary
-//        
-//        if self.player?.accessibilityHint == "mp4" {
-//            
-//            let videoHD720URL:String = "http:\(videodic.value(forKey: "file")!)"
-//            let videoURL = NSURL(string: videoHD720URL )
-//            self.setTempPlayerValue(videoURL: videoURL! as URL)
-//            
-//        } else {
-//            
-//            let videoHD720URL:String = "\(videodic.value(forKey: "url")!)"
-//            let videoURL = NSURL(string: videoHD720URL )
-//            self.setTempPlayerValue(videoURL: videoURL! as URL)
-//            
-//        }
+        //        self.perform(#selector(tempSetQuality), with:String(index)  , afterDelay: 0.5)
+        
+        self.qualityIndex = index
+    }
+    
+    func tempSetQuality(indexStr: String) {
+        
+        let index:Int = Int(indexStr)!
+        
+        if index < arrQualityString.count{
+            self.qualityIndex = index
+            
+            let _ : String = arrQualityString.object(at: index) as! String
+            let videodic:NSDictionary = self.arrQualityID.object(at: index) as! NSDictionary
+            
+            if self.player?.accessibilityHint == "mp4" {
+                
+                let videoHD720URL:String = "http:\(videodic.value(forKey: "file")!)"
+                let videoURL = NSURL(string: videoHD720URL )
+                self.setTempPlayerValue(videoURL: videoURL! as URL)
+                
+            } else {
+                
+                let videoHD720URL:String = "\(videodic.value(forKey: "url")!)"
+                let videoURL = NSURL(string: videoHD720URL )
+                self.setTempPlayerValue(videoURL: videoURL! as URL)
+                
+            }
+        }
     }
     public func getQualityLevels() -> NSMutableArray {
         //return quality array
@@ -1480,7 +1566,7 @@ public class TVPagePlayerView: UIView {
     }
     
     //MARK:- show Toast Message
-    func getIconimage(iconname:String) -> UIImage {
+    public func getIconimage(iconname:String) -> UIImage {
         let  bundle = Bundle(url: Bundle.main.url(forResource: "TVPBundle", withExtension: "bundle")!)
         var  imagePath: String? = bundle?.path(forResource: iconname, ofType: "png")
         var  image = UIImage()
@@ -1494,7 +1580,6 @@ public class TVPagePlayerView: UIView {
         return image
         //        return UIImage(named:iconname)!
     }
-    
     //MARK: -  Analytics
     func Analytics_Channel_Impression(LoginID:String){
         
@@ -1512,8 +1597,8 @@ public class TVPagePlayerView: UIView {
                     
                 } else {
                     
-                    let httpResponse = response as? HTTPURLResponse
-                    print(httpResponse ?? "")
+                    _ = response as? HTTPURLResponse
+                    //                    print(httpResponse ?? "")
                 }
             })
             dataTask.resume()
@@ -1536,8 +1621,8 @@ public class TVPagePlayerView: UIView {
                     //print(error!)
                 } else {
                     
-                    let httpResponse = response as? HTTPURLResponse
-                    print(httpResponse!)
+                    _ = response as? HTTPURLResponse
+                    //                    print(httpResponse!)
                 }
             })
             dataTask.resume()
@@ -1561,8 +1646,8 @@ public class TVPagePlayerView: UIView {
                     
                 } else {
                     
-                    let httpResponse = response as? HTTPURLResponse
-                    print("httpResponse : \(String(describing: httpResponse))")
+                    _ = response as? HTTPURLResponse
+                    //                    print("httpResponse : \(String(describing: httpResponse))")
                 }
             })
             dataTask.resume()
@@ -1602,7 +1687,7 @@ public class TVPagePlayerView: UIView {
                     }
                 } else {
                     
-                    let httpResponse = response as? HTTPURLResponse
+                    _ = response as? HTTPURLResponse
                     if completion != nil {
                         
                         let isVideoPlayerOpen = UserDefaults.standard.object(forKey: "isVideoPlayerOpen") as! String
@@ -1611,8 +1696,8 @@ public class TVPagePlayerView: UIView {
                         if isVideoPlayerOpen == "YES" {
                             
                             completion!(errorStr)
-                            print(httpResponse!)
-                            print("Application is back11")
+                            //                            print(httpResponse!)
+                            //                            print("Application is back11")
                             
                         } else {
                             
@@ -1650,12 +1735,12 @@ public class TVPagePlayerView: UIView {
                     }
                 } else {
                     
-                    let httpResponse = response as? HTTPURLResponse
+                    _ = response as? HTTPURLResponse
                     if completion != nil {
                         
                         completion!(errorStr)
                     }
-                    print(httpResponse!)
+                    //                    print(httpResponse!)
                 }
             })
             dataTask.resume()

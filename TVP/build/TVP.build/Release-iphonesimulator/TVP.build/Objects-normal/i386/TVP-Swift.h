@@ -388,6 +388,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 - (void)enableControls;
 - (void)hideControlsWithIsAnimated:(BOOL)isAnimated;
 - (void)showControlsWithIsAnimated:(BOOL)isAnimated;
+- (UIImage * _Nonnull)getIconimageWithIconname:(NSString * _Nonnull)iconname SWIFT_WARN_UNUSED_RESULT;
 - (void)analyticsProductImpressionWithLoginID:(NSString * _Nonnull)loginID channelID:(NSString * _Nonnull)channelID videoID:(NSString * _Nonnull)videoID productID:(NSString * _Nonnull)productID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
 - (void)analyticsProductClickWithLoginID:(NSString * _Nonnull)loginID channelID:(NSString * _Nonnull)channelID videoID:(NSString * _Nonnull)videoID productID:(NSString * _Nonnull)productID completion:(void (^ _Nullable)(NSString * _Nonnull))completion;
 - (void)removeFromSuperview;
