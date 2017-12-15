@@ -1,0 +1,11 @@
+framework module TVPFramework {
+  umbrella header "TVPFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TVPFramework.Swift {
+    header "TVPFramework-Swift.h"
+    requires objc
+}

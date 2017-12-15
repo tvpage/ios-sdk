@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DPDConstant"
+provides-nominal:
+- "12TVPFramework11DPDConstantV"
+- "12TVPFramework11DPDConstantV7KeyPathV"
+- "12TVPFramework11DPDConstantV18ReusableIdentifierV"
+- "12TVPFramework11DPDConstantV2UIV"
+- "12TVPFramework11DPDConstantV2UIV6ShadowV"
+- "12TVPFramework11DPDConstantV9AnimationV"
+provides-member:
+- ["12TVPFramework11DPDConstantV", ""]
+- ["12TVPFramework11DPDConstantV7KeyPathV", ""]
+- ["12TVPFramework11DPDConstantV18ReusableIdentifierV", ""]
+- ["12TVPFramework11DPDConstantV2UIV", ""]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", ""]
+- ["12TVPFramework11DPDConstantV9AnimationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "/"
+- "Array"
+- "CGAffineTransform"
+- "CGFloat"
+- "CGSize"
+- "DPDConstant"
+- "Float"
+- "StringLiteralType"
+- "UIColor"
+- "UIFont"
+- "UIViewAnimationOptions"
+depends-member:
+- ["12TVPFramework11DPDConstantV9AnimationV", "CGAffineTransform"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "DownScaleTransform"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "Duration"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "EntranceOptions"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "ExitOptions"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "UIViewAnimationOptions"]
+- ["12TVPFramework11DPDConstantV9AnimationV", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["SC17CGAffineTransformV", "init"]
+- ["SC6CGSizeV", "zero"]
+- ["s7CVarArgP", "black"]
+- ["s7CVarArgP", "clear"]
+- ["s7CVarArgP", "darkGray"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "white"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- ["s28CustomDebugStringConvertibleP", "clear"]
+- ["s28CustomDebugStringConvertibleP", "darkGray"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "clear"]
+- ["s23CustomStringConvertibleP", "darkGray"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["12TVPFramework11DPDConstantV", "Animation"]
+- ["12TVPFramework11DPDConstantV", "CGAffineTransform"]
+- ["12TVPFramework11DPDConstantV", "CGFloat"]
+- ["12TVPFramework11DPDConstantV", "CGSize"]
+- ["12TVPFramework11DPDConstantV", "Float"]
+- ["12TVPFramework11DPDConstantV", "KeyPath"]
+- ["12TVPFramework11DPDConstantV", "ReusableIdentifier"]
+- ["12TVPFramework11DPDConstantV", "UI"]
+- ["12TVPFramework11DPDConstantV", "UIColor"]
+- ["12TVPFramework11DPDConstantV", "UIFont"]
+- ["12TVPFramework11DPDConstantV", "UIViewAnimationOptions"]
+- ["12TVPFramework11DPDConstantV", "init"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "zero"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "zero"]
+- ["s9EquatableP", "allowUserInteraction"]
+- ["s9EquatableP", "black"]
+- ["s9EquatableP", "clear"]
+- ["s9EquatableP", "curveEaseIn"]
+- ["s9EquatableP", "curveEaseOut"]
+- ["s9EquatableP", "darkGray"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "systemFont"]
+- ["s9EquatableP", "white"]
+- ["s9EquatableP", "zero"]
+- ["s25ExpressibleByArrayLiteralP", "allowUserInteraction"]
+- ["s25ExpressibleByArrayLiteralP", "curveEaseIn"]
+- ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "black"]
+- ["s8HashableP", "clear"]
+- ["s8HashableP", "darkGray"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "systemFont"]
+- ["s8HashableP", "white"]
+- ["12TVPFramework11DPDConstantV7KeyPathV", "Frame"]
+- ["12TVPFramework11DPDConstantV7KeyPathV", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "clear"]
+- ["So8NSCodingP", "darkGray"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "clear"]
+- ["So9NSCopyingP", "darkGray"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderReadingP", "darkGray"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "clear"]
+- ["So21NSItemProviderWritingP", "darkGray"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "darkGray"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "white"]
+- ["So16NSObjectProtocolP", "black"]
+- ["So16NSObjectProtocolP", "clear"]
+- ["So16NSObjectProtocolP", "darkGray"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "systemFont"]
+- ["So16NSObjectProtocolP", "white"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "clear"]
+- ["So14NSSecureCodingP", "darkGray"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "white"]
+- ["So8NSStringC", "init"]
+- ["s9OptionSetP", "allowUserInteraction"]
+- ["s9OptionSetP", "curveEaseIn"]
+- ["s9OptionSetP", "curveEaseOut"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "allowUserInteraction"]
+- ["s16RawRepresentableP", "curveEaseIn"]
+- ["s16RawRepresentableP", "curveEaseOut"]
+- ["12TVPFramework11DPDConstantV18ReusableIdentifierV", "DropDownCell"]
+- ["12TVPFramework11DPDConstantV18ReusableIdentifierV", "init"]
+- ["s8SequenceP", "init"]
+- ["s10SetAlgebraP", "allowUserInteraction"]
+- ["s10SetAlgebraP", "curveEaseIn"]
+- ["s10SetAlgebraP", "curveEaseOut"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "CGFloat"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "CGSize"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "Color"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "Float"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "Offset"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "Opacity"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "Radius"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "UIColor"]
+- ["12TVPFramework11DPDConstantV2UIV6ShadowV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["12TVPFramework11DPDConstantV2UIV", "BackgroundColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "CGFloat"]
+- ["12TVPFramework11DPDConstantV2UIV", "CGSize"]
+- ["12TVPFramework11DPDConstantV2UIV", "CornerRadius"]
+- ["12TVPFramework11DPDConstantV2UIV", "Float"]
+- ["12TVPFramework11DPDConstantV2UIV", "HeightPadding"]
+- ["12TVPFramework11DPDConstantV2UIV", "RowHeight"]
+- ["12TVPFramework11DPDConstantV2UIV", "SelectionBackgroundColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "SelectionTextColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "SeparatorColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "Shadow"]
+- ["12TVPFramework11DPDConstantV2UIV", "TextColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "TextFont"]
+- ["12TVPFramework11DPDConstantV2UIV", "UIColor"]
+- ["12TVPFramework11DPDConstantV2UIV", "UIFont"]
+- ["12TVPFramework11DPDConstantV2UIV", "init"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "clear"]
+- ["So7UIColorC", "darkGray"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "white"]
+- ["So6UIFontC", "systemFont"]
+- ["SC22UIViewAnimationOptionsV", "allowUserInteraction"]
+- ["SC22UIViewAnimationOptionsV", "curveEaseIn"]
+- ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12TVPFramework11DPDConstantV9AnimationV"
+- "s23BidirectionalCollectionP"
+- "SC17CGAffineTransformV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "12TVPFramework11DPDConstantV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "12TVPFramework11DPDConstantV7KeyPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s9OptionSetP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "12TVPFramework11DPDConstantV18ReusableIdentifierV"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- "12TVPFramework11DPDConstantV2UIV6ShadowV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "12TVPFramework11DPDConstantV2UIV"
+- "So7UIColorC"
+- "So6UIFontC"
+- "SC22UIViewAnimationOptionsV"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+interface-hash: "6813edc92512a0759aee9330c953997f"

@@ -1,0 +1,261 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CellProduct"
+provides-nominal:
+- "12TVPFramework11CellProductC"
+provides-member:
+- ["12TVPFramework11CellProductC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "btnViewDetails"
+- "imgPlaceholder"
+- "imgProducts"
+- "lblDetail"
+- "lblRate"
+- "lblRatings"
+- "lblTitle"
+- "lblViewDetails"
+- "viewContainer"
+- "viewRateBG"
+- "viewRatings"
+depends-top-level:
+- "CellProduct"
+- "RateView"
+- "UICollectionViewCell"
+- "UIControl"
+- "UIImageView"
+- "UILabel"
+- "UIView"
+depends-member:
+- !private ["12TVPFramework10AnchorViewP", "awakeFromNib"]
+- !private ["12TVPFramework10AnchorViewP", "init"]
+- ["12TVPFramework10AnchorViewP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- ["12TVPFramework11CellProductC", "RateView"]
+- ["12TVPFramework11CellProductC", "UIControl"]
+- ["12TVPFramework11CellProductC", "UIImageView"]
+- ["12TVPFramework11CellProductC", "UILabel"]
+- ["12TVPFramework11CellProductC", "UIView"]
+- ["12TVPFramework11CellProductC", "awakeFromNib"]
+- ["12TVPFramework11CellProductC", "btnViewDetails"]
+- ["12TVPFramework11CellProductC", "deinit"]
+- ["12TVPFramework11CellProductC", "imgPlaceholder"]
+- ["12TVPFramework11CellProductC", "imgProducts"]
+- ["12TVPFramework11CellProductC", "init"]
+- ["12TVPFramework11CellProductC", "lblDetail"]
+- ["12TVPFramework11CellProductC", "lblRate"]
+- ["12TVPFramework11CellProductC", "lblRatings"]
+- ["12TVPFramework11CellProductC", "lblTitle"]
+- ["12TVPFramework11CellProductC", "lblViewDetails"]
+- ["12TVPFramework11CellProductC", "viewContainer"]
+- ["12TVPFramework11CellProductC", "viewRateBG"]
+- ["12TVPFramework11CellProductC", "viewRatings"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "RateView"]
+- ["So8NSObjectC", "UIControl"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "btnViewDetails"]
+- ["So8NSObjectC", "imgPlaceholder"]
+- ["So8NSObjectC", "imgProducts"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lblDetail"]
+- ["So8NSObjectC", "lblRate"]
+- ["So8NSObjectC", "lblRatings"]
+- ["So8NSObjectC", "lblTitle"]
+- ["So8NSObjectC", "lblViewDetails"]
+- ["So8NSObjectC", "viewContainer"]
+- ["So8NSObjectC", "viewRateBG"]
+- ["So8NSObjectC", "viewRatings"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "RateView"]
+- ["So24UICollectionReusableViewC", "UIControl"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", "UIView"]
+- ["So24UICollectionReusableViewC", "awakeFromNib"]
+- ["So24UICollectionReusableViewC", "btnViewDetails"]
+- ["So24UICollectionReusableViewC", "imgPlaceholder"]
+- ["So24UICollectionReusableViewC", "imgProducts"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "lblDetail"]
+- ["So24UICollectionReusableViewC", "lblRate"]
+- ["So24UICollectionReusableViewC", "lblRatings"]
+- ["So24UICollectionReusableViewC", "lblTitle"]
+- ["So24UICollectionReusableViewC", "lblViewDetails"]
+- ["So24UICollectionReusableViewC", "viewContainer"]
+- ["So24UICollectionReusableViewC", "viewRateBG"]
+- ["So24UICollectionReusableViewC", "viewRatings"]
+- ["So20UICollectionViewCellC", "RateView"]
+- ["So20UICollectionViewCellC", "UIControl"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", "UIView"]
+- ["So20UICollectionViewCellC", "awakeFromNib"]
+- ["So20UICollectionViewCellC", "btnViewDetails"]
+- ["So20UICollectionViewCellC", "imgPlaceholder"]
+- ["So20UICollectionViewCellC", "imgProducts"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "lblDetail"]
+- ["So20UICollectionViewCellC", "lblRate"]
+- ["So20UICollectionViewCellC", "lblRatings"]
+- ["So20UICollectionViewCellC", "lblTitle"]
+- ["So20UICollectionViewCellC", "lblViewDetails"]
+- ["So20UICollectionViewCellC", "viewContainer"]
+- ["So20UICollectionViewCellC", "viewRateBG"]
+- ["So20UICollectionViewCellC", "viewRatings"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "RateView"]
+- ["So11UIResponderC", "UIControl"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "btnViewDetails"]
+- ["So11UIResponderC", "imgPlaceholder"]
+- ["So11UIResponderC", "imgProducts"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lblDetail"]
+- ["So11UIResponderC", "lblRate"]
+- ["So11UIResponderC", "lblRatings"]
+- ["So11UIResponderC", "lblTitle"]
+- ["So11UIResponderC", "lblViewDetails"]
+- ["So11UIResponderC", "viewContainer"]
+- ["So11UIResponderC", "viewRateBG"]
+- ["So11UIResponderC", "viewRatings"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "RateView"]
+- ["So6UIViewC", "UIControl"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "btnViewDetails"]
+- ["So6UIViewC", "imgPlaceholder"]
+- ["So6UIViewC", "imgProducts"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "lblDetail"]
+- ["So6UIViewC", "lblRate"]
+- ["So6UIViewC", "lblRatings"]
+- ["So6UIViewC", "lblTitle"]
+- ["So6UIViewC", "lblViewDetails"]
+- ["So6UIViewC", "viewContainer"]
+- ["So6UIViewC", "viewRateBG"]
+- ["So6UIViewC", "viewRatings"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "12TVPFramework10AnchorViewP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "12TVPFramework11CellProductC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Live Project/TVPagePlayer/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+interface-hash: "48dc1fbac740f985d4b9f12721baffbb"

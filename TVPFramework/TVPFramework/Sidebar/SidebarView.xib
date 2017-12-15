@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DosisBold.ttf">
+            <string>Dosis-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SidebarView">
+            <connections>
+                <outlet property="constraintHeaderTitleLeading" destination="uxJ-vv-sty" id="oCv-0G-T1f"/>
+                <outlet property="constraintHeaderTitleTrailing" destination="GTn-l1-D81" id="u01-IV-ReG"/>
+                <outlet property="cvVideoList" destination="0la-05-off" id="BGZ-1m-Hkn"/>
+                <outlet property="imgHeaderUnderLine" destination="09G-Wj-EAs" id="dxW-Q9-iBX"/>
+                <outlet property="lblHeaderTitle" destination="Dlv-eN-bHh" id="X04-az-ynC"/>
+                <outlet property="viewContentPlayer" destination="4LD-iD-DwB" id="0Gm-Hr-50u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hM-w5-Ado">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dx-De-zT2">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LATEST VIDEOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlv-eN-bHh">
+                                    <rect key="frame" x="0.0" y="27" width="375" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="Njm-f4-D5K"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Dosis-Bold" family="Dosis" pointSize="25"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgHeaderUnderLine" translatesAutoresizingMaskIntoConstraints="NO" id="09G-Wj-EAs">
+                                    <rect key="frame" x="155" y="59" width="64" height="4"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="64" id="BtU-ft-aad"/>
+                                        <constraint firstAttribute="height" constant="4" id="oHH-hS-QYh"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="09G-Wj-EAs" firstAttribute="top" secondItem="Dlv-eN-bHh" secondAttribute="bottom" constant="2" id="0b8-Ud-9en"/>
+                                <constraint firstAttribute="trailing" secondItem="Dlv-eN-bHh" secondAttribute="trailing" id="GTn-l1-D81"/>
+                                <constraint firstItem="Dlv-eN-bHh" firstAttribute="top" secondItem="6dx-De-zT2" secondAttribute="top" constant="27" id="OQD-81-Bzc"/>
+                                <constraint firstItem="09G-Wj-EAs" firstAttribute="centerX" secondItem="6dx-De-zT2" secondAttribute="centerX" id="dpJ-tp-ZVe"/>
+                                <constraint firstAttribute="height" constant="68" id="gg1-Ng-TTj"/>
+                                <constraint firstItem="Dlv-eN-bHh" firstAttribute="leading" secondItem="6dx-De-zT2" secondAttribute="leading" id="uxJ-vv-sty"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovd-2b-Qbl">
+                            <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0la-05-off">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <inset key="scrollIndicatorInsets" minX="13" minY="13" maxX="13" maxY="13"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="13" minimumInteritemSpacing="13" id="Ep6-XB-o5O">
+                                        <size key="itemSize" width="170" height="140"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="50" height="50"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LD-iD-DwB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="376"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="376" id="nec-01-MZ6"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="4LD-iD-DwB" firstAttribute="top" secondItem="ovd-2b-Qbl" secondAttribute="top" id="Rme-9n-B7i"/>
+                                <constraint firstAttribute="trailing" secondItem="0la-05-off" secondAttribute="trailing" id="hsB-Rn-wwC"/>
+                                <constraint firstItem="4LD-iD-DwB" firstAttribute="leading" secondItem="ovd-2b-Qbl" secondAttribute="leading" id="mll-79-kK9"/>
+                                <constraint firstAttribute="bottom" secondItem="0la-05-off" secondAttribute="bottom" id="sDF-TY-Qj9"/>
+                                <constraint firstAttribute="trailing" secondItem="4LD-iD-DwB" secondAttribute="trailing" id="vk4-lg-CnX"/>
+                                <constraint firstItem="0la-05-off" firstAttribute="leading" secondItem="ovd-2b-Qbl" secondAttribute="leading" id="vnr-Vn-0ob"/>
+                                <constraint firstItem="0la-05-off" firstAttribute="top" secondItem="ovd-2b-Qbl" secondAttribute="top" id="zNc-qg-tZo"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6dx-De-zT2" firstAttribute="leading" secondItem="2hM-w5-Ado" secondAttribute="leading" id="0HZ-rI-KpC"/>
+                        <constraint firstAttribute="trailing" secondItem="ovd-2b-Qbl" secondAttribute="trailing" id="Pwi-Ku-XZ8"/>
+                        <constraint firstItem="6dx-De-zT2" firstAttribute="top" secondItem="2hM-w5-Ado" secondAttribute="top" id="UNa-yp-XPd"/>
+                        <constraint firstItem="ovd-2b-Qbl" firstAttribute="top" secondItem="6dx-De-zT2" secondAttribute="bottom" id="V1d-wy-ohp"/>
+                        <constraint firstItem="ovd-2b-Qbl" firstAttribute="leading" secondItem="2hM-w5-Ado" secondAttribute="leading" id="cC0-X0-Ura"/>
+                        <constraint firstAttribute="bottom" secondItem="ovd-2b-Qbl" secondAttribute="bottom" id="gCd-7P-WkZ"/>
+                        <constraint firstAttribute="trailing" secondItem="6dx-De-zT2" secondAttribute="trailing" id="gXA-GZ-h6o"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2hM-w5-Ado" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="2Rq-Wv-m5I"/>
+                <constraint firstItem="2hM-w5-Ado" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="As6-hT-2ot"/>
+                <constraint firstItem="2hM-w5-Ado" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="hzb-ez-rl2"/>
+                <constraint firstItem="2hM-w5-Ado" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uVJ-Yf-pWS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="i5c-7p-DQP"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imgHeaderUnderLine" width="64" height="4"/>
+    </resources>
+</document>
