@@ -15,10 +15,10 @@
 		EF56AF231FCEC6320085395A /* TVPagePhase2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF221FCEC6320085395A /* TVPagePhase2UITests.swift */; };
 		EF56AF331FCEC94D0085395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF321FCEC9490085395A /* AppDelegate.swift */; };
 		EF56AF371FCEC98A0085395A /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF361FCEC9870085395A /* SideMenuVC.swift */; };
+		EF5AE6A820248CA3002A752A /* TVPResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF5AE6A720248C9F002A752A /* TVPResources.bundle */; };
+		EF5AE6C320249B3F002A752A /* TVPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5AE6C120249B2E002A752A /* TVPFramework.framework */; };
+		EF5AE6C420249B3F002A752A /* TVPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF5AE6C120249B2E002A752A /* TVPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EF650BE220088B1000FD287E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650BE120088B1000FD287E /* HomeVC.swift */; };
-		EF650C062008CB8300FD287E /* TVPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF650C042008CB7800FD287E /* TVPFramework.framework */; };
-		EF650C072008CB8300FD287E /* TVPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF650C042008CB7800FD287E /* TVPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF68967B1FFE68AB009C0186 /* TVPResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF68967A1FFE68A9009C0186 /* TVPResources.bundle */; };
 		EF74A78B1FE3F41E00AAEACB /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BCF1FCECFF30024F915 /* Validation.m */; };
 		EF74A78C1FE3F42300AAEACB /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD21FCED05E0024F915 /* MKAnnotationView+WebCache.m */; };
 		EF74A78D1FE3F42600AAEACB /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD41FCED05E0024F915 /* NSData+ImageContentType.m */; };
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EF650C072008CB8300FD287E /* TVPFramework.framework in Embed Frameworks */,
+				EF5AE6C420249B3F002A752A /* TVPFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,9 +87,9 @@
 		EF56AF241FCEC6320085395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF56AF321FCEC9490085395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF56AF361FCEC9870085395A /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		EF5AE6A720248C9F002A752A /* TVPResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TVPResources.bundle; sourceTree = "<group>"; };
+		EF5AE6C120249B2E002A752A /* TVPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVPFramework.framework; sourceTree = "<group>"; };
 		EF650BE120088B1000FD287E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		EF650C042008CB7800FD287E /* TVPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVPFramework.framework; sourceTree = "<group>"; };
-		EF68967A1FFE68A9009C0186 /* TVPResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TVPResources.bundle; sourceTree = "<group>"; };
 		EFB46BC81FCECF400024F915 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		EFB46BC91FCECF400024F915 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		EFB46BCA1FCECF400024F915 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF650C062008CB8300FD287E /* TVPFramework.framework in Frameworks */,
+				EF5AE6C320249B3F002A752A /* TVPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +337,8 @@
 		EFB46C221FCED7F70024F915 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				EF650C042008CB7800FD287E /* TVPFramework.framework */,
-				EF68967A1FFE68A9009C0186 /* TVPResources.bundle */,
+				EF5AE6C120249B2E002A752A /* TVPFramework.framework */,
+				EF5AE6A720248C9F002A752A /* TVPResources.bundle */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -452,7 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF68967B1FFE68AB009C0186 /* TVPResources.bundle in Resources */,
+				EF5AE6A820248CA3002A752A /* TVPResources.bundle in Resources */,
 				EF56AF0D1FCEC6310085395A /* LaunchScreen.storyboard in Resources */,
 				EF56AF0A1FCEC6310085395A /* Assets.xcassets in Resources */,
 				EF56AF051FCEC6310085395A /* Main.storyboard in Resources */,

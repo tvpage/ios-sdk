@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y3F-pD-iZa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y3F-pD-iZa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -82,17 +82,34 @@
                                     <action selector="tappedOnCarousel:" destination="hIe-bi-WvV" eventType="touchUpInside" id="Qv4-IS-680"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Eg-mG-Vvn">
+                                <rect key="frame" x="50" y="300" width="275" height="40"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.38823529410000002" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="yLV-EO-JKx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Video Gallery">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapedOnVideoGallery:" destination="hIe-bi-WvV" eventType="touchUpInside" id="cm7-UD-RHL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="UQB-3i-1jq" firstAttribute="trailing" secondItem="6Eg-mG-Vvn" secondAttribute="trailing" constant="50" id="5M7-8c-lAQ"/>
                             <constraint firstItem="9Eh-EY-Cva" firstAttribute="leading" secondItem="UQB-3i-1jq" secondAttribute="leading" constant="50" id="9Au-yY-xVg"/>
                             <constraint firstItem="9Eh-EY-Cva" firstAttribute="top" secondItem="Ebx-dK-25O" secondAttribute="bottom" constant="40" id="9XU-La-bbX"/>
                             <constraint firstItem="UQB-3i-1jq" firstAttribute="trailing" secondItem="5Ov-s5-GGQ" secondAttribute="trailing" constant="50" id="CU3-Gs-jTo"/>
                             <constraint firstItem="UQB-3i-1jq" firstAttribute="trailing" secondItem="9Eh-EY-Cva" secondAttribute="trailing" constant="50" id="HZx-gw-Gic"/>
                             <constraint firstItem="5Ov-s5-GGQ" firstAttribute="top" secondItem="9Eh-EY-Cva" secondAttribute="bottom" constant="40" id="Jn3-9E-j16"/>
+                            <constraint firstItem="6Eg-mG-Vvn" firstAttribute="leading" secondItem="UQB-3i-1jq" secondAttribute="leading" constant="50" id="Lsh-Dd-NKV"/>
                             <constraint firstItem="Ebx-dK-25O" firstAttribute="leading" secondItem="UQB-3i-1jq" secondAttribute="leading" constant="50" id="OK2-N6-beq"/>
                             <constraint firstItem="5Ov-s5-GGQ" firstAttribute="leading" secondItem="UQB-3i-1jq" secondAttribute="leading" constant="50" id="q45-Ns-qcf"/>
                             <constraint firstItem="UQB-3i-1jq" firstAttribute="trailing" secondItem="Ebx-dK-25O" secondAttribute="trailing" constant="50" id="rEG-uP-AH2"/>
+                            <constraint firstItem="6Eg-mG-Vvn" firstAttribute="top" secondItem="5Ov-s5-GGQ" secondAttribute="bottom" constant="40" id="wEd-jb-z6J"/>
                             <constraint firstItem="Ebx-dK-25O" firstAttribute="top" secondItem="UQB-3i-1jq" secondAttribute="top" constant="40" id="zZy-Fq-naJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UQB-3i-1jq"/>

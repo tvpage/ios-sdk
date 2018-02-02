@@ -48,6 +48,11 @@ extension HomeVC {
         //Redirect To Widget Screen
         self.redirectToWidgetScreen(type: .carousel)
     }
+    @IBAction func tapedOnVideoGallery(_ sender: Any) {
+        
+        //Redirect To Video Gallery Screen
+        self.redirectToWidgetScreen(type: .videoGallery)
+    }
 }
 //MARK: Widget Type
 enum WidgetType {
@@ -55,5 +60,6 @@ enum WidgetType {
     case sidebar
     case solo
     case carousel
+    case videoGallery
     case none
 }

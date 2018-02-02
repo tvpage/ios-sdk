@@ -1,0 +1,740 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": null,
+      "symbol": "CarouselView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": null,
+      "symbol": "CarouselView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": null,
+      "symbol": "CarouselView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": null,
+      "symbol": "CarouselView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 6,
+      "symbol": "CarouselView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 9,
+      "symbol": "CarouselView.constraintHeaderTitleLeading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 10,
+      "symbol": "CarouselView.constraintHeaderTitleTrailing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 11,
+      "symbol": "CarouselView.lblHeaderTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 12,
+      "symbol": "CarouselView.imgHeaderUnderLine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 13,
+      "symbol": "CarouselView.cvVideoList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 16,
+      "symbol": "CarouselView.arrVideosList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 17,
+      "symbol": "CarouselView.cellWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 18,
+      "symbol": "CarouselView.cellHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 21,
+      "symbol": "CarouselView.isChannelVideoListAPICalling",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 22,
+      "symbol": "CarouselView.videoPageNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 25,
+      "symbol": "CarouselView.playerPopUpVeiw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 398,
+      "symbol": "CarouselView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 408,
+      "symbol": "CarouselView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 557,
+      "symbol": "CarouselView.installFont(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 660,
+      "symbol": "CarouselView.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 670,
+      "symbol": "CarouselView.scrollViewWillBeginDragging(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 687,
+      "symbol": "CarouselView.scrollViewDidEndDecelerating(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 704,
+      "symbol": "CarouselView.scrollViewDidEndDragging(_:willDecelerate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 725,
+      "symbol": "CarouselView.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 731,
+      "symbol": "CarouselView.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 740,
+      "symbol": "CarouselView.collectionView(_:willDisplay:forItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 785,
+      "symbol": "CarouselView.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 795,
+      "symbol": "CarouselView.resetCarouselView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 808,
+      "symbol": "CarouselView.refreshSidebarData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/CarouselView.swift",
+      "line": 813,
+      "symbol": "CarouselView.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": null,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 6,
+      "symbol": "SidebarView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 9,
+      "symbol": "SidebarView.constraintHeaderTitleLeading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 10,
+      "symbol": "SidebarView.constraintHeaderTitleTrailing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 11,
+      "symbol": "SidebarView.lblHeaderTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 12,
+      "symbol": "SidebarView.imgHeaderUnderLine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 13,
+      "symbol": "SidebarView.cvVideoList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 16,
+      "symbol": "SidebarView.arrVideosList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 17,
+      "symbol": "SidebarView.cellWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 18,
+      "symbol": "SidebarView.cellHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 21,
+      "symbol": "SidebarView.viewContentPlayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 22,
+      "symbol": "SidebarView.playerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 25,
+      "symbol": "SidebarView.isChannelVideoListAPICalling",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 26,
+      "symbol": "SidebarView.videoPageNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 29,
+      "symbol": "SidebarView.playerPopUpVeiw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 444,
+      "symbol": "SidebarView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 453,
+      "symbol": "SidebarView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 590,
+      "symbol": "SidebarView.installFont(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 670,
+      "symbol": "SidebarView.tappedOnLoadMore()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 679,
+      "symbol": "SidebarView.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 694,
+      "symbol": "SidebarView.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 700,
+      "symbol": "SidebarView.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 707,
+      "symbol": "SidebarView.collectionView(_:willDisplay:forItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 749,
+      "symbol": "SidebarView.collectionView(_:viewForSupplementaryElementOfKind:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 787,
+      "symbol": "SidebarView.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 792,
+      "symbol": "SidebarView.collectionView(_:layout:referenceSizeForFooterInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 806,
+      "symbol": "SidebarView.tvPlayerReady(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 811,
+      "symbol": "SidebarView.tvPlayerError(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 816,
+      "symbol": "SidebarView.tvPlayerMediaReady(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 821,
+      "symbol": "SidebarView.tvPlayerMediaError(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 826,
+      "symbol": "SidebarView.tvPlayerErrorForbidden(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 831,
+      "symbol": "SidebarView.tvPlayerErrorHTML5Forbidden(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 836,
+      "symbol": "SidebarView.tvPlayerMediaComplete(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 841,
+      "symbol": "SidebarView.tvPlayerCued(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 846,
+      "symbol": "SidebarView.tvPlayerMediaVideoended(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 851,
+      "symbol": "SidebarView.tvPlayerMediaVideoplaying(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 856,
+      "symbol": "SidebarView.tvPlayerMediaVideopaused(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 861,
+      "symbol": "SidebarView.tvPlayerMediaVideobuffering(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 866,
+      "symbol": "SidebarView.tvPlayerPlaybackQualityChange(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 871,
+      "symbol": "SidebarView.tvPlayerMediaProviderChange(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 876,
+      "symbol": "SidebarView.tvPlayerSeek(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 881,
+      "symbol": "SidebarView.tvPlayerVideoLoad(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 886,
+      "symbol": "SidebarView.tvPlayerVideoCued(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 895,
+      "symbol": "SidebarView.resetSidebar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 908,
+      "symbol": "SidebarView.refreshSidebarData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SidebarView.swift",
+      "line": 913,
+      "symbol": "SidebarView.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": null,
+      "symbol": "SoloView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": null,
+      "symbol": "SoloView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": null,
+      "symbol": "SoloView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": null,
+      "symbol": "SoloView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 4,
+      "symbol": "SoloView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 7,
+      "symbol": "SoloView.cvVideoList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 10,
+      "symbol": "SoloView.arrVideosList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 11,
+      "symbol": "SoloView.cellWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 12,
+      "symbol": "SoloView.cellHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 15,
+      "symbol": "SoloView.isProductVideoListAPICalling",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 18,
+      "symbol": "SoloView.playerPopUpVeiw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 183,
+      "symbol": "SoloView.product_popup_width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 334,
+      "symbol": "SoloView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 344,
+      "symbol": "SoloView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 484,
+      "symbol": "SoloView.installFont(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 583,
+      "symbol": "SoloView.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 593,
+      "symbol": "SoloView.scrollViewWillBeginDragging(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 610,
+      "symbol": "SoloView.scrollViewDidEndDecelerating(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 627,
+      "symbol": "SoloView.scrollViewDidEndDragging(_:willDecelerate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 648,
+      "symbol": "SoloView.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 654,
+      "symbol": "SoloView.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 660,
+      "symbol": "SoloView.collectionView(_:willDisplay:forItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 704,
+      "symbol": "SoloView.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dilipmanek/Desktop/TestDemo/TestDemo/SoloView.swift",
+      "line": 714,
+      "symbol": "SoloView.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/dilipmanek/Desktop/TestDemo"
+}

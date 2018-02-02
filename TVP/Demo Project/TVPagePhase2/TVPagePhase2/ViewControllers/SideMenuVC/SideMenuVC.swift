@@ -58,12 +58,6 @@ class SideMenuVC: UIViewController {
             
             //SidebarView
             let sidebarView = SidebarView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height - viewContent.frame.origin.y))
-            
-            sidebarView.items_per_row = 2
-            sidebarView.item_title_padding = 10
-            sidebarView.item_title_background = .black
-            sidebarView.item_title_font_family = "Arial"
-            
             viewContent.addSubview(sidebarView)
             
         } else if widgetType == .solo {
@@ -72,7 +66,7 @@ class SideMenuVC: UIViewController {
             lblTitleHeader.text = "Solo Widget"
             
             //SoloView
-            let soloView = SoloView.init(frame: CGRect(x: 0, y: 0, width: viewContent.frame.size.width, height: viewContent.frame.size.height))
+            let soloView = SoloView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: viewContent.frame.size.height))
             viewContent.addSubview(soloView)
             
         } else if widgetType == .carousel {
@@ -81,8 +75,19 @@ class SideMenuVC: UIViewController {
             lblTitleHeader.text = "Carousel Widget"
             
             //CarouselView
-            let carouselView = CarouselView.init(frame: CGRect(x: 0, y: 0, width: viewContent.frame.size.width, height: viewContent.frame.size.height))
+            let carouselView = CarouselView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: viewContent.frame.size.height))
             viewContent.addSubview(carouselView)
+            
+        } else if widgetType == .videoGallery {
+            
+            //Set Title Header
+            lblTitleHeader.text = "Video Gallery"
+            
+            let frameworkBundle = Bundle(identifier: "com.manektech.TVPFramework")
+            let storyboard = UIStoryboard(name: "VideoGallery", bundle: frameworkBundle)
+            let videoGallery = storyboard.instantiateViewController(withIdentifier: "VideoGalleryVC") as! VideoGalleryVC
+            self.navigationController?.pushViewController(videoGallery, animated: false)
+            
         }
     }
 }

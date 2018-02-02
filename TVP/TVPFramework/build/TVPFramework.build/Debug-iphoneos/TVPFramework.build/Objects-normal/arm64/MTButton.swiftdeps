@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MTButton"
+provides-nominal:
+- "12TVPFramework8MTButtonC"
+provides-member:
+- ["12TVPFramework8MTButtonC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+depends-top-level:
+- !private "*"
+- "AssignmentPrecedence"
+- !private "DeviceScale"
+- !private "DeviceType"
+- "MTButton"
+- "UIButton"
+- !private "||"
+depends-member:
+- !private ["12TVPFramework10AnchorViewP", "DeviceScale"]
+- !private ["12TVPFramework10AnchorViewP", "DeviceType"]
+- !private ["12TVPFramework10AnchorViewP", "font"]
+- !private ["12TVPFramework10AnchorViewP", "init"]
+- !private ["12TVPFramework10AnchorViewP", "titleLabel"]
+- ["12TVPFramework10AnchorViewP", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "DeviceScale"]
+- !private ["So15CALayerDelegateP", "DeviceType"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "DeviceScale"]
+- !private ["s7CVarArgP", "DeviceType"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointSize"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "withSize"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceScale"]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceType"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pointSize"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "withSize"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "DeviceScale"]
+- !private ["s23CustomStringConvertibleP", "DeviceType"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pointSize"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "withSize"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["12TVPFramework11DeviceScaleV", "x"]
+- !private ["12TVPFramework10DeviceTypeV", "IS_IPAD"]
+- !private ["12TVPFramework10DeviceTypeV", "IS_IPAD_PRO"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "DeviceScale"]
+- !private ["s9EquatableP", "DeviceType"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "pointSize"]
+- !private ["s9EquatableP", "titleLabel"]
+- !private ["s9EquatableP", "withSize"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "DeviceScale"]
+- !private ["s8HashableP", "DeviceType"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "pointSize"]
+- !private ["s8HashableP", "titleLabel"]
+- !private ["s8HashableP", "withSize"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["12TVPFramework8MTButtonC", "DeviceScale"]
+- !private ["12TVPFramework8MTButtonC", "DeviceType"]
+- ["12TVPFramework8MTButtonC", "awakeFromNib"]
+- ["12TVPFramework8MTButtonC", "deinit"]
+- ["12TVPFramework8MTButtonC", "init"]
+- !private ["12TVPFramework8MTButtonC", "titleLabel"]
+- !private ["So8NSCodingP", "DeviceScale"]
+- !private ["So8NSCodingP", "DeviceType"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "titleLabel"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "pointSize"]
+- !private ["So9NSCopyingP", "withSize"]
+- !private ["So8NSObjectC", "DeviceScale"]
+- !private ["So8NSObjectC", "DeviceType"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "pointSize"]
+- !private ["So8NSObjectC", "titleLabel"]
+- !private ["So8NSObjectC", "withSize"]
+- !private ["So16NSObjectProtocolP", "DeviceScale"]
+- !private ["So16NSObjectProtocolP", "DeviceType"]
+- !private ["So16NSObjectProtocolP", "font"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "pointSize"]
+- !private ["So16NSObjectProtocolP", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "withSize"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "DeviceScale"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "DeviceType"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "DeviceScale"]
+- !private ["So29UIAccessibilityIdentificationP", "DeviceType"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "DeviceScale"]
+- !private ["So12UIAppearanceP", "DeviceType"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "DeviceScale"]
+- !private ["So21UIAppearanceContainerP", "DeviceType"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "DeviceScale"]
+- !private ["So8UIButtonC", "DeviceType"]
+- ["So8UIButtonC", "awakeFromNib"]
+- ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "titleLabel"]
+- ["So8UIButtonC", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So9UIControlC", "DeviceScale"]
+- !private ["So9UIControlC", "DeviceType"]
+- ["So9UIControlC", "awakeFromNib"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "DeviceScale"]
+- !private ["So17UICoordinateSpaceP", "DeviceType"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "DeviceScale"]
+- !private ["So13UIDynamicItemP", "DeviceType"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "DeviceScale"]
+- !private ["So18UIFocusEnvironmentP", "DeviceType"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "DeviceScale"]
+- !private ["So11UIFocusItemP", "DeviceType"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So6UIFontC", "pointSize"]
+- !private ["So6UIFontC", "withSize"]
+- !private ["So7UILabelC", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "DeviceScale"]
+- !private ["So30UIPasteConfigurationSupportingP", "DeviceType"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "DeviceScale"]
+- !private ["So11UIResponderC", "DeviceType"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "DeviceScale"]
+- !private ["So30UIResponderStandardEditActionsP", "DeviceType"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "DeviceScale"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "DeviceType"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "titleLabel"]
+- ["So35UISpringLoadedInteractionSupportingP", ""]
+- !private ["So18UITraitEnvironmentP", "DeviceScale"]
+- !private ["So18UITraitEnvironmentP", "DeviceType"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "DeviceScale"]
+- !private ["So6UIViewC", "DeviceType"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "font"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "titleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DeviceScale"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DeviceType"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pointSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "12TVPFramework10AnchorViewP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "12TVPFramework11DeviceScaleV"
+- !private "12TVPFramework10DeviceTypeV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "12TVPFramework8MTButtonC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphoneos/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+interface-hash: "e3facbc8d6431ad86b02179064a661d1"
