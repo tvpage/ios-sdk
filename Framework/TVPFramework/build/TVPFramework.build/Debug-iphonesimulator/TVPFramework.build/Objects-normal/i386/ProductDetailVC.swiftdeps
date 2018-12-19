@@ -1,0 +1,763 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProductDetailVC"
+provides-nominal:
+- "12TVPFramework15ProductDetailVCC"
+provides-member:
+- ["12TVPFramework15ProductDetailVCC", ""]
+provides-dynamic-lookup:
+- "WebViewobj"
+- "btnBack"
+- "btnBackClick"
+- "btnSlideMenuClick"
+- "didReceiveMemoryWarning"
+- "imgBack"
+- "imgHeaderLogo"
+- "imgMenu"
+- "imgSearch"
+- "imgShop"
+- "preferredStatusBarStyle"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "MTViewController"
+- "ProductDetailVC"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "UIControl"
+- "UIImage"
+- "UIImageView"
+- "UIStatusBarStyle"
+- "UIWebView"
+- !private "URL"
+- !private "URLRequest"
+depends-member:
+- !private ["12TVPFramework10AnchorViewP", "image"]
+- !private ["12TVPFramework10AnchorViewP", "loadRequest"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "path"]
+- !private ["So6BundleC", "url"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "loadRequest"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "WebViewobj"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "detailUrl"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "getIconimage"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imgBack"]
+- !private ["s7CVarArgP", "imgHeaderLogo"]
+- !private ["s7CVarArgP", "imgMenu"]
+- !private ["s7CVarArgP", "imgSearch"]
+- !private ["s7CVarArgP", "imgShop"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadRequest"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "setImages"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusBarStyle"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "WebViewobj"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "detailUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "getIconimage"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imgBack"]
+- !private ["s28CustomDebugStringConvertibleP", "imgHeaderLogo"]
+- !private ["s28CustomDebugStringConvertibleP", "imgMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "imgSearch"]
+- !private ["s28CustomDebugStringConvertibleP", "imgShop"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "setImages"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "WebViewobj"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "detailUrl"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "getIconimage"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imgBack"]
+- !private ["s23CustomStringConvertibleP", "imgHeaderLogo"]
+- !private ["s23CustomStringConvertibleP", "imgMenu"]
+- !private ["s23CustomStringConvertibleP", "imgSearch"]
+- !private ["s23CustomStringConvertibleP", "imgShop"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadRequest"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "setImages"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusBarStyle"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URLRequest"]
+- !private ["s9EquatableP", "WebViewobj"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "detailUrl"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "getIconimage"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imgBack"]
+- !private ["s9EquatableP", "imgHeaderLogo"]
+- !private ["s9EquatableP", "imgMenu"]
+- !private ["s9EquatableP", "imgSearch"]
+- !private ["s9EquatableP", "imgShop"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lightContent"]
+- !private ["s9EquatableP", "loadRequest"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "setImages"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "statusBarStyle"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URLRequest"]
+- !private ["s8HashableP", "WebViewobj"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "detailUrl"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "getIconimage"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imgBack"]
+- !private ["s8HashableP", "imgHeaderLogo"]
+- !private ["s8HashableP", "imgMenu"]
+- !private ["s8HashableP", "imgSearch"]
+- !private ["s8HashableP", "imgShop"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lightContent"]
+- !private ["s8HashableP", "loadRequest"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "setImages"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "statusBarStyle"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12TVPFramework16MTViewControllerC", "Bundle"]
+- ["12TVPFramework16MTViewControllerC", "String"]
+- !private ["12TVPFramework16MTViewControllerC", "UIApplication"]
+- ["12TVPFramework16MTViewControllerC", "UIControl"]
+- ["12TVPFramework16MTViewControllerC", "UIImage"]
+- ["12TVPFramework16MTViewControllerC", "UIImageView"]
+- ["12TVPFramework16MTViewControllerC", "UIStatusBarStyle"]
+- ["12TVPFramework16MTViewControllerC", "UIWebView"]
+- !private ["12TVPFramework16MTViewControllerC", "URL"]
+- !private ["12TVPFramework16MTViewControllerC", "URLRequest"]
+- ["12TVPFramework16MTViewControllerC", "WebViewobj"]
+- ["12TVPFramework16MTViewControllerC", ""]
+- ["12TVPFramework16MTViewControllerC", "btnBack"]
+- ["12TVPFramework16MTViewControllerC", "btnBackClick"]
+- ["12TVPFramework16MTViewControllerC", "btnSlideMenuClick"]
+- ["12TVPFramework16MTViewControllerC", "detailUrl"]
+- ["12TVPFramework16MTViewControllerC", "didReceiveMemoryWarning"]
+- !private ["12TVPFramework16MTViewControllerC", "dismiss"]
+- ["12TVPFramework16MTViewControllerC", "getIconimage"]
+- ["12TVPFramework16MTViewControllerC", "imgBack"]
+- ["12TVPFramework16MTViewControllerC", "imgHeaderLogo"]
+- ["12TVPFramework16MTViewControllerC", "imgMenu"]
+- ["12TVPFramework16MTViewControllerC", "imgSearch"]
+- ["12TVPFramework16MTViewControllerC", "imgShop"]
+- ["12TVPFramework16MTViewControllerC", "init"]
+- ["12TVPFramework16MTViewControllerC", "preferredStatusBarStyle"]
+- ["12TVPFramework16MTViewControllerC", "setImages"]
+- ["12TVPFramework16MTViewControllerC", "viewDidLoad"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLRequest"]
+- !private ["So8NSCodingP", "WebViewobj"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "detailUrl"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "getIconimage"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imgBack"]
+- !private ["So8NSCodingP", "imgHeaderLogo"]
+- !private ["So8NSCodingP", "imgMenu"]
+- !private ["So8NSCodingP", "imgSearch"]
+- !private ["So8NSCodingP", "imgShop"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadRequest"]
+- !private ["So8NSCodingP", "setImages"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Bundle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "WebViewobj"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "detailUrl"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "getIconimage"]
+- !private ["So26NSExtensionRequestHandlingP", "imgBack"]
+- !private ["So26NSExtensionRequestHandlingP", "imgHeaderLogo"]
+- !private ["So26NSExtensionRequestHandlingP", "imgMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "imgSearch"]
+- !private ["So26NSExtensionRequestHandlingP", "imgShop"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "setImages"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIControl"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIStatusBarStyle"]
+- ["So8NSObjectC", "UIWebView"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "WebViewobj"]
+- ["So8NSObjectC", "btnBack"]
+- ["So8NSObjectC", "btnBackClick"]
+- ["So8NSObjectC", "btnSlideMenuClick"]
+- ["So8NSObjectC", "detailUrl"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "getIconimage"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imgBack"]
+- ["So8NSObjectC", "imgHeaderLogo"]
+- ["So8NSObjectC", "imgMenu"]
+- ["So8NSObjectC", "imgSearch"]
+- ["So8NSObjectC", "imgShop"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadRequest"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "preferredStatusBarStyle"]
+- ["So8NSObjectC", "setImages"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusBarStyle"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- !private ["So16NSObjectProtocolP", "WebViewobj"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "detailUrl"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "getIconimage"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imgBack"]
+- !private ["So16NSObjectProtocolP", "imgHeaderLogo"]
+- !private ["So16NSObjectProtocolP", "imgMenu"]
+- !private ["So16NSObjectProtocolP", "imgSearch"]
+- !private ["So16NSObjectProtocolP", "imgShop"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadRequest"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "setImages"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "statusBarStyle"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["12TVPFramework15ProductDetailVCC", "Bundle"]
+- ["12TVPFramework15ProductDetailVCC", "String"]
+- !private ["12TVPFramework15ProductDetailVCC", "UIApplication"]
+- ["12TVPFramework15ProductDetailVCC", "UIControl"]
+- ["12TVPFramework15ProductDetailVCC", "UIImage"]
+- ["12TVPFramework15ProductDetailVCC", "UIImageView"]
+- ["12TVPFramework15ProductDetailVCC", "UIStatusBarStyle"]
+- ["12TVPFramework15ProductDetailVCC", "UIWebView"]
+- !private ["12TVPFramework15ProductDetailVCC", "URL"]
+- !private ["12TVPFramework15ProductDetailVCC", "URLRequest"]
+- ["12TVPFramework15ProductDetailVCC", "WebViewobj"]
+- ["12TVPFramework15ProductDetailVCC", "btnBack"]
+- ["12TVPFramework15ProductDetailVCC", "btnBackClick"]
+- ["12TVPFramework15ProductDetailVCC", "btnSlideMenuClick"]
+- ["12TVPFramework15ProductDetailVCC", "deinit"]
+- ["12TVPFramework15ProductDetailVCC", "detailUrl"]
+- ["12TVPFramework15ProductDetailVCC", "didReceiveMemoryWarning"]
+- !private ["12TVPFramework15ProductDetailVCC", "dismiss"]
+- ["12TVPFramework15ProductDetailVCC", "getIconimage"]
+- ["12TVPFramework15ProductDetailVCC", "imgBack"]
+- ["12TVPFramework15ProductDetailVCC", "imgHeaderLogo"]
+- ["12TVPFramework15ProductDetailVCC", "imgMenu"]
+- ["12TVPFramework15ProductDetailVCC", "imgSearch"]
+- ["12TVPFramework15ProductDetailVCC", "imgShop"]
+- ["12TVPFramework15ProductDetailVCC", "init"]
+- ["12TVPFramework15ProductDetailVCC", "preferredStatusBarStyle"]
+- ["12TVPFramework15ProductDetailVCC", "setImages"]
+- ["12TVPFramework15ProductDetailVCC", "viewDidLoad"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "lightContent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "loadRequest"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "loadRequest"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- !private ["So21UIAppearanceContainerP", "WebViewobj"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "detailUrl"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "getIconimage"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imgBack"]
+- !private ["So21UIAppearanceContainerP", "imgHeaderLogo"]
+- !private ["So21UIAppearanceContainerP", "imgMenu"]
+- !private ["So21UIAppearanceContainerP", "imgSearch"]
+- !private ["So21UIAppearanceContainerP", "imgShop"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadRequest"]
+- !private ["So21UIAppearanceContainerP", "setImages"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "statusBarStyle"]
+- !private ["So18UIContentContainerP", "Bundle"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- !private ["So18UIContentContainerP", "WebViewobj"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "detailUrl"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "getIconimage"]
+- !private ["So18UIContentContainerP", "imgBack"]
+- !private ["So18UIContentContainerP", "imgHeaderLogo"]
+- !private ["So18UIContentContainerP", "imgMenu"]
+- !private ["So18UIContentContainerP", "imgSearch"]
+- !private ["So18UIContentContainerP", "imgShop"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "setImages"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "loadRequest"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "loadRequest"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- !private ["So18UIFocusEnvironmentP", "WebViewobj"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "detailUrl"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "getIconimage"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imgBack"]
+- !private ["So18UIFocusEnvironmentP", "imgHeaderLogo"]
+- !private ["So18UIFocusEnvironmentP", "imgMenu"]
+- !private ["So18UIFocusEnvironmentP", "imgSearch"]
+- !private ["So18UIFocusEnvironmentP", "imgShop"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadRequest"]
+- !private ["So18UIFocusEnvironmentP", "setImages"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "loadRequest"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "WebViewobj"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "detailUrl"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "getIconimage"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgBack"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgHeaderLogo"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgSearch"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgShop"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImages"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Bundle"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIControl"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIStatusBarStyle"]
+- ["So11UIResponderC", "UIWebView"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "WebViewobj"]
+- ["So11UIResponderC", "btnBack"]
+- ["So11UIResponderC", "btnBackClick"]
+- ["So11UIResponderC", "btnSlideMenuClick"]
+- ["So11UIResponderC", "detailUrl"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "getIconimage"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imgBack"]
+- ["So11UIResponderC", "imgHeaderLogo"]
+- ["So11UIResponderC", "imgMenu"]
+- ["So11UIResponderC", "imgSearch"]
+- ["So11UIResponderC", "imgShop"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "loadRequest"]
+- ["So11UIResponderC", "preferredStatusBarStyle"]
+- ["So11UIResponderC", "setImages"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "statusBarStyle"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "WebViewobj"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "detailUrl"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "getIconimage"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imgBack"]
+- !private ["So30UIResponderStandardEditActionsP", "imgHeaderLogo"]
+- !private ["So30UIResponderStandardEditActionsP", "imgMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "imgSearch"]
+- !private ["So30UIResponderStandardEditActionsP", "imgShop"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "setImages"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "loadRequest"]
+- !private ["So16UIStateRestoringP", "Bundle"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- !private ["So16UIStateRestoringP", "WebViewobj"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "detailUrl"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "getIconimage"]
+- !private ["So16UIStateRestoringP", "imgBack"]
+- !private ["So16UIStateRestoringP", "imgHeaderLogo"]
+- !private ["So16UIStateRestoringP", "imgMenu"]
+- !private ["So16UIStateRestoringP", "imgSearch"]
+- !private ["So16UIStateRestoringP", "imgShop"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "setImages"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["SC16UIStatusBarStyleO", "lightContent"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- !private ["So18UITraitEnvironmentP", "WebViewobj"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "detailUrl"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "getIconimage"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imgBack"]
+- !private ["So18UITraitEnvironmentP", "imgHeaderLogo"]
+- !private ["So18UITraitEnvironmentP", "imgMenu"]
+- !private ["So18UITraitEnvironmentP", "imgSearch"]
+- !private ["So18UITraitEnvironmentP", "imgShop"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadRequest"]
+- !private ["So18UITraitEnvironmentP", "setImages"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "loadRequest"]
+- !private ["So16UIViewControllerC", "Bundle"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UIControl"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UIStatusBarStyle"]
+- ["So16UIViewControllerC", "UIWebView"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- ["So16UIViewControllerC", "WebViewobj"]
+- ["So16UIViewControllerC", "btnBack"]
+- ["So16UIViewControllerC", "btnBackClick"]
+- ["So16UIViewControllerC", "btnSlideMenuClick"]
+- ["So16UIViewControllerC", "detailUrl"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "getIconimage"]
+- ["So16UIViewControllerC", "imgBack"]
+- ["So16UIViewControllerC", "imgHeaderLogo"]
+- ["So16UIViewControllerC", "imgMenu"]
+- ["So16UIViewControllerC", "imgSearch"]
+- ["So16UIViewControllerC", "imgShop"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "preferredStatusBarStyle"]
+- ["So16UIViewControllerC", "setImages"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So9UIWebViewC", "loadRequest"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "loadRequest"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WebViewobj"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "detailUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getIconimage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgBack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgHeaderLogo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgSearch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgShop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "12TVPFramework10AnchorViewP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "12TVPFramework16MTViewControllerC"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "12TVPFramework15ProductDetailVCC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "SC16UIStatusBarStyleO"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So9UIWebViewC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "5d02c7b992606df1d5db31f193118713"

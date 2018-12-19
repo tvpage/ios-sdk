@@ -1,0 +1,458 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIImageC", ""]
+- ["So7UIImageC", "loadFromURL"]
+- ["So7UIImageC", "maskWithColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CGBitmapInfo"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGContext"
+- !private "CGImageAlphaInfo"
+- !private "CGRect"
+- !private "CastingPrecedence"
+- !private "Data"
+- !private "DispatchQueue"
+- !private "Int"
+- !private "NSData"
+- "NSURL"
+- "UIColor"
+- "UIImage"
+- !private "URL"
+depends-member:
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["SC12CGBitmapInfoV", "init"]
+- !private ["SC12CGBitmapInfoV", "rawValue"]
+- !private ["So9CGContextC", "clip"]
+- !private ["So9CGContextC", "fill"]
+- !private ["So9CGContextC", "init"]
+- !private ["So9CGContextC", "makeImage"]
+- !private ["So9CGContextC", "setFillColor"]
+- !private ["SC16CGImageAlphaInfoO", "premultipliedLast"]
+- !private ["SC16CGImageAlphaInfoO", "rawValue"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGBitmapInfo"]
+- !private ["s7CVarArgP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s7CVarArgP", "CGContext"]
+- !private ["s7CVarArgP", "CGImageAlphaInfo"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSData"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGBitmapInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s28CustomDebugStringConvertibleP", "CGContext"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageAlphaInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSData"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGBitmapInfo"]
+- !private ["s23CustomStringConvertibleP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s23CustomStringConvertibleP", "CGContext"]
+- !private ["s23CustomStringConvertibleP", "CGImageAlphaInfo"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSData"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "global"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGBitmapInfo"]
+- !private ["s9EquatableP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s9EquatableP", "CGContext"]
+- !private ["s9EquatableP", "CGImageAlphaInfo"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSData"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "background"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "clip"]
+- !private ["s9EquatableP", "fill"]
+- !private ["s9EquatableP", "global"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "makeImage"]
+- !private ["s9EquatableP", "premultipliedLast"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "setFillColor"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "CGBitmapInfo"]
+- !private ["s8HashableP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s8HashableP", "CGContext"]
+- !private ["s8HashableP", "CGImageAlphaInfo"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSData"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "background"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "clip"]
+- !private ["s8HashableP", "fill"]
+- !private ["s8HashableP", "global"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "makeImage"]
+- !private ["s8HashableP", "premultipliedLast"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "setFillColor"]
+- !private ["s8HashableP", "size"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGBitmapInfo"]
+- !private ["So8NSCodingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So8NSCodingP", "CGContext"]
+- !private ["So8NSCodingP", "CGImageAlphaInfo"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSData"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSDataC", "init"]
+- !private ["So21NSItemProviderReadingP", "CGBitmapInfo"]
+- !private ["So21NSItemProviderReadingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So21NSItemProviderReadingP", "CGContext"]
+- !private ["So21NSItemProviderReadingP", "CGImageAlphaInfo"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "DispatchQueue"]
+- !private ["So21NSItemProviderReadingP", "Int"]
+- !private ["So21NSItemProviderReadingP", "NSData"]
+- !private ["So21NSItemProviderReadingP", "UIImage"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "CGBitmapInfo"]
+- !private ["So21NSItemProviderWritingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So21NSItemProviderWritingP", "CGContext"]
+- !private ["So21NSItemProviderWritingP", "CGImageAlphaInfo"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "DispatchQueue"]
+- !private ["So21NSItemProviderWritingP", "Int"]
+- !private ["So21NSItemProviderWritingP", "NSData"]
+- !private ["So21NSItemProviderWritingP", "UIImage"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "CGBitmapInfo"]
+- !private ["So8NSObjectC", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So8NSObjectC", "CGContext"]
+- !private ["So8NSObjectC", "CGImageAlphaInfo"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSData"]
+- ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "cgImage"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadFromURL"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "maskWithColor"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So16NSObjectProtocolP", "CGBitmapInfo"]
+- !private ["So16NSObjectProtocolP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So16NSObjectProtocolP", "CGContext"]
+- !private ["So16NSObjectProtocolP", "CGImageAlphaInfo"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSData"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "global"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So14NSSecureCodingP", "CGBitmapInfo"]
+- !private ["So14NSSecureCodingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So14NSSecureCodingP", "CGContext"]
+- !private ["So14NSSecureCodingP", "CGImageAlphaInfo"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "DispatchQueue"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "NSData"]
+- !private ["So14NSSecureCodingP", "UIImage"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "premultipliedLast"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGBitmapInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So29UIAccessibilityIdentificationP", "CGContext"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageAlphaInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "DispatchQueue"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "NSData"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIImageC", "CGBitmapInfo"]
+- !private ["So7UIImageC", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So7UIImageC", "CGContext"]
+- !private ["So7UIImageC", "CGImageAlphaInfo"]
+- !private ["So7UIImageC", "CGRect"]
+- !private ["So7UIImageC", "Data"]
+- !private ["So7UIImageC", "DispatchQueue"]
+- !private ["So7UIImageC", "Int"]
+- !private ["So7UIImageC", "NSData"]
+- ["So7UIImageC", "NSURL"]
+- ["So7UIImageC", "UIColor"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "URL"]
+- !private ["So7UIImageC", "cgImage"]
+- !private ["So7UIImageC", "init"]
+- ["So7UIImageC", "loadFromURL"]
+- ["So7UIImageC", "maskWithColor"]
+- !private ["So7UIImageC", "size"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGBitmapInfo"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageAlphaInfo"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "DispatchQueue"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "Int"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "NSData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "clip"]
+- !private ["14CoreFoundation9_CFObjectP", "fill"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "makeImage"]
+- !private ["14CoreFoundation9_CFObjectP", "setFillColor"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGBitmapInfo"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageAlphaInfo"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "DispatchQueue"]
+- !private ["s26_ExpressibleByImageLiteralP", "Int"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSData"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGBitmapInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGColorSpaceCreateDeviceRGB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageAlphaInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "SC12CGBitmapInfoV"
+- !private "So9CGContextC"
+- !private "SC16CGImageAlphaInfoO"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDataC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "s16RawRepresentableP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIColorC"
+- "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s18_BitwiseOperationsP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphoneos/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "a8a17f1a03fe7768960a4c731fb8013f"

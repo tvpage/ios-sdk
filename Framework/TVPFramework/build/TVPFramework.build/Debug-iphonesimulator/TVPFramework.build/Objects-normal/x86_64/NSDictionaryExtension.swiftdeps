@@ -1,0 +1,567 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So12NSDictionaryC", ""]
+- ["So12NSDictionaryC", "getString"]
+- ["So12NSDictionaryC", "getBool"]
+- ["So12NSDictionaryC", "getInt"]
+- ["So12NSDictionaryC", "getDouble"]
+- ["So12NSDictionaryC", "getFloat"]
+- ["So12NSDictionaryC", "getDictionary"]
+- ["So12NSDictionaryC", "getArray"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CVarArg"
+- "CastingPrecedence"
+- "Double"
+- "Float"
+- "Int"
+- "NSArray"
+- "NSDictionary"
+- !private "NSNumber"
+- !private "NSString"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "||"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isFloat"]
+- !private ["s23BidirectionalCollectionP", "isNumber"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "removeWhiteSpace"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "init"]
+- !private ["s7CVarArgP", "Bool"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSArray"]
+- !private ["s7CVarArgP", "NSDictionary"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isFloat"]
+- !private ["s7CVarArgP", "isNumber"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "removeWhiteSpace"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isFloat"]
+- !private ["s10CollectionP", "isNumber"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "removeWhiteSpace"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isFloat"]
+- !private ["s10ComparableP", "isNumber"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s10ComparableP", "removeWhiteSpace"]
+- !private ["s28CustomDebugStringConvertibleP", "Bool"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "isNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "removeWhiteSpace"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isFloat"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isNumber"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "removeWhiteSpace"]
+- !private ["s17CustomReflectableP", "Bool"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "NSArray"]
+- !private ["s17CustomReflectableP", "NSDictionary"]
+- !private ["s17CustomReflectableP", "NSNumber"]
+- !private ["s17CustomReflectableP", "NSString"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isFloat"]
+- !private ["s17CustomReflectableP", "isNumber"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "removeWhiteSpace"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bool"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSArray"]
+- !private ["s23CustomStringConvertibleP", "NSDictionary"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isFloat"]
+- !private ["s23CustomStringConvertibleP", "isNumber"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "removeWhiteSpace"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isFloat"]
+- !private ["s9DecodableP", "isNumber"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "removeWhiteSpace"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isFloat"]
+- !private ["s9EncodableP", "isNumber"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "removeWhiteSpace"]
+- !private ["s9EquatableP", "Bool"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSArray"]
+- !private ["s9EquatableP", "NSDictionary"]
+- !private ["s9EquatableP", "NSNumber"]
+- !private ["s9EquatableP", "NSString"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isFloat"]
+- !private ["s9EquatableP", "isNumber"]
+- !private ["s9EquatableP", "lowercased"]
+- !private ["s9EquatableP", "removeWhiteSpace"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Bool"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Double"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Float"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Int"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "NSArray"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "NSDictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "NSNumber"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "NSString"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isFloat"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isNumber"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "removeWhiteSpace"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isFloat"]
+- !private ["s26ExpressibleByStringLiteralP", "isNumber"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "removeWhiteSpace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isFloat"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isNumber"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "removeWhiteSpace"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Bool"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSArray"]
+- !private ["s8HashableP", "NSDictionary"]
+- !private ["s8HashableP", "NSNumber"]
+- !private ["s8HashableP", "NSString"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isFloat"]
+- !private ["s8HashableP", "isNumber"]
+- !private ["s8HashableP", "lowercased"]
+- !private ["s8HashableP", "removeWhiteSpace"]
+- !private ["s8HashableP", "subscript"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isFloat"]
+- !private ["s25LosslessStringConvertibleP", "isNumber"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "removeWhiteSpace"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isFloat"]
+- !private ["s10MirrorPathP", "isNumber"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "removeWhiteSpace"]
+- !private ["So7NSArrayC", "init"]
+- !private ["So8NSCodingP", "Bool"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSArray"]
+- !private ["So8NSCodingP", "NSDictionary"]
+- !private ["So8NSCodingP", "NSNumber"]
+- !private ["So8NSCodingP", "NSString"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isFloat"]
+- !private ["So8NSCodingP", "isNumber"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "removeWhiteSpace"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "Bool"]
+- !private ["So9NSCopyingP", "Double"]
+- !private ["So9NSCopyingP", "Float"]
+- !private ["So9NSCopyingP", "Int"]
+- !private ["So9NSCopyingP", "NSArray"]
+- !private ["So9NSCopyingP", "NSDictionary"]
+- !private ["So9NSCopyingP", "NSNumber"]
+- !private ["So9NSCopyingP", "NSString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isFloat"]
+- !private ["So9NSCopyingP", "isNumber"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "removeWhiteSpace"]
+- !private ["So9NSCopyingP", "subscript"]
+- ["So12NSDictionaryC", "Bool"]
+- !private ["So12NSDictionaryC", "CVarArg"]
+- ["So12NSDictionaryC", "Double"]
+- ["So12NSDictionaryC", "Float"]
+- ["So12NSDictionaryC", "Int"]
+- ["So12NSDictionaryC", "NSArray"]
+- ["So12NSDictionaryC", "NSDictionary"]
+- !private ["So12NSDictionaryC", "NSNumber"]
+- !private ["So12NSDictionaryC", "NSString"]
+- ["So12NSDictionaryC", "String"]
+- ["So12NSDictionaryC", "getArray"]
+- ["So12NSDictionaryC", "getBool"]
+- ["So12NSDictionaryC", "getDictionary"]
+- ["So12NSDictionaryC", "getDouble"]
+- ["So12NSDictionaryC", "getFloat"]
+- ["So12NSDictionaryC", "getInt"]
+- ["So12NSDictionaryC", "getString"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So17NSFastEnumerationP", "Bool"]
+- !private ["So17NSFastEnumerationP", "Double"]
+- !private ["So17NSFastEnumerationP", "Float"]
+- !private ["So17NSFastEnumerationP", "Int"]
+- !private ["So17NSFastEnumerationP", "NSArray"]
+- !private ["So17NSFastEnumerationP", "NSDictionary"]
+- !private ["So17NSFastEnumerationP", "NSNumber"]
+- !private ["So17NSFastEnumerationP", "NSString"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isFloat"]
+- !private ["So21NSItemProviderReadingP", "isNumber"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "removeWhiteSpace"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isFloat"]
+- !private ["So21NSItemProviderWritingP", "isNumber"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "removeWhiteSpace"]
+- !private ["So16NSMutableCopyingP", "Bool"]
+- !private ["So16NSMutableCopyingP", "Double"]
+- !private ["So16NSMutableCopyingP", "Float"]
+- !private ["So16NSMutableCopyingP", "Int"]
+- !private ["So16NSMutableCopyingP", "NSArray"]
+- !private ["So16NSMutableCopyingP", "NSDictionary"]
+- !private ["So16NSMutableCopyingP", "NSNumber"]
+- !private ["So16NSMutableCopyingP", "NSString"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isFloat"]
+- !private ["So16NSMutableCopyingP", "isNumber"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "removeWhiteSpace"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CVarArg"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "getArray"]
+- ["So8NSObjectC", "getBool"]
+- ["So8NSObjectC", "getDictionary"]
+- ["So8NSObjectC", "getDouble"]
+- ["So8NSObjectC", "getFloat"]
+- ["So8NSObjectC", "getInt"]
+- ["So8NSObjectC", "getString"]
+- !private ["So8NSObjectC", "isFloat"]
+- !private ["So8NSObjectC", "isNumber"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "removeWhiteSpace"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So16NSObjectProtocolP", "Bool"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSArray"]
+- !private ["So16NSObjectProtocolP", "NSDictionary"]
+- !private ["So16NSObjectProtocolP", "NSNumber"]
+- !private ["So16NSObjectProtocolP", "NSString"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isFloat"]
+- !private ["So16NSObjectProtocolP", "isNumber"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So16NSObjectProtocolP", "removeWhiteSpace"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So14NSSecureCodingP", "Bool"]
+- !private ["So14NSSecureCodingP", "Double"]
+- !private ["So14NSSecureCodingP", "Float"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "NSArray"]
+- !private ["So14NSSecureCodingP", "NSDictionary"]
+- !private ["So14NSSecureCodingP", "NSNumber"]
+- !private ["So14NSSecureCodingP", "NSString"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isFloat"]
+- !private ["So14NSSecureCodingP", "isNumber"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "removeWhiteSpace"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isFloat"]
+- !private ["So8NSStringC", "isNumber"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "removeWhiteSpace"]
+- !private ["s7NumericP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isFloat"]
+- !private ["s26RangeReplaceableCollectionP", "isNumber"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "removeWhiteSpace"]
+- !private ["s8SequenceP", "Bool"]
+- !private ["s8SequenceP", "Double"]
+- !private ["s8SequenceP", "Float"]
+- !private ["s8SequenceP", "Int"]
+- !private ["s8SequenceP", "NSArray"]
+- !private ["s8SequenceP", "NSDictionary"]
+- !private ["s8SequenceP", "NSNumber"]
+- !private ["s8SequenceP", "NSString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isFloat"]
+- !private ["s8SequenceP", "isNumber"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "removeWhiteSpace"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isFloat"]
+- !private ["SS", "isNumber"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "removeWhiteSpace"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isFloat"]
+- !private ["s14StringProtocolP", "isNumber"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s14StringProtocolP", "removeWhiteSpace"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isFloat"]
+- !private ["s16TextOutputStreamP", "isNumber"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "removeWhiteSpace"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isFloat"]
+- !private ["s20TextOutputStreamableP", "isNumber"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "removeWhiteSpace"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isFloat"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isNumber"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "removeWhiteSpace"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isFloat"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isNumber"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "removeWhiteSpace"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isFloat"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isNumber"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "removeWhiteSpace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isFloat"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isNumber"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "removeWhiteSpace"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isFloat"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isNumber"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "removeWhiteSpace"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isFloat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isNumber"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeWhiteSpace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeWhiteSpace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isFloat"]
+- !private ["s21_ObjectiveCBridgeableP", "isNumber"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "removeWhiteSpace"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isFloat"]
+- !private ["s16_SwiftStringViewP", "isNumber"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "removeWhiteSpace"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "b1f9f891ad456da8c19e01f2dad22c65"

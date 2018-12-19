@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF56AF051FCEC6310085395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF56AF031FCEC6310085395A /* Main.storyboard */; };
+		EF56AF081FCEC6310085395A /* TVPagePlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF061FCEC6310085395A /* TVPagePlayer.xcdatamodeld */; };
+		EF56AF0A1FCEC6310085395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF56AF091FCEC6310085395A /* Assets.xcassets */; };
+		EF56AF0D1FCEC6310085395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF56AF0B1FCEC6310085395A /* LaunchScreen.storyboard */; };
+		EF56AF181FCEC6320085395A /* TVPagePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF171FCEC6320085395A /* TVPagePlayerTests.swift */; };
+		EF56AF231FCEC6320085395A /* TVPagePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF221FCEC6320085395A /* TVPagePlayerUITests.swift */; };
+		EF56AF331FCEC94D0085395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF321FCEC9490085395A /* AppDelegate.swift */; };
+		EF56AF371FCEC98A0085395A /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56AF361FCEC9870085395A /* SideMenuVC.swift */; };
+		EF5AE6A820248CA3002A752A /* TVPResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF5AE6A720248C9F002A752A /* TVPResources.bundle */; };
+		EF650BE220088B1000FD287E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650BE120088B1000FD287E /* HomeVC.swift */; };
+		EF72A432210611CE00DA7C83 /* TVPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF72A431210611CC00DA7C83 /* TVPFramework.framework */; };
+		EF72A434210611D300DA7C83 /* TVPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF72A431210611CC00DA7C83 /* TVPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF74A78B1FE3F41E00AAEACB /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BCF1FCECFF30024F915 /* Validation.m */; };
+		EF74A78C1FE3F42300AAEACB /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD21FCED05E0024F915 /* MKAnnotationView+WebCache.m */; };
+		EF74A78D1FE3F42600AAEACB /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD41FCED05E0024F915 /* NSData+ImageContentType.m */; };
+		EF74A78E1FE3F42800AAEACB /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD61FCED05E0024F915 /* SDImageCache.m */; };
+		EF74A78F1FE3F42B00AAEACB /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BD81FCED05E0024F915 /* SDWebImageCompat.m */; };
+		EF74A7901FE3F42D00AAEACB /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BDA1FCED05E0024F915 /* SDWebImageDecoder.m */; };
+		EF74A7911FE3F43000AAEACB /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BDC1FCED05E0024F915 /* SDWebImageDownloader.m */; };
+		EF74A7921FE3F43600AAEACB /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BDE1FCED05E0024F915 /* SDWebImageDownloaderOperation.m */; };
+		EF74A7931FE3F43900AAEACB /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BE01FCED05E0024F915 /* SDWebImageManager.m */; };
+		EF74A7941FE3F43D00AAEACB /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BE31FCED05E0024F915 /* SDWebImagePrefetcher.m */; };
+		EF74A7951FE3F44200AAEACB /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BE51FCED05E0024F915 /* UIButton+WebCache.m */; };
+		EF74A7961FE3F44500AAEACB /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BE71FCED05E0024F915 /* UIImage+GIF.m */; };
+		EF74A7971FE3F44700AAEACB /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BE91FCED05E0024F915 /* UIImage+MultiFormat.m */; };
+		EF74A7981FE3F44A00AAEACB /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BEB1FCED05E0024F915 /* UIImage+WebP.m */; };
+		EF74A7991FE3F44C00AAEACB /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BED1FCED05E0024F915 /* UIImageView+HighlightedWebCache.m */; };
+		EF74A79A1FE3F44F00AAEACB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BEF1FCED05E0024F915 /* UIImageView+WebCache.m */; };
+		EF74A79B1FE3F45200AAEACB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BF11FCED05E0024F915 /* UIView+WebCacheOperation.m */; };
+		EF74A79C1FE3F45E00AAEACB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BC81FCECF400024F915 /* Helper.swift */; };
+		EF74A79D1FE3F46000AAEACB /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BC91FCECF400024F915 /* Messages.swift */; };
+		EF74A79E1FE3F46200AAEACB /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB46BCA1FCECF400024F915 /* UserInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF56AF141FCEC6320085395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF56AEF41FCEC6310085395A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56AEFB1FCEC6310085395A;
+			remoteInfo = TVPagePhase2;
+		};
+		EF56AF1F1FCEC6320085395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF56AEF41FCEC6310085395A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56AEFB1FCEC6310085395A;
+			remoteInfo = TVPagePhase2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF6086F91FFE2E3A00675CBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF72A434210611D300DA7C83 /* TVPFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF56AEFC1FCEC6310085395A /* TVPagePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPagePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF56AF041FCEC6310085395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF56AF071FCEC6310085395A /* TVPagePhase2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVPagePhase2.xcdatamodel; sourceTree = "<group>"; };
+		EF56AF091FCEC6310085395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF56AF0C1FCEC6310085395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF56AF0E1FCEC6310085395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF56AF131FCEC6320085395A /* TVPagePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPagePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF56AF171FCEC6320085395A /* TVPagePlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPagePlayerTests.swift; sourceTree = "<group>"; };
+		EF56AF191FCEC6320085395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF56AF1E1FCEC6320085395A /* TVPagePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPagePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF56AF221FCEC6320085395A /* TVPagePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPagePlayerUITests.swift; sourceTree = "<group>"; };
+		EF56AF241FCEC6320085395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF56AF321FCEC9490085395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF56AF361FCEC9870085395A /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		EF5AE6A720248C9F002A752A /* TVPResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TVPResources.bundle; sourceTree = "<group>"; };
+		EF650BE120088B1000FD287E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EF72A431210611CC00DA7C83 /* TVPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVPFramework.framework; sourceTree = "<group>"; };
+		EFB46BC81FCECF400024F915 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EFB46BC91FCECF400024F915 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		EFB46BCA1FCECF400024F915 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		EFB46BCD1FCECFF20024F915 /* TVPagePlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVPagePlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFB46BCE1FCECFF30024F915 /* Validation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validation.h; sourceTree = "<group>"; };
+		EFB46BCF1FCECFF30024F915 /* Validation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Validation.m; sourceTree = "<group>"; };
+		EFB46BD11FCED05E0024F915 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		EFB46BD21FCED05E0024F915 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		EFB46BD31FCED05E0024F915 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		EFB46BD41FCED05E0024F915 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		EFB46BD51FCED05E0024F915 /* SDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		EFB46BD61FCED05E0024F915 /* SDImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		EFB46BD71FCED05E0024F915 /* SDWebImageCompat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		EFB46BD81FCED05E0024F915 /* SDWebImageCompat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		EFB46BD91FCED05E0024F915 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EFB46BDA1FCED05E0024F915 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		EFB46BDB1FCED05E0024F915 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		EFB46BDC1FCED05E0024F915 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		EFB46BDD1FCED05E0024F915 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		EFB46BDE1FCED05E0024F915 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		EFB46BDF1FCED05E0024F915 /* SDWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		EFB46BE01FCED05E0024F915 /* SDWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		EFB46BE11FCED05E0024F915 /* SDWebImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		EFB46BE21FCED05E0024F915 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EFB46BE31FCED05E0024F915 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EFB46BE41FCED05E0024F915 /* UIButton+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EFB46BE51FCED05E0024F915 /* UIButton+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EFB46BE61FCED05E0024F915 /* UIImage+GIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		EFB46BE71FCED05E0024F915 /* UIImage+GIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		EFB46BE81FCED05E0024F915 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		EFB46BE91FCED05E0024F915 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		EFB46BEA1FCED05E0024F915 /* UIImage+WebP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		EFB46BEB1FCED05E0024F915 /* UIImage+WebP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		EFB46BEC1FCED05E0024F915 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		EFB46BED1FCED05E0024F915 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		EFB46BEE1FCED05E0024F915 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EFB46BEF1FCED05E0024F915 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		EFB46BF01FCED05E0024F915 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		EFB46BF11FCED05E0024F915 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		EFB46BF31FCED07A0024F915 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EFB46BF41FCED07A0024F915 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF56AEF91FCEC6310085395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72A432210611CE00DA7C83 /* TVPFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF101FCEC6320085395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF1B1FCEC6320085395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF56AEF31FCEC6310085395A = {
+			isa = PBXGroup;
+			children = (
+				EF56AEFE1FCEC6310085395A /* TVPagePlayer */,
+				EF56AF161FCEC6320085395A /* TVPagePlayerTests */,
+				EF56AF211FCEC6320085395A /* TVPagePlayerUITests */,
+				EF56AEFD1FCEC6310085395A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF56AEFD1FCEC6310085395A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF56AEFC1FCEC6310085395A /* TVPagePlayer.app */,
+				EF56AF131FCEC6320085395A /* TVPagePlayerTests.xctest */,
+				EF56AF1E1FCEC6320085395A /* TVPagePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF56AEFE1FCEC6310085395A /* TVPagePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46C221FCED7F70024F915 /* Framework */,
+				EFB46BCB1FCECFD60024F915 /* ThirdParty */,
+				EFB46BA71FCECEEF0024F915 /* OtherClasses */,
+				EF56AF301FCEC91D0085395A /* ViewControllers */,
+				EF56AF031FCEC6310085395A /* Main.storyboard */,
+				EF56AF091FCEC6310085395A /* Assets.xcassets */,
+				EF56AF0B1FCEC6310085395A /* LaunchScreen.storyboard */,
+				EF56AF0E1FCEC6310085395A /* Info.plist */,
+				EF56AF061FCEC6310085395A /* TVPagePlayer.xcdatamodeld */,
+			);
+			path = TVPagePlayer;
+			sourceTree = "<group>";
+		};
+		EF56AF161FCEC6320085395A /* TVPagePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF56AF171FCEC6320085395A /* TVPagePlayerTests.swift */,
+				EF56AF191FCEC6320085395A /* Info.plist */,
+			);
+			path = TVPagePlayerTests;
+			sourceTree = "<group>";
+		};
+		EF56AF211FCEC6320085395A /* TVPagePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF56AF221FCEC6320085395A /* TVPagePlayerUITests.swift */,
+				EF56AF241FCEC6320085395A /* Info.plist */,
+			);
+			path = TVPagePlayerUITests;
+			sourceTree = "<group>";
+		};
+		EF56AF301FCEC91D0085395A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF650BE020088AE500FD287E /* HomeVC */,
+				EF56AF311FCEC9320085395A /* AppDelegate */,
+				EF56AF351FCEC97D0085395A /* SideMenuVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF56AF311FCEC9320085395A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF56AF321FCEC9490085395A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF56AF351FCEC97D0085395A /* SideMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				EF56AF361FCEC9870085395A /* SideMenuVC.swift */,
+			);
+			path = SideMenuVC;
+			sourceTree = "<group>";
+		};
+		EF650BE020088AE500FD287E /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				EF650BE120088B1000FD287E /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		EFB46BA71FCECEEF0024F915 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BC71FCECF400024F915 /* Helper */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		EFB46BC71FCECF400024F915 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BC81FCECF400024F915 /* Helper.swift */,
+				EFB46BC91FCECF400024F915 /* Messages.swift */,
+				EFB46BCA1FCECF400024F915 /* UserInfo.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EFB46BCB1FCECFD60024F915 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BCD1FCECFF20024F915 /* TVPagePlayer-Bridging-Header.h */,
+				EFB46BCC1FCECFE50024F915 /* Validation */,
+				EFB46BD01FCED05E0024F915 /* SDWebImage */,
+				EFB46BF21FCED07A0024F915 /* Rechability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		EFB46BCC1FCECFE50024F915 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BCE1FCECFF30024F915 /* Validation.h */,
+				EFB46BCF1FCECFF30024F915 /* Validation.m */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		EFB46BD01FCED05E0024F915 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BD11FCED05E0024F915 /* MKAnnotationView+WebCache.h */,
+				EFB46BD21FCED05E0024F915 /* MKAnnotationView+WebCache.m */,
+				EFB46BD31FCED05E0024F915 /* NSData+ImageContentType.h */,
+				EFB46BD41FCED05E0024F915 /* NSData+ImageContentType.m */,
+				EFB46BD51FCED05E0024F915 /* SDImageCache.h */,
+				EFB46BD61FCED05E0024F915 /* SDImageCache.m */,
+				EFB46BD71FCED05E0024F915 /* SDWebImageCompat.h */,
+				EFB46BD81FCED05E0024F915 /* SDWebImageCompat.m */,
+				EFB46BD91FCED05E0024F915 /* SDWebImageDecoder.h */,
+				EFB46BDA1FCED05E0024F915 /* SDWebImageDecoder.m */,
+				EFB46BDB1FCED05E0024F915 /* SDWebImageDownloader.h */,
+				EFB46BDC1FCED05E0024F915 /* SDWebImageDownloader.m */,
+				EFB46BDD1FCED05E0024F915 /* SDWebImageDownloaderOperation.h */,
+				EFB46BDE1FCED05E0024F915 /* SDWebImageDownloaderOperation.m */,
+				EFB46BDF1FCED05E0024F915 /* SDWebImageManager.h */,
+				EFB46BE01FCED05E0024F915 /* SDWebImageManager.m */,
+				EFB46BE11FCED05E0024F915 /* SDWebImageOperation.h */,
+				EFB46BE21FCED05E0024F915 /* SDWebImagePrefetcher.h */,
+				EFB46BE31FCED05E0024F915 /* SDWebImagePrefetcher.m */,
+				EFB46BE41FCED05E0024F915 /* UIButton+WebCache.h */,
+				EFB46BE51FCED05E0024F915 /* UIButton+WebCache.m */,
+				EFB46BE61FCED05E0024F915 /* UIImage+GIF.h */,
+				EFB46BE71FCED05E0024F915 /* UIImage+GIF.m */,
+				EFB46BE81FCED05E0024F915 /* UIImage+MultiFormat.h */,
+				EFB46BE91FCED05E0024F915 /* UIImage+MultiFormat.m */,
+				EFB46BEA1FCED05E0024F915 /* UIImage+WebP.h */,
+				EFB46BEB1FCED05E0024F915 /* UIImage+WebP.m */,
+				EFB46BEC1FCED05E0024F915 /* UIImageView+HighlightedWebCache.h */,
+				EFB46BED1FCED05E0024F915 /* UIImageView+HighlightedWebCache.m */,
+				EFB46BEE1FCED05E0024F915 /* UIImageView+WebCache.h */,
+				EFB46BEF1FCED05E0024F915 /* UIImageView+WebCache.m */,
+				EFB46BF01FCED05E0024F915 /* UIView+WebCacheOperation.h */,
+				EFB46BF11FCED05E0024F915 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		EFB46BF21FCED07A0024F915 /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				EFB46BF31FCED07A0024F915 /* Reachability.h */,
+				EFB46BF41FCED07A0024F915 /* Reachability.m */,
+			);
+			path = Rechability;
+			sourceTree = "<group>";
+		};
+		EFB46C221FCED7F70024F915 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EF72A431210611CC00DA7C83 /* TVPFramework.framework */,
+				EF5AE6A720248C9F002A752A /* TVPResources.bundle */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF56AEFB1FCEC6310085395A /* TVPagePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF56AF271FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayer" */;
+			buildPhases = (
+				EF56AEF81FCEC6310085395A /* Sources */,
+				EF56AEF91FCEC6310085395A /* Frameworks */,
+				EF56AEFA1FCEC6310085395A /* Resources */,
+				EF6086F91FFE2E3A00675CBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPagePlayer;
+			productName = TVPagePhase2;
+			productReference = EF56AEFC1FCEC6310085395A /* TVPagePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF56AF121FCEC6320085395A /* TVPagePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF56AF2A1FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayerTests" */;
+			buildPhases = (
+				EF56AF0F1FCEC6320085395A /* Sources */,
+				EF56AF101FCEC6320085395A /* Frameworks */,
+				EF56AF111FCEC6320085395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF56AF151FCEC6320085395A /* PBXTargetDependency */,
+			);
+			name = TVPagePlayerTests;
+			productName = TVPagePhase2Tests;
+			productReference = EF56AF131FCEC6320085395A /* TVPagePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF56AF1D1FCEC6320085395A /* TVPagePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF56AF2D1FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayerUITests" */;
+			buildPhases = (
+				EF56AF1A1FCEC6320085395A /* Sources */,
+				EF56AF1B1FCEC6320085395A /* Frameworks */,
+				EF56AF1C1FCEC6320085395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF56AF201FCEC6320085395A /* PBXTargetDependency */,
+			);
+			name = TVPagePlayerUITests;
+			productName = TVPagePhase2UITests;
+			productReference = EF56AF1E1FCEC6320085395A /* TVPagePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF56AEF41FCEC6310085395A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dilip Manek";
+				TargetAttributes = {
+					EF56AEFB1FCEC6310085395A = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+					EF56AF121FCEC6320085395A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF56AEFB1FCEC6310085395A;
+					};
+					EF56AF1D1FCEC6320085395A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF56AEFB1FCEC6310085395A;
+					};
+				};
+			};
+			buildConfigurationList = EF56AEF71FCEC6310085395A /* Build configuration list for PBXProject "TVPagePlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF56AEF31FCEC6310085395A;
+			productRefGroup = EF56AEFD1FCEC6310085395A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF56AEFB1FCEC6310085395A /* TVPagePlayer */,
+				EF56AF121FCEC6320085395A /* TVPagePlayerTests */,
+				EF56AF1D1FCEC6320085395A /* TVPagePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF56AEFA1FCEC6310085395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5AE6A820248CA3002A752A /* TVPResources.bundle in Resources */,
+				EF56AF0D1FCEC6310085395A /* LaunchScreen.storyboard in Resources */,
+				EF56AF0A1FCEC6310085395A /* Assets.xcassets in Resources */,
+				EF56AF051FCEC6310085395A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF111FCEC6320085395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF1C1FCEC6320085395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF56AEF81FCEC6310085395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF74A7991FE3F44C00AAEACB /* UIImageView+HighlightedWebCache.m in Sources */,
+				EF74A7971FE3F44700AAEACB /* UIImage+MultiFormat.m in Sources */,
+				EF74A7921FE3F43600AAEACB /* SDWebImageDownloaderOperation.m in Sources */,
+				EF56AF331FCEC94D0085395A /* AppDelegate.swift in Sources */,
+				EF74A78F1FE3F42B00AAEACB /* SDWebImageCompat.m in Sources */,
+				EF74A7961FE3F44500AAEACB /* UIImage+GIF.m in Sources */,
+				EF74A79E1FE3F46200AAEACB /* UserInfo.swift in Sources */,
+				EF74A7941FE3F43D00AAEACB /* SDWebImagePrefetcher.m in Sources */,
+				EF56AF371FCEC98A0085395A /* SideMenuVC.swift in Sources */,
+				EF650BE220088B1000FD287E /* HomeVC.swift in Sources */,
+				EF74A79C1FE3F45E00AAEACB /* Helper.swift in Sources */,
+				EF74A78B1FE3F41E00AAEACB /* Validation.m in Sources */,
+				EF74A7981FE3F44A00AAEACB /* UIImage+WebP.m in Sources */,
+				EF74A79A1FE3F44F00AAEACB /* UIImageView+WebCache.m in Sources */,
+				EF74A7911FE3F43000AAEACB /* SDWebImageDownloader.m in Sources */,
+				EF74A79B1FE3F45200AAEACB /* UIView+WebCacheOperation.m in Sources */,
+				EF74A7951FE3F44200AAEACB /* UIButton+WebCache.m in Sources */,
+				EF74A78C1FE3F42300AAEACB /* MKAnnotationView+WebCache.m in Sources */,
+				EF74A78D1FE3F42600AAEACB /* NSData+ImageContentType.m in Sources */,
+				EF74A79D1FE3F46000AAEACB /* Messages.swift in Sources */,
+				EF56AF081FCEC6310085395A /* TVPagePlayer.xcdatamodeld in Sources */,
+				EF74A7931FE3F43900AAEACB /* SDWebImageManager.m in Sources */,
+				EF74A7901FE3F42D00AAEACB /* SDWebImageDecoder.m in Sources */,
+				EF74A78E1FE3F42800AAEACB /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF0F1FCEC6320085395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF56AF181FCEC6320085395A /* TVPagePlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF56AF1A1FCEC6320085395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF56AF231FCEC6320085395A /* TVPagePlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF56AF151FCEC6320085395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF56AEFB1FCEC6310085395A /* TVPagePlayer */;
+			targetProxy = EF56AF141FCEC6320085395A /* PBXContainerItemProxy */;
+		};
+		EF56AF201FCEC6320085395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF56AEFB1FCEC6310085395A /* TVPagePlayer */;
+			targetProxy = EF56AF1F1FCEC6320085395A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF56AF031FCEC6310085395A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF56AF041FCEC6310085395A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF56AF0B1FCEC6310085395A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF56AF0C1FCEC6310085395A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF56AF251FCEC6320085395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF56AF261FCEC6320085395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF56AF281FCEC6320085395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gautam Sareriya (3LRBG6L46K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gautam Sareriya (3LRBG6L46K)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 657YYPPT89;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvpageplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a4796cad-32a6-4631-a810-9dfa476988be";
+				PROVISIONING_PROFILE_SPECIFIER = TVPageDevProvision;
+				SWIFT_OBJC_BRIDGING_HEADER = "TVPagePlayer/ThirdParty/TVPagePlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF56AF291FCEC6320085395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TVPage, Inc. (657YYPPT89)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TVPage, Inc. (657YYPPT89)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 657YYPPT89;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvpageplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08e4bac8-aecb-4d5a-9f2f-79e7c36d87c0";
+				PROVISIONING_PROFILE_SPECIFIER = TVPageAppStore;
+				SWIFT_OBJC_BRIDGING_HEADER = "TVPagePlayer/ThirdParty/TVPagePlayer-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF56AF2B1FCEC6320085395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLTP24YBCD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TVPagePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVPagePlayer.app/TVPagePlayer";
+			};
+			name = Debug;
+		};
+		EF56AF2C1FCEC6320085395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLTP24YBCD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TVPagePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVPagePlayer.app/TVPagePlayer";
+			};
+			name = Release;
+		};
+		EF56AF2E1FCEC6320085395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TVPagePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVPagePlayer;
+			};
+			name = Debug;
+		};
+		EF56AF2F1FCEC6320085395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVPagePlayer/Framework",
+				);
+				INFOPLIST_FILE = TVPagePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TVPagePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVPagePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF56AEF71FCEC6310085395A /* Build configuration list for PBXProject "TVPagePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF56AF251FCEC6320085395A /* Debug */,
+				EF56AF261FCEC6320085395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF56AF271FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF56AF281FCEC6320085395A /* Debug */,
+				EF56AF291FCEC6320085395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF56AF2A1FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF56AF2B1FCEC6320085395A /* Debug */,
+				EF56AF2C1FCEC6320085395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF56AF2D1FCEC6320085395A /* Build configuration list for PBXNativeTarget "TVPagePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF56AF2E1FCEC6320085395A /* Debug */,
+				EF56AF2F1FCEC6320085395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF56AF061FCEC6310085395A /* TVPagePlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF56AF071FCEC6310085395A /* TVPagePhase2.xcdatamodel */,
+			);
+			currentVersion = EF56AF071FCEC6310085395A /* TVPagePhase2.xcdatamodel */;
+			path = TVPagePlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF56AEF41FCEC6310085395A /* Project object */;
+}

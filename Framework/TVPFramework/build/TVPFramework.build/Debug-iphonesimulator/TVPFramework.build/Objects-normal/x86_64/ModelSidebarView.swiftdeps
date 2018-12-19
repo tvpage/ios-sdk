@@ -1,0 +1,510 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModelVideoList"
+- "ModelVideoAsset"
+- "ModelVideoAssetSources"
+- "ModelVideoMetricsStatistics"
+- "ModelVideoVV_VI"
+- "ModelVideoEngagementScore"
+provides-nominal:
+- "12TVPFramework14ModelVideoListC"
+- "12TVPFramework15ModelVideoAssetC"
+- "12TVPFramework22ModelVideoAssetSourcesC"
+- "12TVPFramework27ModelVideoMetricsStatisticsC"
+- "12TVPFramework15ModelVideoVV_VIC"
+- "12TVPFramework25ModelVideoEngagementScoreC"
+provides-member:
+- ["12TVPFramework14ModelVideoListC", ""]
+- ["12TVPFramework15ModelVideoAssetC", ""]
+- ["12TVPFramework22ModelVideoAssetSourcesC", ""]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", ""]
+- ["12TVPFramework15ModelVideoVV_VIC", ""]
+- ["12TVPFramework25ModelVideoEngagementScoreC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ModelVideoAsset"
+- "ModelVideoAssetSources"
+- "ModelVideoEngagementScore"
+- "ModelVideoList"
+- "ModelVideoMetricsStatistics"
+- "ModelVideoVV_VI"
+- "NSArray"
+- "NSDictionary"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "hasPrefix"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "length"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "getArray"]
+- !private ["s7CVarArgP", "getDictionary"]
+- !private ["s7CVarArgP", "getString"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "length"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "mutableCopy"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "hasPrefix"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "length"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10ComparableP", "hasPrefix"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "length"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "getArray"]
+- !private ["s28CustomDebugStringConvertibleP", "getDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "getString"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "mutableCopy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hasPrefix"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "length"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "getArray"]
+- !private ["s17CustomReflectableP", "getDictionary"]
+- !private ["s17CustomReflectableP", "getString"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "length"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "mutableCopy"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "getArray"]
+- !private ["s23CustomStringConvertibleP", "getDictionary"]
+- !private ["s23CustomStringConvertibleP", "getString"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "mutableCopy"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "hasPrefix"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "length"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "hasPrefix"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "length"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "getArray"]
+- !private ["s9EquatableP", "getDictionary"]
+- !private ["s9EquatableP", "getString"]
+- !private ["s9EquatableP", "hasPrefix"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "length"]
+- !private ["s9EquatableP", "lowercased"]
+- !private ["s9EquatableP", "mutableCopy"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "getArray"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "getDictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "getString"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mutableCopy"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "length"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "length"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "length"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "getArray"]
+- !private ["s8HashableP", "getDictionary"]
+- !private ["s8HashableP", "getString"]
+- !private ["s8HashableP", "hasPrefix"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "length"]
+- !private ["s8HashableP", "lowercased"]
+- !private ["s8HashableP", "mutableCopy"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "length"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "length"]
+- !private ["s10MirrorPathP", "lowercased"]
+- ["12TVPFramework15ModelVideoAssetC", "ModelVideoAssetSources"]
+- ["12TVPFramework15ModelVideoAssetC", "NSDictionary"]
+- ["12TVPFramework15ModelVideoAssetC", "String"]
+- ["12TVPFramework15ModelVideoAssetC", "author"]
+- ["12TVPFramework15ModelVideoAssetC", "deinit"]
+- ["12TVPFramework15ModelVideoAssetC", "description"]
+- ["12TVPFramework15ModelVideoAssetC", "init"]
+- ["12TVPFramework15ModelVideoAssetC", "mediaDuration"]
+- ["12TVPFramework15ModelVideoAssetC", "prettyDuration"]
+- ["12TVPFramework15ModelVideoAssetC", "quality"]
+- ["12TVPFramework15ModelVideoAssetC", "sources"]
+- ["12TVPFramework15ModelVideoAssetC", "thumbnailUrl"]
+- ["12TVPFramework15ModelVideoAssetC", "title"]
+- ["12TVPFramework15ModelVideoAssetC", "type"]
+- ["12TVPFramework15ModelVideoAssetC", "uploadAsset"]
+- ["12TVPFramework15ModelVideoAssetC", "uploadDate"]
+- ["12TVPFramework15ModelVideoAssetC", "videoId"]
+- ["12TVPFramework15ModelVideoAssetC", "views"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "NSDictionary"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "String"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "deinit"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "file"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "height"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "init"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "mime"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "quality"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "qualityActual"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "url"]
+- ["12TVPFramework22ModelVideoAssetSourcesC", "width"]
+- ["12TVPFramework25ModelVideoEngagementScoreC", "NSDictionary"]
+- ["12TVPFramework25ModelVideoEngagementScoreC", "String"]
+- ["12TVPFramework25ModelVideoEngagementScoreC", "deinit"]
+- ["12TVPFramework25ModelVideoEngagementScoreC", "init"]
+- ["12TVPFramework25ModelVideoEngagementScoreC", "lastUpdatedDate"]
+- ["12TVPFramework14ModelVideoListC", "CVV_VI"]
+- ["12TVPFramework14ModelVideoListC", "ModelVideoAsset"]
+- ["12TVPFramework14ModelVideoListC", "ModelVideoMetricsStatistics"]
+- ["12TVPFramework14ModelVideoListC", "NSArray"]
+- ["12TVPFramework14ModelVideoListC", "NSDictionary"]
+- ["12TVPFramework14ModelVideoListC", "String"]
+- ["12TVPFramework14ModelVideoListC", "VIDEO_LENGTH"]
+- ["12TVPFramework14ModelVideoListC", "VV_VI"]
+- ["12TVPFramework14ModelVideoListC", "asset"]
+- ["12TVPFramework14ModelVideoListC", "category"]
+- ["12TVPFramework14ModelVideoListC", "category_id_1"]
+- ["12TVPFramework14ModelVideoListC", "category_id_2"]
+- ["12TVPFramework14ModelVideoListC", "conversion_score"]
+- ["12TVPFramework14ModelVideoListC", "date_created"]
+- ["12TVPFramework14ModelVideoListC", "date_modified"]
+- ["12TVPFramework14ModelVideoListC", "deinit"]
+- ["12TVPFramework14ModelVideoListC", "description"]
+- ["12TVPFramework14ModelVideoListC", "dictJSON"]
+- ["12TVPFramework14ModelVideoListC", "duration"]
+- ["12TVPFramework14ModelVideoListC", "engagement_score"]
+- ["12TVPFramework14ModelVideoListC", "entityIdParent"]
+- ["12TVPFramework14ModelVideoListC", "entityType"]
+- ["12TVPFramework14ModelVideoListC", "id"]
+- ["12TVPFramework14ModelVideoListC", "init"]
+- ["12TVPFramework14ModelVideoListC", "loginId"]
+- ["12TVPFramework14ModelVideoListC", "merchandised"]
+- ["12TVPFramework14ModelVideoListC", "metrics_statistics"]
+- ["12TVPFramework14ModelVideoListC", "product_category"]
+- ["12TVPFramework14ModelVideoListC", "published"]
+- ["12TVPFramework14ModelVideoListC", "referenceId"]
+- ["12TVPFramework14ModelVideoListC", "settings"]
+- ["12TVPFramework14ModelVideoListC", "sortOrder"]
+- ["12TVPFramework14ModelVideoListC", "sourceId"]
+- ["12TVPFramework14ModelVideoListC", "status"]
+- ["12TVPFramework14ModelVideoListC", "tags"]
+- ["12TVPFramework14ModelVideoListC", "title"]
+- ["12TVPFramework14ModelVideoListC", "titleTextEncoded"]
+- ["12TVPFramework14ModelVideoListC", "transcripts"]
+- ["12TVPFramework14ModelVideoListC", "tvp_profiles"]
+- ["12TVPFramework14ModelVideoListC", "tvp_profiles_manual"]
+- ["12TVPFramework14ModelVideoListC", "tvp_profiles_maxscore"]
+- ["12TVPFramework14ModelVideoListC", "video_type"]
+- ["12TVPFramework14ModelVideoListC", "visibility"]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", "ModelVideoVV_VI"]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", "NSDictionary"]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", "VV_VI"]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", "deinit"]
+- ["12TVPFramework27ModelVideoMetricsStatisticsC", "init"]
+- ["12TVPFramework15ModelVideoVV_VIC", "ModelVideoEngagementScore"]
+- ["12TVPFramework15ModelVideoVV_VIC", "NSDictionary"]
+- ["12TVPFramework15ModelVideoVV_VIC", "String"]
+- ["12TVPFramework15ModelVideoVV_VIC", "deinit"]
+- ["12TVPFramework15ModelVideoVV_VIC", "engagement_score"]
+- ["12TVPFramework15ModelVideoVV_VIC", "init"]
+- ["12TVPFramework15ModelVideoVV_VIC", "lastUpdatedDate"]
+- !private ["s17MutableCollectionP", "append"]
+- ["s17MutableCollectionP", "init"]
+- ["So7NSArrayC", "init"]
+- !private ["So8NSCodingP", "getArray"]
+- !private ["So8NSCodingP", "getDictionary"]
+- !private ["So8NSCodingP", "getString"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "length"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "mutableCopy"]
+- !private ["So9NSCopyingP", "getArray"]
+- !private ["So9NSCopyingP", "getDictionary"]
+- !private ["So9NSCopyingP", "getString"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "length"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "mutableCopy"]
+- !private ["So12NSDictionaryC", "getArray"]
+- !private ["So12NSDictionaryC", "getDictionary"]
+- !private ["So12NSDictionaryC", "getString"]
+- ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "mutableCopy"]
+- !private ["So17NSFastEnumerationP", "getArray"]
+- !private ["So17NSFastEnumerationP", "getDictionary"]
+- !private ["So17NSFastEnumerationP", "getString"]
+- ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "mutableCopy"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "length"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "length"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "getArray"]
+- !private ["So16NSMutableCopyingP", "getDictionary"]
+- !private ["So16NSMutableCopyingP", "getString"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "length"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "mutableCopy"]
+- !private ["So8NSObjectC", "getArray"]
+- !private ["So8NSObjectC", "getDictionary"]
+- !private ["So8NSObjectC", "getString"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- !private ["So8NSObjectC", "length"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "mutableCopy"]
+- !private ["So16NSObjectProtocolP", "getArray"]
+- !private ["So16NSObjectProtocolP", "getDictionary"]
+- !private ["So16NSObjectProtocolP", "getString"]
+- !private ["So16NSObjectProtocolP", "hasPrefix"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "length"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So16NSObjectProtocolP", "mutableCopy"]
+- !private ["So14NSSecureCodingP", "getArray"]
+- !private ["So14NSSecureCodingP", "getDictionary"]
+- !private ["So14NSSecureCodingP", "getString"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "length"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "mutableCopy"]
+- !private ["So8NSStringC", "hasPrefix"]
+- !private ["So8NSStringC", "length"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "hasPrefix"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "length"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "getArray"]
+- !private ["s8SequenceP", "getDictionary"]
+- !private ["s8SequenceP", "getString"]
+- !private ["s8SequenceP", "hasPrefix"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "length"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "mutableCopy"]
+- !private ["SS", "hasPrefix"]
+- ["SS", "init"]
+- !private ["SS", "length"]
+- !private ["SS", "lowercased"]
+- !private ["s14StringProtocolP", "hasPrefix"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "length"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "length"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "length"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "length"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "length"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hasPrefix"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "length"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "length"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hasPrefix"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "length"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "length"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "length"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mutableCopy"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "length"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "hasPrefix"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "length"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "12TVPFramework15ModelVideoAssetC"
+- "12TVPFramework22ModelVideoAssetSourcesC"
+- "12TVPFramework25ModelVideoEngagementScoreC"
+- "12TVPFramework14ModelVideoListC"
+- "12TVPFramework27ModelVideoMetricsStatisticsC"
+- "12TVPFramework15ModelVideoVV_VIC"
+- "s17MutableCollectionP"
+- "So7NSArrayC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "0561ed931d9515b66f5bca402f04d5c3"

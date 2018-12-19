@@ -1,0 +1,133 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/TVPFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DropDown.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/DropDown/DropDown.h"
+        },
+        {
+          'type': 'file',
+          'name': "DropDown.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/DropDown.h"
+        },
+        {
+          'type': 'file',
+          'name': "DropDownView.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+        },
+        {
+          'type': 'file',
+          'name': "HelperObjC.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "RateView.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Prefix.pch",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD-Prefix.pch"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVRadialGradientLayer.h"
+        },
+        {
+          'type': 'file',
+          'name': "TPFloatRatingView.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+        },
+        {
+          'type': 'file',
+          'name': "TVP.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TVP.h"
+        },
+        {
+          'type': 'file',
+          'name': "TVPFramework-Swift.h",
+          'external-contents': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/TVPFramework.framework/Headers/TVPFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TVPFramework.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "TvPageExtractor.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoError.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoExtractor.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoExtractorOperation.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoURLParser.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoVideo+Private.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "YTVimeoVideo.h",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dilipmanek/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/TVPFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/dilipmanek/Library/Developer/Xcode/DerivedData/TVPFramework-chqycwxgkdfqvigqokddzpprjltb/Build/Intermediates.noindex/ArchiveIntermediates/TVPLib/BuildProductsPath/Release-iphonesimulator/TVPFramework.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Release-iphonesimulator/TVPFramework.build/unextended-module.modulemap',
+    }]
+  }]
+}

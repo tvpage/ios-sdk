@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MTCollectionCell"
+provides-nominal:
+- "12TVPFramework16MTCollectionCellC"
+provides-member:
+- ["12TVPFramework16MTCollectionCellC", ""]
+provides-dynamic-lookup:
+- "arrCellConstants"
+- "arrCollCellHorizontalConstraint"
+- "arrCollCellHorizontalConstraint_iPad"
+- "arrCollCellVerticalConstraint"
+- "arrCollCellVerticalConstraint_iPad"
+- "awakeFromNib"
+depends-top-level:
+- !private "!="
+- !private "*"
+- "AssignmentPrecedence"
+- !private "DeviceScale"
+- !private "DeviceType"
+- "MTCollectionCell"
+- "NSLayoutConstraint"
+- "UICollectionViewCell"
+- !private "||"
+depends-member:
+- !private ["12TVPFramework10AnchorViewP", "DeviceScale"]
+- !private ["12TVPFramework10AnchorViewP", "DeviceType"]
+- ["12TVPFramework10AnchorViewP", ""]
+- !private ["12TVPFramework10AnchorViewP", "arrCellConstants"]
+- !private ["12TVPFramework10AnchorViewP", "arrCollCellHorizontalConstraint"]
+- !private ["12TVPFramework10AnchorViewP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["12TVPFramework10AnchorViewP", "arrCollCellVerticalConstraint"]
+- !private ["12TVPFramework10AnchorViewP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["12TVPFramework10AnchorViewP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "DeviceScale"]
+- !private ["So15CALayerDelegateP", "DeviceType"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "arrCellConstants"]
+- !private ["So15CALayerDelegateP", "arrCollCellHorizontalConstraint"]
+- !private ["So15CALayerDelegateP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So15CALayerDelegateP", "arrCollCellVerticalConstraint"]
+- !private ["So15CALayerDelegateP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "DeviceScale"]
+- !private ["s7CVarArgP", "DeviceType"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "arrCellConstants"]
+- !private ["s7CVarArgP", "arrCollCellHorizontalConstraint"]
+- !private ["s7CVarArgP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s7CVarArgP", "arrCollCellVerticalConstraint"]
+- !private ["s7CVarArgP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceScale"]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "arrCellConstants"]
+- !private ["s28CustomDebugStringConvertibleP", "arrCollCellHorizontalConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s28CustomDebugStringConvertibleP", "arrCollCellVerticalConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "DeviceScale"]
+- !private ["s23CustomStringConvertibleP", "DeviceType"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "arrCellConstants"]
+- !private ["s23CustomStringConvertibleP", "arrCollCellHorizontalConstraint"]
+- !private ["s23CustomStringConvertibleP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s23CustomStringConvertibleP", "arrCollCellVerticalConstraint"]
+- !private ["s23CustomStringConvertibleP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["12TVPFramework11DeviceScaleV", "x"]
+- !private ["12TVPFramework11DeviceScaleV", "y"]
+- !private ["12TVPFramework10DeviceTypeV", "IS_IPAD"]
+- !private ["12TVPFramework10DeviceTypeV", "IS_IPAD_PRO"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "DeviceScale"]
+- !private ["s9EquatableP", "DeviceType"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "arrCellConstants"]
+- !private ["s9EquatableP", "arrCollCellHorizontalConstraint"]
+- !private ["s9EquatableP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s9EquatableP", "arrCollCellVerticalConstraint"]
+- !private ["s9EquatableP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s9EquatableP", "constant"]
+- !private ["s9EquatableP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "DeviceScale"]
+- !private ["s8HashableP", "DeviceType"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "arrCellConstants"]
+- !private ["s8HashableP", "arrCollCellHorizontalConstraint"]
+- !private ["s8HashableP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s8HashableP", "arrCollCellVerticalConstraint"]
+- !private ["s8HashableP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s8HashableP", "constant"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["12TVPFramework16MTCollectionCellC", "DeviceScale"]
+- !private ["12TVPFramework16MTCollectionCellC", "DeviceType"]
+- ["12TVPFramework16MTCollectionCellC", "NSLayoutConstraint"]
+- ["12TVPFramework16MTCollectionCellC", "arrCellConstants"]
+- ["12TVPFramework16MTCollectionCellC", "arrCollCellHorizontalConstraint"]
+- ["12TVPFramework16MTCollectionCellC", "arrCollCellHorizontalConstraint_iPad"]
+- ["12TVPFramework16MTCollectionCellC", "arrCollCellVerticalConstraint"]
+- ["12TVPFramework16MTCollectionCellC", "arrCollCellVerticalConstraint_iPad"]
+- ["12TVPFramework16MTCollectionCellC", "awakeFromNib"]
+- ["12TVPFramework16MTCollectionCellC", "deinit"]
+- ["12TVPFramework16MTCollectionCellC", "init"]
+- !private ["So8NSCodingP", "DeviceScale"]
+- !private ["So8NSCodingP", "DeviceType"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "arrCellConstants"]
+- !private ["So8NSCodingP", "arrCollCellHorizontalConstraint"]
+- !private ["So8NSCodingP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So8NSCodingP", "arrCollCellVerticalConstraint"]
+- !private ["So8NSCodingP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- !private ["So8NSObjectC", "DeviceScale"]
+- !private ["So8NSObjectC", "DeviceType"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "arrCellConstants"]
+- ["So8NSObjectC", "arrCollCellHorizontalConstraint"]
+- ["So8NSObjectC", "arrCollCellHorizontalConstraint_iPad"]
+- ["So8NSObjectC", "arrCollCellVerticalConstraint"]
+- ["So8NSObjectC", "arrCollCellVerticalConstraint_iPad"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "constant"]
+- ["So8NSObjectC", "init"]
+- !private ["So16NSObjectProtocolP", "DeviceScale"]
+- !private ["So16NSObjectProtocolP", "DeviceType"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "arrCellConstants"]
+- !private ["So16NSObjectProtocolP", "arrCollCellHorizontalConstraint"]
+- !private ["So16NSObjectProtocolP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So16NSObjectProtocolP", "arrCollCellVerticalConstraint"]
+- !private ["So16NSObjectProtocolP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So16NSObjectProtocolP", "constant"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "DeviceScale"]
+- !private ["So29UIAccessibilityIdentificationP", "DeviceType"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "arrCellConstants"]
+- !private ["So29UIAccessibilityIdentificationP", "arrCollCellHorizontalConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So29UIAccessibilityIdentificationP", "arrCollCellVerticalConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "DeviceScale"]
+- !private ["So12UIAppearanceP", "DeviceType"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "arrCellConstants"]
+- !private ["So12UIAppearanceP", "arrCollCellHorizontalConstraint"]
+- !private ["So12UIAppearanceP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So12UIAppearanceP", "arrCollCellVerticalConstraint"]
+- !private ["So12UIAppearanceP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "DeviceScale"]
+- !private ["So21UIAppearanceContainerP", "DeviceType"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "arrCellConstants"]
+- !private ["So21UIAppearanceContainerP", "arrCollCellHorizontalConstraint"]
+- !private ["So21UIAppearanceContainerP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So21UIAppearanceContainerP", "arrCollCellVerticalConstraint"]
+- !private ["So21UIAppearanceContainerP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So24UICollectionReusableViewC", "DeviceScale"]
+- !private ["So24UICollectionReusableViewC", "DeviceType"]
+- ["So24UICollectionReusableViewC", "NSLayoutConstraint"]
+- ["So24UICollectionReusableViewC", "arrCellConstants"]
+- ["So24UICollectionReusableViewC", "arrCollCellHorizontalConstraint"]
+- ["So24UICollectionReusableViewC", "arrCollCellHorizontalConstraint_iPad"]
+- ["So24UICollectionReusableViewC", "arrCollCellVerticalConstraint"]
+- ["So24UICollectionReusableViewC", "arrCollCellVerticalConstraint_iPad"]
+- ["So24UICollectionReusableViewC", "awakeFromNib"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So20UICollectionViewCellC", "DeviceScale"]
+- !private ["So20UICollectionViewCellC", "DeviceType"]
+- ["So20UICollectionViewCellC", "NSLayoutConstraint"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "arrCellConstants"]
+- ["So20UICollectionViewCellC", "arrCollCellHorizontalConstraint"]
+- ["So20UICollectionViewCellC", "arrCollCellHorizontalConstraint_iPad"]
+- ["So20UICollectionViewCellC", "arrCollCellVerticalConstraint"]
+- ["So20UICollectionViewCellC", "arrCollCellVerticalConstraint_iPad"]
+- ["So20UICollectionViewCellC", "awakeFromNib"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So17UICoordinateSpaceP", "DeviceScale"]
+- !private ["So17UICoordinateSpaceP", "DeviceType"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "arrCellConstants"]
+- !private ["So17UICoordinateSpaceP", "arrCollCellHorizontalConstraint"]
+- !private ["So17UICoordinateSpaceP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So17UICoordinateSpaceP", "arrCollCellVerticalConstraint"]
+- !private ["So17UICoordinateSpaceP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "DeviceScale"]
+- !private ["So13UIDynamicItemP", "DeviceType"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "arrCellConstants"]
+- !private ["So13UIDynamicItemP", "arrCollCellHorizontalConstraint"]
+- !private ["So13UIDynamicItemP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So13UIDynamicItemP", "arrCollCellVerticalConstraint"]
+- !private ["So13UIDynamicItemP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", "DeviceScale"]
+- !private ["So18UIFocusEnvironmentP", "DeviceType"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "arrCellConstants"]
+- !private ["So18UIFocusEnvironmentP", "arrCollCellHorizontalConstraint"]
+- !private ["So18UIFocusEnvironmentP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So18UIFocusEnvironmentP", "arrCollCellVerticalConstraint"]
+- !private ["So18UIFocusEnvironmentP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So11UIFocusItemP", "DeviceScale"]
+- !private ["So11UIFocusItemP", "DeviceType"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "arrCellConstants"]
+- !private ["So11UIFocusItemP", "arrCollCellHorizontalConstraint"]
+- !private ["So11UIFocusItemP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So11UIFocusItemP", "arrCollCellVerticalConstraint"]
+- !private ["So11UIFocusItemP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "DeviceScale"]
+- !private ["So30UIPasteConfigurationSupportingP", "DeviceType"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "arrCellConstants"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrCollCellHorizontalConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrCollCellVerticalConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "DeviceScale"]
+- !private ["So11UIResponderC", "DeviceType"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "arrCellConstants"]
+- ["So11UIResponderC", "arrCollCellHorizontalConstraint"]
+- ["So11UIResponderC", "arrCollCellHorizontalConstraint_iPad"]
+- ["So11UIResponderC", "arrCollCellVerticalConstraint"]
+- ["So11UIResponderC", "arrCollCellVerticalConstraint_iPad"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "DeviceScale"]
+- !private ["So30UIResponderStandardEditActionsP", "DeviceType"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "arrCellConstants"]
+- !private ["So30UIResponderStandardEditActionsP", "arrCollCellHorizontalConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So30UIResponderStandardEditActionsP", "arrCollCellVerticalConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So18UITraitEnvironmentP", "DeviceScale"]
+- !private ["So18UITraitEnvironmentP", "DeviceType"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "arrCellConstants"]
+- !private ["So18UITraitEnvironmentP", "arrCollCellHorizontalConstraint"]
+- !private ["So18UITraitEnvironmentP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["So18UITraitEnvironmentP", "arrCollCellVerticalConstraint"]
+- !private ["So18UITraitEnvironmentP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So6UIViewC", "DeviceScale"]
+- !private ["So6UIViewC", "DeviceType"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "arrCellConstants"]
+- ["So6UIViewC", "arrCollCellHorizontalConstraint"]
+- ["So6UIViewC", "arrCollCellHorizontalConstraint_iPad"]
+- ["So6UIViewC", "arrCollCellVerticalConstraint"]
+- ["So6UIViewC", "arrCollCellVerticalConstraint_iPad"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DeviceScale"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DeviceType"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrCellConstants"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrCollCellHorizontalConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrCollCellVerticalConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrCellConstants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrCollCellHorizontalConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrCollCellHorizontalConstraint_iPad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrCollCellVerticalConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrCollCellVerticalConstraint_iPad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "12TVPFramework10AnchorViewP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "12TVPFramework11DeviceScaleV"
+- !private "12TVPFramework10DeviceTypeV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "12TVPFramework16MTCollectionCellC"
+- "So8NSCodingP"
+- !private "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphoneos/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "6dc9dcbb8a4334ac4b3ddca301fee77d"

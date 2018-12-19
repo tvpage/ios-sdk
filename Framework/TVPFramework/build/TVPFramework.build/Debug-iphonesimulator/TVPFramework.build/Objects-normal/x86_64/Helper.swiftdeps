@@ -1,0 +1,409 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constants"
+- "UIUserInterfaceIdiom"
+- "DeviceType"
+- "ScreenSize"
+- "DeviceScale"
+- "FontName"
+- "getStoryboard"
+- "getVideoGalleryVC"
+provides-nominal:
+- "12TVPFramework9ConstantsV"
+- "12TVPFramework20UIUserInterfaceIdiomO"
+- "12TVPFramework10DeviceTypeV"
+- "12TVPFramework10ScreenSizeV"
+- "12TVPFramework11DeviceScaleV"
+- "12TVPFramework8FontNameV"
+provides-member:
+- ["12TVPFramework9ConstantsV", ""]
+- ["12TVPFramework20UIUserInterfaceIdiomO", ""]
+- ["12TVPFramework10DeviceTypeV", ""]
+- ["12TVPFramework10ScreenSizeV", ""]
+- ["12TVPFramework11DeviceScaleV", ""]
+- ["12TVPFramework8FontNameV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "&&"
+- "+"
+- "/"
+- "<"
+- "=="
+- !private "Bundle"
+- "CastingPrecedence"
+- "Constants"
+- "DeviceScale"
+- "DeviceType"
+- "Float"
+- "FontName"
+- "Int"
+- "ScreenSize"
+- !private "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UIDevice"
+- "UIScreen"
+- "UIStoryboard"
+- "UIUserInterfaceIdiom"
+- "VideoGalleryVC"
+- "getStoryboard"
+- "getVideoGalleryVC"
+- "max"
+- "min"
+- "||"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["s19BinaryFloatingPointP", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "path"]
+- !private ["So6BundleC", "url"]
+- ["SC6CGRectV", "size"]
+- ["SC6CGSizeV", "height"]
+- ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "bounds"]
+- ["s7CVarArgP", "current"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "url"]
+- ["s7CVarArgP", "userInterfaceIdiom"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["12TVPFramework9ConstantsV", "baseURL"]
+- ["12TVPFramework9ConstantsV", "channelID"]
+- ["12TVPFramework9ConstantsV", "init"]
+- ["12TVPFramework9ConstantsV", "loginID"]
+- ["12TVPFramework9ConstantsV", "productID"]
+- ["12TVPFramework9ConstantsV", "videoPageNumber"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- ["s28CustomDebugStringConvertibleP", "userInterfaceIdiom"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "size"]
+- ["s29CustomPlaygroundQuickLookableP", "width"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- ["s23CustomStringConvertibleP", "current"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- ["s23CustomStringConvertibleP", "userInterfaceIdiom"]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "size"]
+- ["s9DecodableP", "width"]
+- ["12TVPFramework11DeviceScaleV", "DeviceScale"]
+- ["12TVPFramework11DeviceScaleV", "DeviceType"]
+- ["12TVPFramework11DeviceScaleV", "Float"]
+- ["12TVPFramework11DeviceScaleV", "ScreenSize"]
+- ["12TVPFramework11DeviceScaleV", "init"]
+- ["12TVPFramework11DeviceScaleV", "x"]
+- ["12TVPFramework11DeviceScaleV", "x_iPhone"]
+- ["12TVPFramework11DeviceScaleV", "xy"]
+- ["12TVPFramework11DeviceScaleV", "y"]
+- ["12TVPFramework11DeviceScaleV", "y_iPhone"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPAD"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPAD_PRO"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPHONE_4_OR_LESS"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPHONE_5"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPHONE_6"]
+- ["12TVPFramework10DeviceTypeV", "IS_IPHONE_6PLUS"]
+- ["12TVPFramework10DeviceTypeV", "ScreenSize"]
+- ["12TVPFramework10DeviceTypeV", "UIDevice"]
+- ["12TVPFramework10DeviceTypeV", "init"]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "size"]
+- ["s9EncodableP", "width"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "bounds"]
+- ["s9EquatableP", "current"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "height"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- ["s9EquatableP", "main"]
+- ["s9EquatableP", "pad"]
+- !private ["s9EquatableP", "path"]
+- ["s9EquatableP", "phone"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "url"]
+- ["s9EquatableP", "userInterfaceIdiom"]
+- ["s9EquatableP", "width"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["Sf", "init"]
+- ["s13FloatingPointP", "init"]
+- ["12TVPFramework8FontNameV", "DosisBold"]
+- ["12TVPFramework8FontNameV", "DosisExtraBold"]
+- ["12TVPFramework8FontNameV", "DosisExtraLight"]
+- ["12TVPFramework8FontNameV", "DosisLight"]
+- ["12TVPFramework8FontNameV", "DosisMedium"]
+- ["12TVPFramework8FontNameV", "DosisRegular"]
+- ["12TVPFramework8FontNameV", "DosisSemiBold"]
+- ["12TVPFramework8FontNameV", "HelveticaNeue"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueBold"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueBoldItalic"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueCondensedBlack"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueCondensedBold"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueLight"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueLightItalic"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueMedium"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueMediumItalic"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueThin"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueThinItalic"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueUltraLight"]
+- ["12TVPFramework8FontNameV", "HelveticaNeueUltraLightItalic"]
+- ["12TVPFramework8FontNameV", "SatteliteOblique"]
+- ["12TVPFramework8FontNameV", "SatteliteRegular"]
+- ["12TVPFramework8FontNameV", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "bounds"]
+- ["s8HashableP", "current"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- ["s8HashableP", "main"]
+- ["s8HashableP", "pad"]
+- !private ["s8HashableP", "path"]
+- ["s8HashableP", "phone"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "url"]
+- ["s8HashableP", "userInterfaceIdiom"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "userInterfaceIdiom"]
+- ["So16NSObjectProtocolP", "bounds"]
+- ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "url"]
+- ["So16NSObjectProtocolP", "userInterfaceIdiom"]
+- ["s7NumericP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "pad"]
+- ["s16RawRepresentableP", "phone"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["12TVPFramework10ScreenSizeV", "SCREEN_MAX_LENGTH"]
+- ["12TVPFramework10ScreenSizeV", "SCREEN_MIN_LENGTH"]
+- ["12TVPFramework10ScreenSizeV", "ScreenSize"]
+- ["12TVPFramework10ScreenSizeV", "UIScreen"]
+- ["12TVPFramework10ScreenSizeV", "height"]
+- ["12TVPFramework10ScreenSizeV", "init"]
+- ["12TVPFramework10ScreenSizeV", "max"]
+- ["12TVPFramework10ScreenSizeV", "min"]
+- ["12TVPFramework10ScreenSizeV", "width"]
+- ["s8SequenceP", "init"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So8UIDeviceC", "current"]
+- ["So8UIDeviceC", "userInterfaceIdiom"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "main"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "Pad"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "Phone"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "RawValue"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "Unspecified"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "_Default_RawValue"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "deinit"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "hashValue"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "init"]
+- ["12TVPFramework20UIUserInterfaceIdiomO", "rawValue"]
+- ["SC20UIUserInterfaceIdiomO", "pad"]
+- ["SC20UIUserInterfaceIdiomO", "phone"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "size"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "Sb"
+- !private "So6BundleC"
+- "SC6CGRectV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "12TVPFramework9ConstantsV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "12TVPFramework11DeviceScaleV"
+- "12TVPFramework10DeviceTypeV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "Sf"
+- "s13FloatingPointP"
+- "12TVPFramework8FontNameV"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "12TVPFramework10ScreenSizeV"
+- "s8SequenceP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So8UIDeviceC"
+- "So8UIScreenC"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "12TVPFramework20UIUserInterfaceIdiomO"
+- "SC20UIUserInterfaceIdiomO"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/HelperObjC.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/MBProgressHUD/MBProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/SVProgressHUD/SVProgressHUD.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFramework.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractorOperation.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoVideo.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoURLParser.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoError.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/TvPageExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/TVP_PlayerFramework/YTVimeoExtractor/YTVimeoExtractor.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/TVPFrameworkResources/RateView/RateView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/TPFloatRatingView/TPFloatRatingView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/TVPFramework/ThirdParty/DropDown View/DropDownView.h"
+- "/Volumes/Project/Bit Bucket/TVPage-Phase1/TVPagePhase2/Source Code/Framework/TVPFramework/build/TVPFramework.build/Debug-iphonesimulator/TVPFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "7004c3da04540e955e8f1b8a6941f809"
